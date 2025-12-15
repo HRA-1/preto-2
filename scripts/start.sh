@@ -1,12 +1,33 @@
 #!/bin/bash
+
+# Environment-aware start script
+# Detects environment and delegates to appropriate start script
+
 set -e
 
-ENVIRONMENT=${ENVIRONMENT:-dev}
+# Get script directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-echo "Starting in $ENVIRONMENT mode..."
+# Detect environment (default: development)
+ENVIRONMENT="${ENVIRONMENT:-dev}"
 
-if [ "$ENVIRONMENT" = "prod" ]; then
-    exec ./scripts/start-prod.sh
-else
-    exec ./scripts/start-dev.sh
-fi
+echo "========================================"
+echo "  Preto-2 Development Environment"
+echo "========================================"
+echo ""
+echo "Detected environment: $ENVIRONMENT"
+
+case "$ENVIRONMENT" in
+    "dev"|"development")
+        echo "Delegating to development start script..."
+        exec "${SCRIPT_DIR}/start-dev.sh"
+        ;;
+    "prod"|"production")
+        echo "Delegating to production start script..."
+        exec "${SCRIPT_DIR}/start-prod.sh"
+        ;;
+    *)
+        echo "Warning: Unknown environment '$ENVIRONMENT', defaulting to development..."
+        exec "${SCRIPT_DIR}/start-dev.sh"
+        ;;
+esac
