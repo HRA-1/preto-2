@@ -1,0 +1,8 @@
+streamlit
+notebook
+pandas
+numpy
+plotly
+matplotlib
+seaborn
+python-dotenv
