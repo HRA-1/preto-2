@@ -78,18 +78,85 @@ docker rm preto-2-container
 
 ---
 
+## 로컬 실행 (Docker 없이)
+
+Docker 없이 로컬에서 직접 실행할 수도 있습니다.
+
+### 사전 준비
+
+Python 3.12 이상이 설치되어 있어야 합니다.
+
+```bash
+# 패키지 설치 (최초 1회)
+make install
+# 또는
+pip install -r requirements.txt
+```
+
+### Mac 사용자
+
+```bash
+# Jupyter만 실행
+make jupyter
+
+# Jupyter + Streamlit 동시 실행
+make dev
+```
+
+### Windows 사용자
+
+**PowerShell:**
+```powershell
+# Jupyter만 실행
+$env:PYTHONPATH="$PWD\src"; jupyter notebook --notebook-dir=notebooks
+
+# Streamlit만 실행
+streamlit run src/app.py
+```
+
+**CMD:**
+```cmd
+# Jupyter만 실행
+set PYTHONPATH=%cd%\src && jupyter notebook --notebook-dir=notebooks
+
+# Streamlit만 실행
+streamlit run src/app.py
+```
+
+---
+
+## Jupyter에서 src 모듈 사용하기
+
+`make jupyter` 또는 위의 PYTHONPATH 설정으로 Jupyter를 실행하면, 노트북에서 `src/` 하위 모듈을 바로 import할 수 있습니다.
+
+```python
+# src/app.py의 함수 import
+from app import foo
+
+# src/services/data.py가 있다면
+from services.data import load_data
+```
+
+> **참고**: `src/` 하위에 패키지를 만들려면 `__init__.py` 파일이 필요합니다.
+
+---
+
 ## 자주 사용하는 명령어
 
 ### Mac (Makefile)
 
 | 명령어 | 설명 |
 |-------|------|
+| `make install` | Python 패키지 설치 |
+| `make jupyter` | 로컬 Jupyter 실행 |
+| `make dev` | 로컬 Jupyter + Streamlit 실행 |
+| `make start` | 로컬 Streamlit만 실행 |
 | `make docker-build` | Docker 이미지 빌드 |
-| `make docker-run` | 개발 모드로 실행 |
-| `make docker-run-prod` | 프로덕션 모드로 실행 |
-| `make docker-stop` | 컨테이너 종료 |
-| `make docker-logs` | 로그 확인 |
-| `make docker-shell` | 컨테이너 내부 접속 |
+| `make docker-run` | Docker 개발 모드로 실행 |
+| `make docker-run-prod` | Docker 프로덕션 모드로 실행 |
+| `make docker-stop` | Docker 컨테이너 종료 |
+| `make docker-logs` | Docker 로그 확인 |
+| `make docker-shell` | Docker 컨테이너 내부 접속 |
 
 ### Windows (Docker 명령어)
 
