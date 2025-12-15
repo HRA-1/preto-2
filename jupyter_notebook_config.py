@@ -1,4 +1,5 @@
 import sys
+import os
 
 c = get_config()
 
@@ -12,5 +13,12 @@ c.ServerApp.allow_root = True
 c.ServerApp.token = ''
 c.ServerApp.password = ''
 
-# Add src to Python path
-sys.path.insert(0, '/app/src')
+# Add src to Python path (works for both Docker and local)
+# Docker: /app/src, Local: relative to config file
+if os.path.exists('/app/src'):
+    src_path = '/app/src'
+else:
+    src_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'src'))
+
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
