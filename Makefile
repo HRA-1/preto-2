@@ -1,4 +1,4 @@
-.PHONY: install start run docker-build docker-run docker-run-prod docker-stop
+.PHONY: install start run jupyter dev docker-build docker-run docker-run-prod docker-stop
 
 IMAGE_NAME = preto-2
 CONTAINER_NAME = preto-2-container
@@ -11,6 +11,14 @@ start:
 	streamlit run src/app.py
 
 run: start
+
+jupyter:
+	PYTHONPATH=$(PWD)/src jupyter notebook --notebook-dir=notebooks
+
+dev:
+	@echo "Starting local development environment..."
+	PYTHONPATH=$(PWD)/src jupyter notebook --notebook-dir=notebooks &
+	streamlit run src/app.py
 
 # Docker commands
 docker-build:
