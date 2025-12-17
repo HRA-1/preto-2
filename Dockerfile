@@ -4,7 +4,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     STREAMLIT_DEV_MODE=true
 
-RUN apt-get update && apt-get install -y procps && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y procps dos2unix && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
@@ -16,6 +16,7 @@ COPY jupyter_notebook_config.py /root/.jupyter/
 
 EXPOSE 8501 8888
 
-RUN chmod +x scripts/*.sh
+# Convert line endings (for Windows compatibility) and set execute permission
+RUN dos2unix scripts/*.sh && chmod +x scripts/*.sh
 
 CMD ["./scripts/start.sh"]
