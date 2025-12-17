@@ -1,6 +1,9 @@
 # Set default behavior to automatically normalize line endings
 * text=auto
 
+# Enable symlinks for all users (especially Windows)
+* symlinks=true
+
 # Shell scripts must always use LF line endings (for Docker/Linux compatibility)
 *.sh text eol=lf
 
