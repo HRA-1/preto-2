@@ -1,0 +1,19 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Shell scripts must always use LF line endings (for Docker/Linux compatibility)
+*.sh text eol=lf
+
+# Other files that should use LF
+Dockerfile text eol=lf
+docker-compose*.yml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+Makefile text eol=lf
+
+# Python files
+*.py text eol=lf
+
+# Keep Windows batch files with CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
