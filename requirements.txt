@@ -1,4 +1,5 @@
 streamlit
+streamlit-analytics2
 notebook
 pandas
 numpy
@@ -6,3 +7,12 @@ plotly
 matplotlib
 seaborn
 python-dotenv
+faker
+xgboost
+scikit-learn
+shap
+interpret
+statsmodels
+# interpret core dependencies (needed for --no-deps install)
+scipy
+joblib
