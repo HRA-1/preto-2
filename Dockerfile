@@ -4,7 +4,13 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     STREAMLIT_DEV_MODE=true
 
-RUN apt-get update && apt-get install -y procps dos2unix && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y \
+    procps \
+    dos2unix \
+    fonts-nanum \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN rm -rf ~/.cache/matplotlib
 
 WORKDIR /app
 
