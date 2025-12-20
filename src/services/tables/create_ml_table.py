@@ -410,14 +410,84 @@ for col in master_df.columns:
     elif master_df[col].dtype == 'object':
         master_df[col] = master_df[col].fillna('Unknown')
 
+# 컬럼명 한글 변경
+column_name_mapping = {
+    'EMP_ID': '사번',
+    'PERSONAL_ID': '개인_ID', # This column is dropped later, but included for completeness if needed elsewhere.
+    'GENDER': '성별',
+    'NATIONALITY': '국적',
+    'IN_DATE': '입사일', # This column is dropped later.
+    'OUT_DATE': '퇴사일', # This column is dropped later.
+    'CURRENT_EMP_YN': '재직여부',
+    'AGE': '나이',
+    'TENURE_DAYS': '재직일수',
+    'IS_LEAVER': '퇴사자여부',
+    'AGE_AT_HIRING': '입사시나이',
+    'TENURE_TO_AGE_RATIO': '재직대비나이비율',
+    'PRIOR_CAREER_DAYS': '이전경력일수',
+    'NUM_PRIOR_COMPANIES': '이전회사수',
+    'PRIOR_CAREER_RELEVANCE_RATIO': '관련경력비율',
+    'AVG_TENURE_PER_COMPANY': '이전평균재직기간',
+    'HIGHEST_DEGREE': '최종학위',
+    'FINAL_SCHOOL_LEVEL': '최종학교레벨',
+    'FINAL_MAJOR_CATEGORY': '최종전공계열',
+    'IS_STEM_MAJOR': 'STEM전공여부',
+    'LATEST_DEP_ID': '현재부서ID', # This column is dropped later.
+    'LATEST_TITLE_INFO': '현재직책정보',
+    'LATEST_JOB_ID': '현재직무ID', # This column is dropped later.
+    'LATEST_POSITION_ID': '현재직위ID', # This column is dropped later.
+    'LATEST_GRADE_ID': '현재직급ID', # This column is dropped later.
+    'LATEST_DIVISION_NAME': '현재부서_본부',
+    'LATEST_OFFICE_NAME': '현재부서_실',
+    'LATEST_JOB_L1_NAME': '현재직무_대분류',
+    'LATEST_JOB_L2_NAME': '현재직무_중분류',
+    'NUM_DEP_CHANGES': '부서변경횟수',
+    'AVG_DEP_TENURE_DAYS': '평균부서소속일수',
+    'DAYS_SINCE_LAST_DEP_CHANGE': '현재부서소속일수',
+    'NUM_PROMOTIONS': '승진횟수',
+    'AVG_PROMOTION_SPEED_DAYS': '평균승진속도일수',
+    'DAYS_SINCE_LAST_PROMOTION': '현재직급소속일수',
+    'PROMOTION_RATE': '승진비율',
+    'NUM_PROJECTS': '프로젝트수',
+    'AVG_PROJECT_DURATION': '평균프로젝트기간',
+    'LATEST_TOTAL_PAY': '현재총연봉',
+    'PAY_YEAR': '연봉지급연도', # This column is used for annualization and then implicitly removed or not used further.
+    'AVG_YOY_GROWTH': '평균연봉상승률',
+    'AVG_VARIABLE_PAY_RATIO': '평균변동급비율',
+    'TOTAL_EXPERIENCE_DAYS': '총경력일수', # This column is dropped later.
+    'TOTAL_EXPERIENCE_YEARS': '총경력연수', # This column is dropped later.
+    'EXPERIENCE_BAND': '경력구간', # This column is dropped later.
+    'SALARY_P30': '연봉_30분위수', # This column is dropped later.
+    'SALARY_P70': '연봉_70분위수', # This column is dropped later.
+    'SALARY_LEVEL_VS_EXPERIENCE': '경력대비연봉수준',
+    'LATEST_EVAL_SCORE': '최근평가점수',
+    'AVG_EVAL_SCORE': '평균평가점수',
+    'EVAL_SCORE_STDDEV': '평가점수표준편차',
+    'EVAL_SCORE_TREND': '평가점수추세',
+    'EVAL_SCORE_1Y': '최근1년평가점수',
+    'EVAL_SCORE_2Y': '최근2년평가점수',
+    'AVG_OVERTIME_MINUTES': '평균초과근무_분',
+    'AVG_NIGHT_WORK_MINUTES': '평균야간근무_분',
+    'OVERTIME_1Y': '최근1년초과근무',
+    'OVERTIME_2Y': '최근2년초과근무',
+    'TOTAL_LEAVE_DAYS': '총휴가일수',
+    'AVG_LEAVE_TERM': '평균휴가기간',
+    'SICK_LEAVE_DAYS': '병가일수',
+    'SICK_LEAVE_RATIO': '병가사용비율',
+    'TOTAL_ABSENCE_DAYS': '총결근일수',
+    'NUM_ABSENCES': '결근횟수',
+    'LATEST_POSITION_NAME': '현재직위',
+}
+master_df = master_df.rename(column_name_mapping, axis=1)
+
 # [MODIFIED] 범주형 변수 인코딩 (One-Hot Encoding)
 categorical_cols = [
-    'GENDER', 'NATIONALITY', 'HIGHEST_DEGREE', 'FINAL_MAJOR_CATEGORY', 'FINAL_SCHOOL_LEVEL',
-    'LATEST_TITLE_INFO', 
-    'SALARY_LEVEL_VS_EXPERIENCE',
-    'LATEST_DIVISION_NAME', 'LATEST_OFFICE_NAME', # New
-    'LATEST_JOB_L1_NAME', 'LATEST_JOB_L2_NAME', # New
-    'LATEST_POSITION_NAME', 
+    '성별', '국적', '최종학위', '최종전공계열', '최종학교레벨',
+    '현재직책정보', 
+    '경력대비연봉수준',
+    '현재부서_본부', '현재부서_실', # New
+    '현재직무_대분류', '현재직무_중분류', # New
+    '현재직위', 
 ]
 categorical_cols_exist = [col for col in categorical_cols if col in master_df.columns]
 master_df_encoded = pd.get_dummies(master_df, columns=categorical_cols_exist, drop_first=True)
