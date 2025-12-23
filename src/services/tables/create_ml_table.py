@@ -205,49 +205,79 @@ if not pjt_info_df.empty:
 
 # --- 2.5. Payroll Features ---
 if not yearly_payroll_df.empty:
-    latest_payroll = yearly_payroll_df.sort_values('PAY_YEAR', ascending=False).groupby('EMP_ID').first().reset_index()
+    # (수정 1) 재직자의 현재 연도 데이터 제외 로직 추가
+    current_year = datetime.datetime.now().year
+    
+    # 재직자(CURRENT_EMP_YN == 'Y')의 ID 목록 가져오기
+    active_emp_ids = master_df[master_df['CURRENT_EMP_YN'] == 'Y']['EMP_ID'].unique()
+    
+    # 재직자의 현재 연도(미완료) 데이터를 제외한 payroll_df 생성
+    filtered_payroll_df = yearly_payroll_df[
+        ~(
+            (yearly_payroll_df['EMP_ID'].isin(active_emp_ids)) &
+            (yearly_payroll_df['PAY_YEAR'] == str(current_year))
+        )
+    ]
+
+    # 필터링된 데이터프레임에서 최신 연봉 정보 추출
+    latest_payroll = filtered_payroll_df.sort_values('PAY_YEAR', ascending=False).groupby('EMP_ID').first().reset_index()
     latest_payroll.rename(columns={'TOTAL_PAY': 'LATEST_TOTAL_PAY'}, inplace=True)
+    
+    # 기존 payroll_summary 로직은 그대로 유지
     payroll_summary = yearly_payroll_df.groupby('EMP_ID').agg(
         AVG_YOY_GROWTH=('YOY_GROWTH', 'mean'),
         AVG_VARIABLE_PAY_RATIO=('VARIABLE_PAY_RATIO', 'mean')
     ).reset_index()
+    payroll_summary['AVG_YOY_GROWTH'] = payroll_summary['AVG_YOY_GROWTH'].clip(-25, 35)
+    
     master_df = pd.merge(master_df, latest_payroll[['EMP_ID', 'LATEST_TOTAL_PAY', 'PAY_YEAR']], on='EMP_ID', how='left')
     master_df = pd.merge(master_df, payroll_summary, on='EMP_ID', how='left')
 
-# (수정 1) 연봉 연환산 (Prorating) 로직
-def annualize_salary(row):
-    # 연봉, 입사일, 급여지급연도 정보가 없으면 계산 불가
-    if pd.isna(row['LATEST_TOTAL_PAY']) or pd.isna(row['IN_DATE']) or pd.isna(row['PAY_YEAR']):
+# (수정 2) 연봉 연환산(Prorating) 함수 수정: 중도 퇴사자 처리 로직 추가
+def annualize_pay_for_partial_years(row):
+    # 필수 정보가 없으면 계산 불가
+    if pd.isna(row['LATEST_TOTAL_PAY']) or pd.isna(row['PAY_YEAR']):
         return row['LATEST_TOTAL_PAY']
 
-    in_date = pd.to_datetime(row['IN_DATE'])
     pay_year = int(row['PAY_YEAR'])
+    in_date = pd.to_datetime(row['IN_DATE'])
+    out_date = pd.to_datetime(row.get('OUT_DATE')) # OUT_DATE가 없을 수 있으므로 .get() 사용
 
-    # 입사연도와 급여지급연도가 같은 경우 (중도 입사자)
+    # Case 1: 중도 입사자 (입사연도 == 급여연도)
     if in_date.year == pay_year:
-        # 해당 연도 근무일수 계산
         year_end = pd.to_datetime(f'{pay_year}-12-31')
-        days_worked = (year_end - in_date).days + 1
+        # 중도 입사 후 같은 해에 퇴사한 경우, 근무 기간은 입사일 ~ 퇴사일
+        effective_end_date = out_date if pd.notna(out_date) and out_date.year == pay_year else year_end
+        days_worked = (effective_end_date - in_date).days + 1
 
-        # 근무일수가 0이거나 음수인 비정상적 경우 방지
-        if days_worked <= 0:
-            return np.nan
-
-        # 연봉을 365일 기준으로 환산
+        if days_worked <= 0: return np.nan
+        
         annualized_salary = (row['LATEST_TOTAL_PAY'] / days_worked) * 365
         return annualized_salary
+
+    # Case 2: 중도 퇴사자 (퇴사연도 == 급여연도)
+    elif pd.notna(out_date) and out_date.year == pay_year:
+        year_start = pd.to_datetime(f'{pay_year}-01-01')
+        days_worked = (out_date - year_start).days + 1
+
+        if days_worked <= 0: return np.nan
+
+        annualized_salary = (row['LATEST_TOTAL_PAY'] / days_worked) * 365
+        return annualized_salary
+        
+    # Case 3: Full-year 근무자
     else:
-        # 중도 입사자가 아니면 기존 연봉 사용
         return row['LATEST_TOTAL_PAY']
 
-# IN_DATE, PAY_YEAR 컬럼이 master_df에 있어야 함 (이전 셀에서 로드됨)
-# IN_DATE는 초기에 로드되므로, PAY_YEAR만 위에서 merge 했는지 확인
+# (수정 3) 수정된 함수 적용
+# IN_DATE, OUT_DATE, PAY_YEAR 컬럼이 master_df에 있어야 함
 if 'PAY_YEAR' in master_df.columns:
-    # 원본 LATEST_TOTAL_PAY를 복사해두고, 연환산된 값으로 덮어쓰기
-    master_df['LATEST_TOTAL_PAY'] = master_df.apply(annualize_salary, axis=1)
+    master_df['LATEST_TOTAL_PAY'] = master_df.apply(annualize_pay_for_partial_years, axis=1)
+    # 연환산에 사용된 PAY_YEAR 컬럼 제거
+    master_df.drop(columns=['PAY_YEAR'], inplace=True)
 else:
-    # PAY_YEAR 정보가 없으면 연환산 불가
-    master_df['LATEST_TOTAL_PAY'] = master_df['LATEST_TOTAL_PAY']
+    # PAY_YEAR 정보가 없으면 연환산 불가 (기존 로직 유지)
+    pass # LATEST_TOTAL_PAY는 이미 merge 되어 있으므로 별도 처리 불필요
 
 # --- [NEW] 2.5.1. 경력 대비 연봉 수준(SALARY_LEVEL_VS_EXPERIENCE) 피처 생성 ---
 
@@ -358,6 +388,21 @@ if not daily_work_info_df.empty:
     overtime_summary_1y = work_1y.groupby('EMP_ID')['OVERTIME_MINUTES'].mean().reset_index().rename(columns={'OVERTIME_MINUTES': 'OVERTIME_1Y'})
     overtime_summary_2y = work_2y.groupby('EMP_ID')['OVERTIME_MINUTES'].mean().reset_index().rename(columns={'OVERTIME_MINUTES': 'OVERTIME_2Y'})
 
+    # [CORRECTED] 음수 초과근무 시간을 .loc을 사용하여 특정 범위의 랜덤 값으로 대체
+    # OVERTIME_1Y: 음수일 경우 80~120 사이의 값으로 대체
+    cond_1y = overtime_summary_1y['OVERTIME_1Y'] < 0
+    num_to_impute_1y = cond_1y.sum()
+    if num_to_impute_1y > 0:
+        rand_values_1y = np.random.randint(80, 121, size=num_to_impute_1y)
+        overtime_summary_1y.loc[cond_1y, 'OVERTIME_1Y'] = rand_values_1y
+
+    # OVERTIME_2Y: 음수일 경우 30~70 사이의 값으로 대체
+    cond_2y = overtime_summary_2y['OVERTIME_2Y'] < 0
+    num_to_impute_2y = cond_2y.sum()
+    if num_to_impute_2y > 0:
+        rand_values_2y = np.random.randint(30, 71, size=num_to_impute_2y)
+        overtime_summary_2y.loc[cond_2y, 'OVERTIME_2Y'] = rand_values_2y
+
     # master_df에 병합
     master_df = pd.merge(master_df, ta_summary, on='EMP_ID', how='left')
     master_df = pd.merge(master_df, overtime_summary_1y, on='EMP_ID', how='left') # New
@@ -381,6 +426,26 @@ if not detailed_leave_info_df.empty:
     leave_summary['SICK_LEAVE_RATIO'] = (leave_summary['SICK_LEAVE_DAYS'] / leave_summary['TOTAL_LEAVE_DAYS']).fillna(0)
     
     master_df = pd.merge(master_df, leave_summary[['EMP_ID', 'TOTAL_LEAVE_DAYS', 'SICK_LEAVE_RATIO', 'AVG_LEAVE_TERM']], on='EMP_ID', how='left')
+
+    # [MODIFIED] 연평균 휴가일수(AVG_LEAVE_DAYS) 피처 생성 및 이상치 처리
+    if 'TENURE_DAYS' in master_df.columns and 'TOTAL_LEAVE_DAYS' in master_df.columns:
+        # 재직일수가 0인 경우 0으로 나누기 에러 방지
+        master_df['AVG_LEAVE_DAYS'] = np.where(
+            master_df['TENURE_DAYS'] > 0,
+            (master_df['TOTAL_LEAVE_DAYS'] / master_df['TENURE_DAYS']) * 365,
+            0
+        )
+        
+        # [NEW] 연평균 휴가일수 50일 초과 이상치를 40~50 사이의 랜덤 값으로 대체
+        cond_outlier = master_df['AVG_LEAVE_DAYS'] > 50
+        num_to_impute = cond_outlier.sum()
+        if num_to_impute > 0:
+            # 40과 50 사이의 랜덤 float 생성 후 소수점 6자리까지 반올림
+            random_floats = np.round(np.random.uniform(40, 50, size=num_to_impute), 6)
+            master_df.loc[cond_outlier, 'AVG_LEAVE_DAYS'] = random_floats
+
+        # 기존 TOTAL_LEAVE_DAYS 컬럼 삭제
+        master_df.drop(columns=['TOTAL_LEAVE_DAYS'], inplace=True)
 
 # --- 2.8. Absence Features ---
 if not absence_info_df.empty:
@@ -470,7 +535,7 @@ column_name_mapping = {
     'AVG_NIGHT_WORK_MINUTES': '평균야간근무_분',
     'OVERTIME_1Y': '최근1년초과근무',
     'OVERTIME_2Y': '최근2년초과근무',
-    'TOTAL_LEAVE_DAYS': '총휴가일수',
+    'AVG_LEAVE_DAYS': '연평균휴가일수',
     'AVG_LEAVE_TERM': '평균휴가기간',
     'SICK_LEAVE_DAYS': '병가일수',
     'SICK_LEAVE_RATIO': '병가사용비율',
