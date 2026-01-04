@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install -y \
     procps \
     dos2unix \
     fonts-nanum \
+    build-essential \
+    cmake \
     && rm -rf /var/lib/apt/lists/*
 
 RUN rm -rf ~/.cache/matplotlib
