@@ -233,6 +233,11 @@ if not yearly_payroll_df.empty:
     master_df = pd.merge(master_df, latest_payroll[['EMP_ID', 'LATEST_TOTAL_PAY', 'PAY_YEAR']], on='EMP_ID', how='left')
     master_df = pd.merge(master_df, payroll_summary, on='EMP_ID', how='left')
 
+    if 'IN_DATE' in master_df.columns:
+        master_df.loc[master_df['IN_DATE'].dt.year == current_year - 1, 'AVG_YOY_GROWTH'] = 0
+        master_df.loc[master_df['IN_DATE'].dt.year == current_year, 'AVG_YOY_GROWTH'] = 0
+
+
 # (수정 2) 연봉 연환산(Prorating) 함수 수정: 중도 퇴사자 처리 로직 추가
 def annualize_pay_for_partial_years(row):
     # 필수 정보가 없으면 계산 불가
