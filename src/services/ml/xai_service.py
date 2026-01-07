@@ -68,7 +68,10 @@ class XAIService:
             tuple: (X_train, y_train)
         """
         df_leavers = self.master_df_encoded[self.master_df_encoded["퇴사자여부"] == 1]
-        df_active = self.master_df_encoded[self.master_df_encoded["퇴사자여부"] == 0]
+        df_active = self.master_df_encoded[
+            (self.master_df_encoded["퇴사자여부"] == 0) & 
+            (self.master_df_encoded["재직일수"] >= 182)
+        ]
 
         n_leavers = len(df_leavers)
         n_required_active = n_leavers * 6
@@ -241,7 +244,8 @@ class XAIService:
             model = self.train_model()
 
         active_employees = self.master_df_encoded[
-            self.master_df_encoded["재직여부"] == "Y"
+            (self.master_df_encoded["재직여부"] == "Y") &
+            (self.master_df_encoded["재직일수"] >= 182)
         ].copy()
 
         if active_employees.empty:
