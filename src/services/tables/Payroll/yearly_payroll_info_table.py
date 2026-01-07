@@ -66,6 +66,7 @@ yearly_payroll_df = merged_for_days.copy()
 
 yearly_payroll_df = yearly_payroll_df.sort_values(by=['EMP_ID', 'PAY_YEAR'])
 yearly_payroll_df['YOY_GROWTH'] = yearly_payroll_df.groupby('EMP_ID')['NORMALIZED_TOTAL_PAY'].pct_change() * 100
+yearly_payroll_df['YOY_GROWTH'] = yearly_payroll_df['YOY_GROWTH'].replace([np.inf, -np.inf], np.nan)
 
 # --- 4. 원본/Google Sheets용 DataFrame 분리 ---
 final_cols = [

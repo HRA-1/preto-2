@@ -205,17 +205,12 @@ if not pjt_info_df.empty:
 
 # --- 2.5. Payroll Features ---
 if not yearly_payroll_df.empty:
-    # (수정 1) 재직자의 현재 연도 데이터 제외 로직 추가
+    # (수정 1) 현재 연도 데이터 제외 로직 추가
     current_year = datetime.datetime.now().year
     
-    # 재직자(CURRENT_EMP_YN == 'Y')의 ID 목록 가져오기
-    active_emp_ids = master_df[master_df['CURRENT_EMP_YN'] == 'Y']['EMP_ID'].unique()
-    
-    # 재직자의 현재 연도(미완료) 데이터를 제외한 payroll_df 생성
+    # 현재 연도(미완료) 데이터를 제외한 payroll_df 생성
     filtered_payroll_df = yearly_payroll_df[
-        ~(
-            (yearly_payroll_df['EMP_ID'].isin(active_emp_ids)) &
-            (yearly_payroll_df['PAY_YEAR'] == str(current_year))
+        ~((yearly_payroll_df['PAY_YEAR'] == str(current_year))
         )
     ]
 
@@ -224,7 +219,7 @@ if not yearly_payroll_df.empty:
     latest_payroll.rename(columns={'TOTAL_PAY': 'LATEST_TOTAL_PAY'}, inplace=True)
     
     # 기존 payroll_summary 로직은 그대로 유지
-    payroll_summary = yearly_payroll_df.groupby('EMP_ID').agg(
+    payroll_summary = filtered_payroll_df.groupby('EMP_ID').agg(
         AVG_YOY_GROWTH=('YOY_GROWTH', 'mean'),
         AVG_VARIABLE_PAY_RATIO=('VARIABLE_PAY_RATIO', 'mean')
     ).reset_index()
