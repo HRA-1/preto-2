@@ -367,6 +367,16 @@ if not evaluation_modified_score_df.empty:
     master_df = pd.merge(master_df, eval_summary_1y, on='EMP_ID', how='left') # New
     master_df = pd.merge(master_df, eval_summary_2y, on='EMP_ID', how='left') # New
 
+    # 1. '최근1년평가점수'의 중앙값을 계산하여 결측치 채우기
+    if 'EVAL_SCORE_1Y' in master_df.columns:
+        median_score_1y = master_df['EVAL_SCORE_1Y'].median()
+        master_df['EVAL_SCORE_1Y'].fillna(median_score_1y, inplace=True)
+
+    # 2. '최근2년평가점수'도 동일하게 처리
+    if 'EVAL_SCORE_2Y' in master_df.columns:
+        median_score_2y = master_df['EVAL_SCORE_2Y'].median()
+        master_df['EVAL_SCORE_2Y'].fillna(median_score_2y, inplace=True)
+
 # --- 2.7. Time & Attendance Features ---
 if not daily_work_info_df.empty:
     work_df = daily_work_info_df.copy()
