@@ -83,9 +83,9 @@ def render_local_waterfall(
 
     with col1:
         # 위험도에 따른 색상
-        if risk_score >= 0.7:
+        if risk_score >= 0.5:
             st.metric("퇴사 위험도", f"{risk_score * 100:.1f}%", delta="높음", delta_color="inverse")
-        elif risk_score >= 0.4:
+        elif risk_score >= 0.2:
             st.metric("퇴사 위험도", f"{risk_score * 100:.1f}%", delta="중간", delta_color="off")
         else:
             st.metric("퇴사 위험도", f"{risk_score * 100:.1f}%", delta="낮음", delta_color="normal")
