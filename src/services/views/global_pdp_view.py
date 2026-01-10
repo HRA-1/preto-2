@@ -63,12 +63,13 @@ def render_global_pdp(
     st.markdown("---")
 
     # PDP 생성
-    fig = plt.figure(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(10, 6))
 
     try:
         shap.plots.scatter(
             shap_values[:, selected_variable],
             color=shap_values,
+            ax=ax,
             show=False,
         )
         plt.title(f"[{selected_variable}] 값에 따른 퇴사 확률 변화", fontsize=14)
