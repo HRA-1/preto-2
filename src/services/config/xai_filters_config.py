@@ -24,7 +24,7 @@ XAI_FILTER_PLACEHOLDERS = {
 ANALYSIS_PERSPECTIVES: Dict[str, List[str]] = {
     "개요": [],  # Placeholder for initial XAI introduction
     "퇴사 위험 패턴": ["주요 영향 변수", "변수별 영향 확인"],
-    "개인별 위험 사유": ["개요", "위험도 산출 근거"],
+    "개인별 위험 사유": ["위험도 산출 근거"],
 }
 
 PERSPECTIVE_TITLES: Dict[str, str] = {
