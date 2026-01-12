@@ -138,14 +138,18 @@ def render_local_waterfall(
         return
 
     # Waterfall Plot 렌더링
-    fig = plt.figure(figsize=(10, 6))
+    fig = plt.figure()
 
     try:
         shap.plots.waterfall(shap_values[0], max_display=10, show=False)
         plt.title(f"사번 {selected_employee}의 퇴사 위험도 구성 (%)", fontsize=14)
         plt.xlabel("퇴사 위험도 기여도 (%p)")
         plt.tight_layout()
-        st.pyplot(fig)
+
+        # 그래프 크기 조정을 위한 컬럼 생성
+        col1, col2, col3 = st.columns([0.2, 0.5, 0.3])
+        with col2:
+            st.pyplot(fig, use_container_width=True)
     except Exception as e:
         st.error(f"Waterfall Plot 생성 중 오류가 발생했습니다: {e}")
     finally:

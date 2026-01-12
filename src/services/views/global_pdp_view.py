@@ -63,7 +63,7 @@ def render_global_pdp(
     st.markdown("---")
 
     # PDP 생성
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots()
 
     try:
         shap.plots.scatter(
@@ -77,7 +77,11 @@ def render_global_pdp(
         plt.xlabel(selected_variable)
         plt.grid(True, alpha=0.3)
         plt.tight_layout()
-        st.pyplot(fig)
+
+        # 그래프 크기 조정을 위한 컬럼 생성
+        col1, col2, col3 = st.columns([0.2, 0.5, 0.3])
+        with col2:
+            st.pyplot(fig, use_container_width=True)
     except Exception as e:
         st.error(f"그래프 생성 중 오류가 발생했습니다: {e}")
     finally:

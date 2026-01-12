@@ -31,12 +31,16 @@ def render_global_bar_beeswarm(shap_values: shap.Explanation):
     막대가 길수록 해당 변수가 퇴사 예측에 중요한 역할을 합니다.
     """)
 
-    fig_bar, ax_bar = plt.subplots(figsize=(10, 6))
+    fig_bar, ax_bar = plt.subplots()
     shap.plots.bar(shap_values, max_display=10, show=False)
     plt.title("요인별 평균 영향력 크기 (Mean Absolute SHAP)", fontsize=14)
     plt.xlabel("평균 퇴사 확률 변동폭 (%p)")
     plt.tight_layout()
-    st.pyplot(fig_bar)
+    
+    # 그래프 크기 조정을 위한 컬럼 생성
+    col1, col2, col3 = st.columns([0.2, 0.5, 0.3])
+    with col2:
+        st.pyplot(fig_bar, use_container_width=True)
     plt.close(fig_bar)
 
     st.markdown("---")
@@ -50,7 +54,7 @@ def render_global_bar_beeswarm(shap_values: shap.Explanation):
     - **색상**: 빨강(변수 값이 높음) / 파랑(변수 값이 낮음)
     """)
 
-    fig_bee, ax_bee = plt.subplots(figsize=(12, 8))
+    fig_bee, ax_bee = plt.subplots()
     shap.plots.beeswarm(
         shap_values,
         max_display=10,
@@ -60,7 +64,11 @@ def render_global_bar_beeswarm(shap_values: shap.Explanation):
     plt.title("전사 퇴사 위험도 영향 요인 (단위: %p)", fontsize=14)
     plt.xlabel("퇴사 확률에 미치는 영향 (%p)")
     plt.tight_layout()
-    st.pyplot(fig_bee)
+
+    # 그래프 크기 조정을 위한 컬럼 생성
+    col1, col2, col3 = st.columns([0.2, 0.5, 0.3])
+    with col2:
+        st.pyplot(fig_bee, use_container_width=True)
     plt.close(fig_bee)
 
     st.markdown("---")
