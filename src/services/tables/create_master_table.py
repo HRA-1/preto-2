@@ -173,10 +173,28 @@ if not department_info_df.empty:
         NUM_DEP_CHANGES=('DEP_ID', 'nunique'),
         AVG_DEP_TENURE_DAYS=('DEP_DURATION', 'mean')
     ).reset_index()
-    last_dept_change_date = department_info_df.groupby('EMP_ID')['DEP_APP_START_DATE'].max().reset_index().rename(columns={'DEP_APP_START_DATE': 'LAST_DEP_CHANGE_DATE'})
-    dept_summary = pd.merge(dept_summary, last_dept_change_date, on='EMP_ID', how='left')
-    dept_summary['DAYS_SINCE_LAST_DEP_CHANGE'] = (today_ts - dept_summary['LAST_DEP_CHANGE_DATE']).dt.days
-    master_df = pd.merge(master_df, dept_summary.drop(columns=['LAST_DEP_CHANGE_DATE']), on='EMP_ID', how='left')
+    
+    last_dept_change_date = department_info_df.groupby('EMP_ID')['DEP_APP_START_DATE'].max().reset_index().rename(
+        columns={'DEP_APP_START_DATE': 'LAST_DEP_CHANGE_DATE'})
+    
+    # 먼저 필요한 모든 데이터를 master_df에 병합합니다.
+    master_df = pd.merge(master_df, dept_summary, on='EMP_ID', how='left')
+    master_df = pd.merge(master_df, last_dept_change_date, on='EMP_ID', how='left')
+
+    # 날짜 타입 일관성을 위해 변환합니다.
+    master_df['OUT_DATE'] = pd.to_datetime(master_df['OUT_DATE'])
+    master_df['LAST_DEP_CHANGE_DATE'] = pd.to_datetime(master_df['LAST_DEP_CHANGE_DATE'])
+
+    # 재직 여부에 따라 종료일을 조건부로 설정합니다.
+    end_date_for_calc = np.where(master_df['CURRENT_EMP_YN'] == 'N', 
+                                 master_df['OUT_DATE'], 
+                                 pd.to_datetime(today_ts))
+    
+    # 설정된 종료일을 기준으로 기간을 계산합니다.
+    master_df['DAYS_SINCE_LAST_DEP_CHANGE'] = (pd.to_datetime(end_date_for_calc) - master_df['LAST_DEP_CHANGE_DATE']).dt.days
+    
+    # 계산에 사용된 임시 컬럼을 삭제합니다.
+    master_df = master_df.drop(columns=['LAST_DEP_CHANGE_DATE'])
 
 if not position_info_df.empty:
     promotions = position_info_df[position_info_df['CHANGE_REASON'] != 'Initial Assignment']
