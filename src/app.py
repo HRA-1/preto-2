@@ -160,6 +160,42 @@ def render_detail_selection(selected_perspective: str):
 
     st.markdown("---")
 
+    # XAI 소개
+    st.subheader("XAI (설명 가능한 인공지능) 란?")
+
+    st.markdown("""
+    **XAI(eXplainable AI)**는 인공지능 모델의 예측 결과를 사람이 이해할 수 있는
+    형태로 설명해주는 기술입니다.
+
+    본 대시보드에서는 **SHAP(SHapley Additive exPlanations)** 방법론을 활용하여
+    각 직원의 퇴사 위험도가 **어떤 요인들에 의해 결정되었는지** 설명합니다.
+    """)
+
+    st.markdown("---")
+
+    # 분석 방법 설명
+    st.subheader("분석 방법")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown("""
+        #### 1. 퇴사 위험도 산출
+        - 기존 퇴사자 데이터를 기반으로 **머신러닝 모델(XGBoost)** 학습
+        - 재직 중인 직원들의 퇴사 가능성을 **0~100%**로 예측
+        - 높은 확률일수록 퇴사 위험이 높음
+        """)
+
+    with col2:
+        st.markdown("""
+        #### 2. 위험 요인 분석
+        - **SHAP 알고리즘**으로 각 직원별 위험 요인 분해
+        - 어떤 요소가 퇴사 확률을 높이는지/낮추는지 파악
+        - 개인 맞춤형 인사이트 제공
+        """)
+
+    st.markdown("---")
+
     for detail in detail_options:
         st.markdown(f"- **{detail}**: {DETAIL_VIEW_TITLES.get(detail, '')}")
 
