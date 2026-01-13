@@ -1,0 +1,1001 @@
+﻿사번,이름,입사일자,소속 본부,소속 실,직무 대분류,직무 중분류,현재 계약연봉,출신 학교,출신 전공,경력 입사 여부,현재 부서 소속 일수,근무 위치
+E00001,김수민,2014-04-28,Planning Division,Strategy Office,Planning,Business Planning,65100000,Sorbonne University,사회과학계열,경력,242,본사
+E00002,송지민,2020-07-07,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,69300000,부산과학기술대학교,상경계열,신입,1018,본사
+E00003,이종수,2022-03-06,Planning Division,Strategy Office,Management Support,Finance,63700000,명지대학교,기타공학계열,경력,652,본사
+E00004,이은서,2025-04-06,Planning Division,Finance Office,IT,Data Scientist,41600000,충남대학교,STEM계열,경력,282,본사
+E00005,최예지,2014-12-27,Operating Division,Engineering Office,Production & Engineering,Production Management,38800000,대구경북과학기술원,어문계열,신입,598,본사 외
+E00006,최경숙,2012-06-09,Planning Division,Strategy Office,Management Support,Finance,77900000,오산대학교,사회과학계열,경력,1840,본사
+E00007,박준호,2016-09-08,Development Division,R&D Office,Planning,Business Planning,69200000,대구경북과학기술원,인문계열,경력,954,본사
+E00008,허영진,2019-06-19,Development Division,R&D Office,Planning,Business Planning,108400000,경희대학교,인문계열,경력,1082,본사
+E00009,김서영,2012-10-02,Operating Division,Engineering Office,Production & Engineering,Engineering,53500000,금오공과대학교,기타,신입,1253,본사 외
+E00010,홍미경,2023-06-26,Planning Division,Strategy Office,IT,Data Scientist,70200000,군산대학교,어문계열,경력,932,본사
+E00011,김종수,2024-01-17,Development Division,R&D Office,Planning,Business Planning,47500000,서울대학교,디자인계열,경력,493,본사
+E00012,나영철,2014-10-31,Planning Division,Strategy Office,Planning,Business Planning,103700000,,,경력,3665,본사
+E00013,이정자,2017-08-16,Sales Division,Global Sales Office,Management Support,Finance,65900000,Tsinghua University,디자인계열,경력,1930,본사
+E00014,김현정,2013-03-27,Sales Division,Marketing Office,Sales & Marketing,Marketing,38600000,전남대학교,자연과학계열,신입,1122,본사
+E00015,김미정,2023-07-25,Planning Division,Strategy Office,Planning,Business Planning,41700000,중앙대학교,기타,신입,171,본사
+E00016,김정수,2022-04-10,Sales Division,Global Sales Office,IT,Data Scientist,42500000,삼육대학교,STEM계열,신입,336,본사
+E00017,허현지,2022-05-22,Sales Division,Domestic Sales Office,Planning,Business Planning,42500000,숙명여자대학교,기타,신입,35,본사
+E00018,하서연,2011-06-01,Development Division,R&D Office,IT,SW Developer,87300000,,,신입,4226,본사
+E00019,이성호,2023-05-09,Development Division,R&D Office,IT,Data Scientist,53100000,성신여자대학교,상경계열,경력,743,본사
+E00020,김서영,2012-06-03,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,66500000,동덕여자대학교,사회과학계열,신입,927,본사
+E00021,엄영철,2023-06-15,Development Division,R&D Office,Sales & Marketing,Marketing,50600000,성균관대학교,인문계열,신입,377,본사
+E00022,권미숙,2025-03-11,Operating Division,Production Office,Sales & Marketing,Sales,44100000,숙명여자대학교,기타,신입,190,본사 외
+E00023,진수진,2018-01-16,Sales Division,Marketing Office,Planning,Business Planning,50900000,University of Pennsylvania,STEM계열,신입,851,본사
+E00024,윤하은,2011-08-18,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,143100000,,,경력,5182,본사
+E00025,최재현,2012-10-05,Operating Division,Engineering Office,Sales & Marketing,Sales,42500000,,,경력,1084,본사 외
+E00026,한민석,2025-08-28,Operating Division,Production Office,Sales & Marketing,Sales,54600000,동국대학교,사회과학계열,경력,138,본사 외
+E00027,이지우,2017-10-29,Sales Division,Marketing Office,Management Support,Finance,47500000,Sorbonne University,인문계열,신입,58,본사
+E00028,안은지,2016-01-31,Development Division,QA Office,IT,Data Scientist,43900000,세종대학교,자연과학계열,신입,187,본사
+E00029,한지후,2024-08-26,Sales Division,Global Sales Office,Sales & Marketing,Sales,69000000,두원공과대학교,자연과학계열,경력,505,본사
+E00030,노현준,2015-02-16,Development Division,R&D Office,IT,Data Scientist,79800000,광주보건대학교,사회과학계열,경력,2586,본사
+E00031,김지우,2022-03-04,Operating Division,Production Office,Planning,Business Planning,74800000,University of Toronto,어문계열,경력,743,본사 외
+E00032,이정호,2011-09-17,Sales Division,Marketing Office,Sales & Marketing,Sales,74800000,,,경력,1938,본사
+E00033,장정호,2025-09-01,Planning Division,Finance Office,Management Support,Finance,40000000,연성대학교,상경계열,신입,117,본사
+E00034,김지은,2019-10-26,Operating Division,Engineering Office,Production & Engineering,Engineering,74700000,백석예술대학교,자연과학계열,경력,1018,본사 외
+E00035,박성호,2020-02-09,Operating Division,Engineering Office,Production & Engineering,Production Management,49600000,숙명여자대학교,디자인계열,신입,2165,본사 외
+E00036,황정희,2012-06-04,Sales Division,Global Sales Office,Planning,Business Planning,106300000,Princeton University,인문계열,신입,3940,본사
+E00037,이채원,2022-05-30,Operating Division,Production Office,IT,Infrastructure,52200000,숭실대학교,기타,신입,65,본사 외
+E00038,허순자,2019-12-05,Development Division,R&D Office,Sales & Marketing,Sales,45100000,김포대학교,인문계열,신입,90,본사
+E00039,조승현,2022-06-25,Sales Division,Global Sales Office,Planning,Business Planning,49900000,유한대학교,사회과학계열,신입,652,본사
+E00040,문광수,2014-08-30,Operating Division,Engineering Office,IT,Infrastructure,43400000,,,경력,266,본사 외
+E00041,성재호,2013-04-14,Planning Division,Finance Office,Planning,Business Planning,89100000,숙명여자대학교,자연과학계열,신입,3440,본사
+E00042,김준영,2013-04-14,Planning Division,Strategy Office,IT,Data Scientist,90100000,,,경력,4474,본사
+E00043,이서준,2024-09-16,Planning Division,Strategy Office,Planning,Business Planning,50600000,부천대학교,인문계열,경력,385,본사
+E00044,이진호,2013-06-15,Planning Division,Finance Office,Management Support,Finance,102400000,전남대학교,디자인계열,경력,3209,본사
+E00045,차종수,2019-04-22,Operating Division,Production Office,Planning,Business Planning,58800000,성신여자대학교,상경계열,경력,92,본사 외
+E00046,김하은,2021-06-01,Planning Division,Strategy Office,Planning,Business Planning,50300000,광운대학교,STEM계열,신입,1687,본사
+E00047,노우진,2020-03-16,Operating Division,Production Office,Production & Engineering,Production Management,35600000,Imperial College London,어문계열,신입,502,본사 외
+E00048,민윤서,2023-03-03,Planning Division,Strategy Office,Planning,Business Planning,52400000,숙명여자대학교,기타,신입,287,본사
+E00049,김광수,2024-05-18,Planning Division,Strategy Office,Planning,Business Planning,43600000,울산과학기술원,자연과학계열,신입,605,본사
+E00050,이시우,2023-09-11,Development Division,R&D Office,Production & Engineering,Engineering,48900000,광주보건대학교,STEM계열,경력,331,본사
+E00051,권영환,2014-01-07,Operating Division,Production Office,Production & Engineering,Production Management,76400000,상명대학교,사회과학계열,신입,2204,본사 외
+E00052,정중수,2023-01-09,Sales Division,Domestic Sales Office,Management Support,HR,43600000,부경대학교,기타,경력,104,본사
+E00053,박정순,2016-03-12,Planning Division,Strategy Office,IT,Data Scientist,87700000,울산과학대학교,상경계열,신입,1838,본사
+E00054,윤정웅,2015-05-10,Development Division,R&D Office,IT,Data Scientist,100200000,건국대학교,기타,신입,1930,본사
+E00055,고현지,2021-10-16,Sales Division,Marketing Office,Sales & Marketing,Sales,60900000,덕성여자대학교,인문계열,경력,377,본사
+E00056,이광수,2013-12-08,Development Division,QA Office,IT,Data Scientist,98800000,,,경력,3299,본사
+E00057,박경희,2018-05-05,Development Division,QA Office,Sales & Marketing,Sales,52600000,충남대학교,STEM계열,경력,592,본사
+E00058,오은경,2017-02-26,Development Division,QA Office,IT,Data Scientist,48900000,신구대학교,STEM계열,신입,1843,본사
+E00059,이종수,2015-04-30,Sales Division,Marketing Office,Sales & Marketing,Marketing,51000000,성균관대학교,기타공학계열,신입,565,본사
+E00060,최서준,2020-10-09,Development Division,R&D Office,IT,Data Scientist,70300000,,,경력,136,본사
+E00061,김춘자,2024-04-19,Development Division,QA Office,Production & Engineering,Engineering,58200000,포항공과대학교,기타,경력,634,본사
+E00062,이성민,2014-12-04,Planning Division,Strategy Office,IT,Data Scientist,62300000,목포대학교,자연과학계열,경력,2367,본사
+E00063,장영수,2016-08-09,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,87500000,,,신입,1838,본사
+E00064,김옥자,2019-05-15,Development Division,QA Office,IT,Data Scientist,48600000,Johns Hopkins University,STEM계열,경력,1142,본사
+E00065,이종수,2018-12-03,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,56400000,,,신입,726,본사
+E00066,김순자,2014-09-07,Planning Division,Strategy Office,Production & Engineering,Engineering,52900000,,,경력,248,본사
+E00067,허영환,2022-10-03,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,45000000,목포해양대학교,디자인계열,경력,349,본사
+E00068,최현주,2013-11-03,Operating Division,Production Office,Production & Engineering,Production Management,114100000,,,경력,3940,본사 외
+E00069,조상철,2011-09-19,Development Division,R&D Office,IT,Data Scientist,39100000,,,신입,134,본사
+E00070,전영식,2011-07-16,Development Division,R&D Office,Planning,Business Planning,152500000,,,경력,5267,본사
+E00071,김영길,2012-08-18,Sales Division,Marketing Office,Planning,Business Planning,112300000,,,경력,3811,본사
+E00072,이승민,2019-06-23,Operating Division,Engineering Office,Production & Engineering,Engineering,42800000,University of Toronto,자연과학계열,신입,466,본사 외
+E00073,유지후,2015-12-25,Planning Division,Finance Office,Management Support,Finance,51700000,,,경력,133,본사
+E00074,최현주,2015-01-12,Sales Division,Global Sales Office,Sales & Marketing,Sales,113600000,성신여자대학교,기타,경력,4019,본사
+E00075,이경자,2015-01-14,Planning Division,Strategy Office,IT,Data Scientist,61200000,한양대학교,자연과학계열,경력,52,본사
+E00076,박은정,2018-03-07,Sales Division,Marketing Office,Sales & Marketing,Marketing,61900000,,,신입,1657,본사
+E00077,남상철,2021-09-14,Planning Division,Strategy Office,Sales & Marketing,Sales,52700000,,,경력,287,본사
+E00078,김정남,2014-05-01,Sales Division,Domestic Sales Office,Management Support,HR,37000000,,,경력,154,본사
+E00079,이종수,2015-12-21,Development Division,R&D Office,IT,Data Scientist,46100000,명지대학교,사회과학계열,경력,247,본사
+E00080,김지아,2012-09-26,Operating Division,Engineering Office,IT,Infrastructure,51100000,군산대학교,어문계열,경력,493,본사 외
+E00081,이미정,2013-01-25,Operating Division,Engineering Office,IT,Infrastructure,108900000,,,신입,4736,본사 외
+E00082,박민준,2024-01-31,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,41800000,고려대학교,기타,경력,104,본사
+E00083,이은정,2023-12-20,Sales Division,Domestic Sales Office,Sales & Marketing,Marketing,61400000,안동대학교,디자인계열,경력,377,본사
+E00084,강영미,2023-05-04,Development Division,QA Office,Production & Engineering,Engineering,54500000,성균관대학교,상경계열,경력,234,본사
+E00085,성상철,2021-07-13,Development Division,R&D Office,IT,Data Scientist,42000000,숙명여자대학교,자연과학계열,경력,576,본사
+E00086,류혜진,2020-02-20,Operating Division,Production Office,Sales & Marketing,Sales,45300000,한국예술종합학교,STEM계열,신입,689,본사 외
+E00087,김정훈,2018-08-20,Development Division,QA Office,Production & Engineering,Engineering,72600000,Sorbonne University,상경계열,경력,287,본사
+E00088,김지혜,2017-05-09,Development Division,QA Office,IT,Data Scientist,86100000,,,신입,2022,본사
+E00089,강준영,2021-08-05,Sales Division,Marketing Office,Sales & Marketing,Sales,59300000,세종대학교,사회과학계열,경력,469,본사
+E00090,이영자,2011-09-09,Development Division,QA Office,Production & Engineering,Engineering,66400000,,,경력,1716,본사
+E00091,허성수,2011-02-25,Operating Division,Production Office,IT,SW Developer,81900000,서울여자대학교,사회과학계열,경력,768,본사 외
+E00092,정지우,2025-05-16,Development Division,R&D Office,Planning,Business Planning,42800000,한국예술종합학교,자연과학계열,신입,242,본사
+E00093,김미숙,2013-01-23,Sales Division,Marketing Office,Sales & Marketing,Sales,63000000,광주보건대학교,어문계열,경력,65,본사
+E00094,황영길,2023-04-08,Development Division,R&D Office,Production & Engineering,Engineering,38700000,Johns Hopkins University,상경계열,신입,377,본사
+E00095,류현준,2011-10-15,Development Division,QA Office,Production & Engineering,Engineering,42200000,,,경력,538,본사
+E00096,윤예진,2015-10-31,Development Division,R&D Office,IT,Data Scientist,54600000,광주보건대학교,디자인계열,신입,2249,본사
+E00097,김영진,2019-06-11,Operating Division,Production Office,Planning,Business Planning,99800000,광주보건대학교,STEM계열,경력,652,본사 외
+E00098,김하은,2012-07-16,Sales Division,Domestic Sales Office,Planning,Business Planning,88500000,,,경력,1458,본사
+E00099,이보람,2016-03-16,Sales Division,Domestic Sales Office,IT,Data Scientist,45900000,,,신입,393,본사
+E00100,김영희,2015-10-15,Planning Division,Finance Office,IT,Data Scientist,68000000,명지대학교,기타공학계열,신입,2399,본사
+E00101,김은서,2014-07-30,Operating Division,Production Office,Sales & Marketing,Sales,45500000,Heidelberg University,기타,경력,49,본사 외
+E00102,강예지,2016-07-17,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,45500000,세종대학교,디자인계열,경력,54,본사
+E00103,홍지은,2025-03-12,Planning Division,Finance Office,Planning,Business Planning,47600000,청강문화산업대학교,어문계열,신입,307,본사
+E00104,백지훈,2019-06-27,Operating Division,Engineering Office,Sales & Marketing,Marketing,45900000,성신여자대학교,기타공학계열,신입,743,본사 외
+E00105,박우진,2015-09-03,Operating Division,Engineering Office,Production & Engineering,Production Management,79000000,,,경력,3785,본사 외
+E00106,권채원,2024-09-23,Operating Division,Production Office,Production & Engineering,Production Management,36700000,제주한라대학교,기타,신입,477,본사 외
+E00107,김채원,2011-05-02,Sales Division,Global Sales Office,Sales & Marketing,Sales,72000000,,,신입,1301,본사
+E00108,이현주,2020-02-13,Operating Division,Engineering Office,Production & Engineering,Production Management,73100000,상명대학교,기타,경력,927,본사 외
+E00109,송은영,2024-07-22,Development Division,R&D Office,IT,SW Developer,43000000,대전보건대학교,디자인계열,경력,540,본사
+E00110,김정순,2024-04-20,Development Division,QA Office,Production & Engineering,Engineering,50900000,Princeton University,사회과학계열,경력,134,본사
+E00111,손혜진,2020-03-14,Development Division,R&D Office,Production & Engineering,Engineering,67900000,Yale University,사회과학계열,경력,382,본사
+E00112,김정자,2025-11-22,Planning Division,Strategy Office,Planning,Business Planning,41500000,안동대학교,기타,신입,52,본사
+E00113,이재호,2018-02-09,Sales Division,Global Sales Office,IT,Data Scientist,85800000,홍익대학교,STEM계열,신입,2895,본사
+E00114,김지은,2024-08-12,Planning Division,Strategy Office,Planning,Business Planning,61900000,제주한라대학교,어문계열,경력,468,본사
+E00115,윤예원,2024-05-18,Development Division,R&D Office,IT,Data Scientist,72700000,University of Cambridge,기타,경력,605,본사
+E00116,한도윤,2011-09-20,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,88800000,,,신입,3391,본사
+E00117,장성훈,2018-08-06,Operating Division,Engineering Office,Production & Engineering,Engineering,59600000,California Institute of Technology (Caltech),사회과학계열,신입,2717,본사 외
+E00118,이영호,2018-02-03,Development Division,R&D Office,IT,Data Scientist,53900000,University of Pennsylvania,자연과학계열,신입,797,본사
+E00119,류정호,2020-11-08,Sales Division,Global Sales Office,Sales & Marketing,Marketing,45600000,서울여자대학교,STEM계열,경력,561,본사
+E00120,백정순,2013-02-03,Sales Division,Global Sales Office,Sales & Marketing,Sales,91200000,,,신입,3657,본사
+E00121,한숙자,2021-01-12,Planning Division,Strategy Office,Planning,Business Planning,49500000,포항공과대학교,기타공학계열,경력,469,본사
+E00122,김유진,2025-06-10,Sales Division,Domestic Sales Office,Planning,Business Planning,44000000,한양여자대학교,상경계열,신입,217,본사
+E00123,장병철,2022-07-29,Planning Division,Finance Office,IT,Data Scientist,54000000,안산대학교,기타,신입,743,본사
+E00124,양정남,2016-10-15,Operating Division,Production Office,Sales & Marketing,Sales,47000000,광주보건대학교,디자인계열,신입,1622,본사 외
+E00125,강서영,2011-11-04,Development Division,QA Office,IT,SW Developer,54500000,University of Toronto,인문계열,신입,183,본사
+E00126,강지연,2022-12-02,Sales Division,Marketing Office,Planning,Business Planning,77800000,연세대학교,기타,경력,377,본사
+E00127,백준혁,2021-11-09,Planning Division,Strategy Office,IT,Data Scientist,54500000,제주한라대학교,자연과학계열,신입,1526,본사
+E00128,한민서,2018-04-19,Sales Division,Marketing Office,Sales & Marketing,Marketing,59100000,University of Oxford,어문계열,신입,2826,본사
+E00129,강지민,2017-12-19,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,53300000,ETH Zurich (Swiss Federal Institute of Technology Zurich),상경계열,신입,1471,본사
+E00130,김진호,2024-09-22,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,41000000,ETH Zurich (Swiss Federal Institute of Technology Zurich),디자인계열,신입,478,본사
+E00131,전옥순,2020-08-19,Development Division,QA Office,Production & Engineering,Engineering,40300000,,,신입,681,본사
+E00132,김정남,2024-10-17,Development Division,QA Office,Production & Engineering,Engineering,49100000,서강대학교,디자인계열,경력,453,본사
+E00133,박민지,2019-12-25,Sales Division,Global Sales Office,Production & Engineering,Production Management,48000000,숭실대학교,디자인계열,경력,15,본사
+E00134,한영자,2021-08-12,Sales Division,Marketing Office,Planning,Business Planning,62700000,Tsinghua University,인문계열,경력,669,본사
+E00135,김재호,2019-08-26,Development Division,QA Office,Management Support,Finance,58400000,카이스트,기타,신입,1108,본사
+E00136,차건우,2020-08-01,Development Division,R&D Office,Planning,Business Planning,59000000,Princeton University,인문계열,경력,782,본사
+E00137,황순자,2024-11-26,Operating Division,Engineering Office,Planning,Business Planning,65900000,Sorbonne University,자연과학계열,경력,196,본사 외
+E00138,송현주,2016-09-28,Operating Division,Production Office,Production & Engineering,Production Management,69600000,,,경력,2934,본사 외
+E00139,이윤서,2013-05-12,Operating Division,Engineering Office,IT,Infrastructure,47400000,한국예술종합학교,자연과학계열,신입,414,본사 외
+E00140,배중수,2016-11-27,Planning Division,Finance Office,Management Support,Finance,74800000,Stanford University,인문계열,경력,1657,본사
+E00141,김유진,2023-03-07,Operating Division,Production Office,Sales & Marketing,Sales,53300000,Harvard University,자연과학계열,경력,1043,본사 외
+E00142,이예지,2024-12-07,Operating Division,Engineering Office,IT,Data Scientist,59600000,부천대학교,기타공학계열,경력,402,본사 외
+E00143,강민재,2022-03-11,Sales Division,Domestic Sales Office,Production & Engineering,Engineering,41900000,한양여자대학교,기타,신입,104,본사
+E00144,양영철,2023-07-18,Sales Division,Global Sales Office,Management Support,Finance,42500000,Princeton University,기타,신입,196,본사
+E00145,한보람,2011-03-11,Operating Division,Engineering Office,Production & Engineering,Production Management,79300000,,,경력,2493,본사 외
+E00146,이상현,2015-04-13,Operating Division,Production Office,Planning,Business Planning,54900000,Yale University,상경계열,경력,898,본사 외
+E00147,김현우,2015-12-17,Planning Division,Strategy Office,Planning,Business Planning,71500000,부경대학교,자연과학계열,신입,625,본사
+E00148,오영숙,2014-10-24,Development Division,R&D Office,Planning,Business Planning,73000000,,,신입,2602,본사
+E00149,김현우,2018-04-24,Operating Division,Engineering Office,Planning,Business Planning,53100000,,,경력,146,본사 외
+E00150,김성현,2023-10-25,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,40500000,중앙대학교,STEM계열,신입,811,본사
+E00151,김수빈,2020-05-05,Planning Division,Finance Office,Planning,Business Planning,65100000,인덕대학교,STEM계열,신입,652,본사
+E00152,서중수,2013-11-30,Operating Division,Engineering Office,IT,Infrastructure,39200000,University of Pennsylvania,자연과학계열,신입,470,본사 외
+E00153,이성진,2024-11-06,Development Division,QA Office,IT,Data Scientist,39000000,충북대학교,STEM계열,신입,36,본사
+E00154,김숙자,2012-05-27,Development Division,R&D Office,Planning,Business Planning,46300000,,,신입,1596,본사
+E00155,황지훈,2019-06-18,Planning Division,Finance Office,IT,Data Scientist,60100000,서울시립대학교,인문계열,신입,652,본사
+E00156,이영수,2014-08-25,Development Division,R&D Office,Planning,Business Planning,60300000,서울여자대학교,디자인계열,경력,1693,본사
+E00157,이준영,2015-08-02,Planning Division,Strategy Office,Production & Engineering,Production Management,47900000,공주대학교,기타,신입,1279,본사
+E00158,백영진,2025-08-25,Development Division,R&D Office,IT,Data Scientist,38900000,아주대학교,STEM계열,신입,141,본사
+E00159,김선영,2013-04-18,Operating Division,Production Office,Sales & Marketing,Sales,84200000,삼육대학교,디자인계열,경력,3659,본사 외
+E00160,송채원,2021-11-17,Operating Division,Production Office,Sales & Marketing,Sales,53400000,,,신입,1518,본사 외
+E00161,이정순,2022-02-09,Planning Division,Strategy Office,IT,Data Scientist,57000000,서일대학교,기타공학계열,신입,287,본사
+E00162,이광수,2022-06-13,Planning Division,Finance Office,Management Support,Finance,54400000,부경대학교,사회과학계열,신입,743,본사
+E00163,김옥순,2021-05-09,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,57000000,목포해양대학교,어문계열,신입,377,본사
+E00164,안영일,2024-06-09,Development Division,QA Office,Production & Engineering,Engineering,45100000,Yale University,자연과학계열,경력,583,본사
+E00165,박영순,2024-10-06,Planning Division,Finance Office,IT,Data Scientist,54000000,광운대학교,자연과학계열,경력,454,본사
+E00166,김예원,2017-03-16,Sales Division,Domestic Sales Office,IT,Data Scientist,106500000,Sorbonne University,자연과학계열,경력,3225,본사
+E00167,한영자,2011-05-23,Development Division,QA Office,IT,Data Scientist,50600000,,,신입,1107,본사
+E00168,한선영,2018-03-20,Sales Division,Marketing Office,Sales & Marketing,Marketing,72200000,서일대학교,디자인계열,경력,1626,본사
+E00169,김준혁,2016-07-29,Operating Division,Engineering Office,IT,Data Scientist,73500000,경복대학교,기타공학계열,경력,2916,본사 외
+E00170,유정호,2016-01-03,Planning Division,Finance Office,IT,Data Scientist,66700000,,,경력,1842,본사
+E00171,황정숙,2020-03-07,Sales Division,Marketing Office,Sales & Marketing,Marketing,53800000,대전보건대학교,어문계열,신입,2138,본사
+E00172,강정순,2018-01-20,Sales Division,Marketing Office,Sales & Marketing,Marketing,63600000,,,신입,2063,본사
+E00173,김영수,2017-03-14,Sales Division,Global Sales Office,Planning,Business Planning,66400000,공주대학교,기타,경력,513,본사
+E00174,최순자,2019-12-16,Development Division,QA Office,Planning,Business Planning,44700000,대전보건대학교,상경계열,경력,179,본사
+E00175,이은경,2016-07-16,Operating Division,Engineering Office,Production & Engineering,Production Management,69600000,,,경력,2037,본사 외
+E00176,이성훈,2025-07-30,Planning Division,Strategy Office,Management Support,HR,37600000,Tsinghua University,사회과학계열,신입,167,본사
+E00177,이서윤,2025-05-19,Development Division,QA Office,Production & Engineering,Engineering,48700000,Kyoto University,STEM계열,경력,239,본사
+E00178,장정순,2021-05-27,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,50200000,Princeton University,디자인계열,신입,1692,본사
+E00179,강서준,2025-06-19,Planning Division,Strategy Office,Management Support,HR,41500000,충북대학교,디자인계열,경력,208,본사
+E00180,김수민,2021-02-26,Planning Division,Strategy Office,Planning,Business Planning,50900000,김포대학교,기타,신입,293,본사
+E00181,박정숙,2014-04-22,Planning Division,Strategy Office,Sales & Marketing,Sales,46700000,,,신입,265,본사
+E00182,조성훈,2015-03-03,Development Division,QA Office,Production & Engineering,Engineering,51100000,서울시립대학교,기타공학계열,경력,291,본사
+E00183,김예지,2015-01-03,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,105300000,,,경력,4028,본사
+E00184,박현준,2021-05-31,Development Division,R&D Office,Sales & Marketing,Sales,64000000,동국대학교,사회과학계열,신입,196,본사
+E00185,오예준,2017-11-14,Planning Division,Finance Office,Management Support,Finance,56100000,,,경력,634,본사
+E00186,김정자,2017-05-23,Planning Division,Finance Office,Management Support,HR,73500000,,,경력,469,본사
+E00187,최영희,2013-03-02,Operating Division,Engineering Office,IT,Infrastructure,96800000,,,신입,3118,본사 외
+E00188,김상호,2013-06-01,Sales Division,Marketing Office,Management Support,Finance,45900000,,,신입,357,본사
+E00189,김영철,2022-01-14,Development Division,QA Office,IT,Data Scientist,60300000,카이스트,기타공학계열,신입,743,본사
+E00190,강민준,2024-04-04,Development Division,QA Office,Management Support,Finance,45000000,연세대학교,사회과학계열,신입,104,본사
+E00191,최지현,2017-05-20,Sales Division,Domestic Sales Office,Management Support,Finance,71100000,카이스트,인문계열,신입,2054,본사
+E00192,이재호,2024-05-12,Operating Division,Engineering Office,IT,Data Scientist,47200000,동덕여자대학교,상경계열,신입,611,본사 외
+E00193,이재호,2015-03-03,Sales Division,Domestic Sales Office,Sales & Marketing,Marketing,101400000,Tsinghua University,사회과학계열,경력,2661,본사
+E00194,송현정,2015-05-29,Planning Division,Strategy Office,Planning,Business Planning,50200000,,,경력,335,본사
+E00195,윤영순,2013-03-31,Development Division,QA Office,Planning,Business Planning,55800000,,,신입,464,본사
+E00196,박영미,2013-05-12,Operating Division,Production Office,IT,Data Scientist,44600000,Johns Hopkins University,상경계열,신입,946,본사 외
+E00197,강상현,2020-01-23,Development Division,QA Office,IT,Data Scientist,52500000,건국대학교,사회과학계열,경력,1018,본사
+E00198,이현우,2015-07-23,Planning Division,Strategy Office,Management Support,HR,91100000,,,신입,1930,본사
+E00199,김지은,2011-06-16,Operating Division,Engineering Office,Production & Engineering,Engineering,122200000,삼육대학교,자연과학계열,경력,4852,본사 외
+E00200,박정수,2015-11-05,Sales Division,Marketing Office,Sales & Marketing,Marketing,88800000,,,경력,1565,본사
+E00201,김병철,2024-04-22,Sales Division,Domestic Sales Office,Management Support,Finance,38600000,성신여자대학교,사회과학계열,신입,12,본사
+E00202,황정훈,2013-10-15,Development Division,QA Office,Production & Engineering,Engineering,93700000,아주대학교,사회과학계열,신입,2792,본사
+E00203,박정희,2017-05-11,Operating Division,Production Office,IT,Data Scientist,44600000,,,신입,518,본사 외
+E00204,오도현,2016-12-11,Development Division,QA Office,Production & Engineering,Engineering,110200000,,,신입,1292,본사
+E00205,진미영,2012-08-23,Operating Division,Production Office,Production & Engineering,Production Management,68800000,,,경력,3120,본사 외
+E00206,이정순,2019-03-10,Planning Division,Finance Office,Management Support,Finance,40900000,Yale University,STEM계열,신입,196,본사
+E00207,김재호,2023-10-12,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,40400000,경희대학교,사회과학계열,신입,468,본사
+E00208,김아름,2024-08-12,Planning Division,Strategy Office,Planning,Business Planning,53800000,목포대학교,디자인계열,신입,104,본사
+E00209,이옥순,2015-07-03,Development Division,R&D Office,IT,Data Scientist,60700000,수원여자대학교,인문계열,경력,1173,본사
+E00210,최은서,2018-09-21,Operating Division,Engineering Office,Sales & Marketing,Sales,73800000,신구대학교,사회과학계열,경력,565,본사 외
+E00211,박은영,2015-01-06,Sales Division,Domestic Sales Office,IT,Data Scientist,47700000,ETH Zurich (Swiss Federal Institute of Technology Zurich),기타,경력,21,본사
+E00212,진승현,2024-06-20,Operating Division,Production Office,Sales & Marketing,Sales,45300000,한국전통문화대학교,자연과학계열,경력,12,본사 외
+E00213,손상호,2018-05-07,Planning Division,Finance Office,Planning,Business Planning,89900000,동국대학교,사회과학계열,경력,1838,본사
+E00214,안서현,2014-03-04,Operating Division,Production Office,Planning,Business Planning,66100000,,,경력,1095,본사 외
+E00215,남순옥,2017-01-04,Operating Division,Production Office,Production & Engineering,Production Management,63400000,서울대학교,인문계열,신입,2661,본사 외
+E00216,양민수,2021-06-30,Development Division,QA Office,Planning,Business Planning,68100000,한국예술종합학교,기타공학계열,경력,359,본사
+E00217,박종수,2017-02-16,Sales Division,Domestic Sales Office,IT,Infrastructure,71000000,성신여자대학교,사회과학계열,신입,1282,본사
+E00218,문현우,2018-07-24,Planning Division,Finance Office,IT,Data Scientist,58200000,대구경북과학기술원,STEM계열,신입,2730,본사
+E00219,이현우,2014-06-18,Operating Division,Production Office,IT,Infrastructure,76200000,"University of California, Berkeley (UCB)",어문계열,경력,461,본사 외
+E00220,민영호,2022-06-22,Operating Division,Production Office,Production & Engineering,Engineering,38600000,제주한라대학교,기타,신입,561,본사 외
+E00221,김영미,2012-12-17,Planning Division,Strategy Office,Management Support,HR,43700000,공주대학교,자연과학계열,경력,76,본사
+E00222,황승민,2018-05-03,Development Division,R&D Office,Planning,Business Planning,85800000,부산과학기술대학교,인문계열,경력,2812,본사
+E00223,오현숙,2012-03-05,Planning Division,Strategy Office,IT,Data Scientist,58100000,덕성여자대학교,디자인계열,신입,1066,본사
+E00224,황경자,2013-10-17,Planning Division,Finance Office,Management Support,Finance,103300000,한경대학교,기타,경력,2588,본사
+E00225,이지원,2013-11-18,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,44500000,,,신입,158,본사
+E00226,류성훈,2024-12-26,Development Division,R&D Office,Planning,Business Planning,47500000,한국예술종합학교,기타,신입,383,본사
+E00227,강재호,2023-06-18,Operating Division,Engineering Office,Management Support,Finance,46300000,광운대학교,STEM계열,신입,469,본사 외
+E00228,노예진,2019-06-02,Development Division,R&D Office,Planning,Business Planning,48300000,University of Toronto,기타,경력,193,본사
+E00229,하지은,2017-08-01,Planning Division,Strategy Office,Planning,Business Planning,84000000,,,경력,1200,본사
+E00230,김주원,2017-07-05,Development Division,R&D Office,IT,Data Scientist,62900000,,,신입,1292,본사
+E00231,강민서,2021-11-07,Operating Division,Engineering Office,IT,Data Scientist,56000000,한국전통문화대학교,사회과학계열,신입,104,본사 외
+E00232,김경자,2019-07-29,Planning Division,Strategy Office,Planning,Business Planning,77200000,연성대학교,기타공학계열,경력,1383,본사
+E00233,송은경,2018-02-20,Sales Division,Global Sales Office,Sales & Marketing,Marketing,71400000,안산대학교,인문계열,신입,2296,본사
+E00234,한준호,2012-10-15,Operating Division,Production Office,Sales & Marketing,Sales,51000000,,,신입,116,본사 외
+E00235,최도윤,2012-05-13,Operating Division,Production Office,Planning,Business Planning,65800000,오산대학교,사회과학계열,경력,2672,본사 외
+E00236,정지연,2019-10-26,Operating Division,Production Office,Planning,Business Planning,90700000,California Institute of Technology (Caltech),사회과학계열,경력,469,본사 외
+E00237,김성수,2022-04-03,Development Division,QA Office,Production & Engineering,Engineering,42700000,강원대학교,기타공학계열,신입,1252,본사
+E00238,강지훈,2019-01-20,Development Division,QA Office,Production & Engineering,Engineering,47600000,동덕여자대학교,기타,경력,238,본사
+E00239,장현준,2024-03-21,Sales Division,Marketing Office,IT,Data Scientist,50900000,한양대학교,기타,경력,136,본사
+E00240,김경숙,2013-09-04,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,79200000,건국대학교,사회과학계열,경력,2454,본사
+E00241,강지원,2013-12-03,Sales Division,Marketing Office,Sales & Marketing,Sales,112000000,동국대학교,인문계열,신입,2022,본사
+E00242,박종수,2017-12-29,Sales Division,Marketing Office,Sales & Marketing,Sales,70600000,University of Cambridge,디자인계열,신입,2388,본사
+E00243,진서윤,2014-08-03,Planning Division,Finance Office,Management Support,Finance,88300000,University of Michigan-Ann Arbor,디자인계열,신입,2022,본사
+E00244,손정수,2023-12-07,Sales Division,Global Sales Office,Sales & Marketing,Sales,50700000,목포대학교,기타공학계열,신입,768,본사
+E00245,김경숙,2017-07-14,Development Division,R&D Office,Planning,Business Planning,97200000,세종대학교,STEM계열,경력,2039,본사
+E00246,박준영,2015-07-03,Development Division,QA Office,Production & Engineering,Engineering,101200000,,,신입,3391,본사
+E00247,이영순,2024-03-29,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,40100000,연세대학교,디자인계열,신입,655,본사
+E00248,김준영,2024-03-14,Planning Division,Strategy Office,Management Support,Finance,48900000,University of Chicago,기타공학계열,경력,196,본사
+E00249,김옥자,2018-06-21,Planning Division,Strategy Office,Planning,Business Planning,71000000,,,경력,12,본사
+E00250,이수진,2017-05-22,Planning Division,Finance Office,Management Support,Finance,65100000,홍익대학교,인문계열,경력,3158,본사
+E00251,윤지우,2022-07-10,Operating Division,Production Office,IT,Infrastructure,72800000,군산대학교,사회과학계열,경력,571,본사 외
+E00252,오예원,2016-02-07,Planning Division,Strategy Office,Planning,Business Planning,51900000,,,신입,859,본사
+E00253,안하은,2011-07-06,Operating Division,Production Office,Sales & Marketing,Sales,162100000,Stanford University,인문계열,신입,1748,본사 외
+E00254,이지후,2019-10-19,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,44500000,경희대학교,인문계열,신입,1496,본사
+E00255,최정호,2016-11-26,Operating Division,Engineering Office,IT,Infrastructure,57800000,,,경력,328,본사 외
+E00256,진영철,2011-03-12,Development Division,R&D Office,Production & Engineering,Engineering,57900000,,,신입,969,본사
+E00257,김경자,2020-08-05,Development Division,R&D Office,Sales & Marketing,Sales,106700000,Princeton University,어문계열,경력,743,본사
+E00258,이서현,2019-06-02,Planning Division,Finance Office,Planning,Business Planning,73800000,ETH Zurich (Swiss Federal Institute of Technology Zurich),사회과학계열,신입,2417,본사
+E00259,윤건우,2019-12-25,Operating Division,Engineering Office,Management Support,Finance,58200000,Sorbonne University,STEM계열,신입,104,본사 외
+E00260,서예진,2016-08-21,Operating Division,Production Office,Planning,Business Planning,57300000,University of Cambridge,기타공학계열,경력,2182,본사 외
+E00261,이지원,2020-06-05,Planning Division,Strategy Office,Planning,Business Planning,93100000,대전보건대학교,어문계열,경력,835,본사
+E00262,최주원,2025-03-22,Sales Division,Marketing Office,Sales & Marketing,Marketing,53200000,중앙대학교,기타,경력,297,본사
+E00263,이미경,2013-12-14,Operating Division,Production Office,IT,Data Scientist,50000000,경희대학교,인문계열,신입,1267,본사 외
+E00264,김춘자,2020-06-12,Sales Division,Marketing Office,Production & Engineering,Engineering,57900000,,,신입,835,본사
+E00265,김미영,2015-08-18,Planning Division,Finance Office,IT,Data Scientist,98700000,,,경력,3118,본사
+E00266,이시우,2012-08-30,Development Division,QA Office,Planning,Business Planning,43200000,,,경력,501,본사
+E00267,김영식,2017-06-10,Planning Division,Strategy Office,Management Support,HR,92100000,Heidelberg University,인문계열,경력,1565,본사
+E00268,손민서,2021-02-23,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,49400000,,,신입,652,본사
+E00269,조정식,2014-03-11,Planning Division,Strategy Office,Planning,Business Planning,95700000,부산대학교,사회과학계열,신입,2629,본사
+E00270,박지후,2014-11-24,Operating Division,Production Office,Production & Engineering,Production Management,42700000,한국해양대학교,자연과학계열,신입,90,본사 외
+E00271,이은서,2023-07-10,Sales Division,Marketing Office,Sales & Marketing,Sales,52600000,경복대학교,STEM계열,신입,287,본사
+E00272,송민재,2025-10-22,Development Division,R&D Office,IT,Data Scientist,39200000,연세대학교,STEM계열,신입,83,본사
+E00273,최영희,2013-09-17,Operating Division,Engineering Office,Production & Engineering,Engineering,99900000,,,경력,2113,본사 외
+E00274,임진호,2018-05-01,Sales Division,Marketing Office,Sales & Marketing,Marketing,69400000,광주과학기술원,기타공학계열,신입,2814,본사
+E00275,김명자,2019-04-23,Planning Division,Strategy Office,Planning,Business Planning,94600000,University of Toronto,기타공학계열,경력,2457,본사
+E00276,주민준,2021-04-18,Sales Division,Domestic Sales Office,Production & Engineering,Engineering,47000000,대전보건대학교,사회과학계열,경력,561,본사
+E00277,이민수,2019-06-11,Sales Division,Global Sales Office,Production & Engineering,Engineering,67000000,,,신입,287,본사
+E00278,임영순,2012-06-16,Operating Division,Production Office,Sales & Marketing,Sales,79800000,수원여자대학교,디자인계열,경력,3423,본사 외
+E00279,윤민서,2018-10-19,Operating Division,Production Office,Sales & Marketing,Sales,76500000,건국대학교,상경계열,경력,196,본사 외
+E00280,김동현,2020-03-24,Operating Division,Production Office,Sales & Marketing,Sales,59500000,세종대학교,STEM계열,신입,2121,본사 외
+E00281,이민수,2016-11-26,Development Division,R&D Office,IT,Data Scientist,99500000,,,경력,2388,본사
+E00282,김영식,2012-08-27,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,41100000,인덕대학교,기타,경력,1186,본사
+E00283,서지후,2025-04-27,Development Division,R&D Office,IT,Data Scientist,36500000,Heidelberg University,사회과학계열,신입,261,본사
+E00284,박서준,2025-11-03,Sales Division,Marketing Office,Sales & Marketing,Marketing,37300000,카이스트,기타,신입,56,본사
+E00285,김상철,2021-08-25,Development Division,QA Office,Production & Engineering,Engineering,47000000,수원여자대학교,상경계열,신입,1602,본사
+E00286,이예준,2020-09-25,Development Division,R&D Office,Management Support,Finance,53300000,안산대학교,기타,경력,679,본사
+E00287,윤서연,2025-07-31,Operating Division,Engineering Office,IT,Data Scientist,57600000,목포해양대학교,기타공학계열,경력,166,본사 외
+E00288,곽도윤,2019-07-26,Planning Division,Strategy Office,Planning,Business Planning,49600000,Yale University,기타공학계열,신입,104,본사
+E00289,박성민,2014-12-21,Sales Division,Marketing Office,Sales & Marketing,Sales,66900000,,,신입,941,본사
+E00290,박현지,2017-09-08,Planning Division,Finance Office,IT,Data Scientist,60300000,서울여자대학교,상경계열,경력,563,본사
+E00291,김승민,2022-06-04,Planning Division,Finance Office,Management Support,Finance,43500000,한경대학교,상경계열,경력,218,본사
+E00292,성미숙,2011-05-08,Development Division,R&D Office,IT,Data Scientist,73100000,,,경력,2685,본사
+E00293,이성민,2024-10-22,Operating Division,Engineering Office,Production & Engineering,Engineering,44200000,"University of California, Berkeley (UCB)",상경계열,경력,448,본사 외
+E00294,이지후,2021-10-17,Sales Division,Domestic Sales Office,Planning,Business Planning,64000000,한국해양대학교,자연과학계열,신입,196,본사
+E00295,윤미정,2016-06-05,Operating Division,Engineering Office,Production & Engineering,Production Management,34100000,군산대학교,인문계열,경력,936,본사 외
+E00296,전영철,2023-07-12,Development Division,R&D Office,Management Support,Finance,38000000,숭실대학교,기타,신입,287,본사
+E00297,김정호,2021-03-05,Development Division,QA Office,Sales & Marketing,Marketing,56300000,성균관대학교,기타공학계열,경력,104,본사
+E00298,김정호,2020-01-12,Development Division,R&D Office,Production & Engineering,Engineering,35700000,숙명여자대학교,디자인계열,신입,367,본사
+E00299,최광수,2018-07-11,Planning Division,Finance Office,Planning,Business Planning,79300000,,,경력,287,본사
+E00300,김정희,2020-02-01,Sales Division,Marketing Office,Sales & Marketing,Sales,66400000,Heidelberg University,STEM계열,경력,51,본사
+E00301,황미경,2018-04-26,Operating Division,Production Office,Planning,Business Planning,55900000,서울대학교,기타공학계열,경력,405,본사 외
+E00302,윤지아,2012-08-29,Planning Division,Finance Office,IT,Data Scientist,51400000,인하공업전문대학,기타공학계열,신입,1765,본사
+E00303,박수빈,2015-01-22,Planning Division,Strategy Office,IT,Data Scientist,56200000,University of Pennsylvania,기타,경력,249,본사
+E00304,이상철,2019-05-27,Sales Division,Marketing Office,Sales & Marketing,Sales,51500000,성신여자대학교,어문계열,신입,1018,본사
+E00305,김준호,2022-08-02,Planning Division,Strategy Office,Planning,Business Planning,45900000,청강문화산업대학교,디자인계열,신입,1260,본사
+E00306,윤예원,2023-08-22,Operating Division,Production Office,IT,Infrastructure,53100000,숭실대학교,어문계열,경력,377,본사 외
+E00307,박영환,2015-04-07,Sales Division,Marketing Office,Sales & Marketing,Marketing,44000000,Stanford University,인문계열,경력,289,본사
+E00308,성현준,2021-08-16,Operating Division,Production Office,Sales & Marketing,Sales,52900000,상명대학교,STEM계열,경력,887,본사 외
+E00309,김종수,2023-07-28,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,49600000,California Institute of Technology (Caltech),기타,신입,196,본사
+E00310,이지후,2013-09-18,Planning Division,Finance Office,IT,Data Scientist,85600000,전남대학교,디자인계열,경력,3632,본사
+E00311,김옥순,2014-01-02,Sales Division,Marketing Office,Sales & Marketing,Marketing,57500000,연세대학교,자연과학계열,경력,2279,본사
+E00312,손수빈,2014-01-05,Sales Division,Marketing Office,Sales & Marketing,Marketing,44700000,,,경력,102,본사
+E00313,김병철,2019-05-31,Operating Division,Engineering Office,Production & Engineering,Engineering,47000000,서일대학교,STEM계열,경력,499,본사 외
+E00314,이상철,2012-12-27,Planning Division,Strategy Office,Planning,Business Planning,130800000,숙명여자대학교,기타공학계열,신입,3574,본사
+E00315,박명숙,2012-05-06,Planning Division,Finance Office,IT,Data Scientist,92000000,,,경력,4395,본사
+E00316,김민수,2015-11-02,Planning Division,Finance Office,Production & Engineering,Production Management,51300000,,,신입,2343,본사
+E00317,김미숙,2022-09-02,Planning Division,Finance Office,Production & Engineering,Production Management,47000000,부산과학기술대학교,기타공학계열,경력,652,본사
+E00318,손병철,2016-07-19,Planning Division,Finance Office,Management Support,HR,44700000,,,신입,278,본사
+E00319,이정수,2018-06-03,Sales Division,Domestic Sales Office,Sales & Marketing,Marketing,90700000,대구경북과학기술원,사회과학계열,경력,1004,본사
+E00320,백상호,2019-09-25,Sales Division,Marketing Office,Sales & Marketing,Marketing,66800000,수원여자대학교,어문계열,경력,578,본사
+E00321,서영길,2013-03-28,Operating Division,Production Office,IT,Infrastructure,54900000,삼육대학교,어문계열,신입,1383,본사 외
+E00322,차춘자,2021-07-03,Planning Division,Finance Office,IT,Data Scientist,56600000,가톨릭대학교,상경계열,경력,1655,본사
+E00323,박수빈,2011-10-11,Sales Division,Marketing Office,Sales & Marketing,Marketing,38400000,군산대학교,기타,신입,30,본사
+E00324,이경희,2014-10-06,Planning Division,Strategy Office,Planning,Business Planning,72700000,서울대학교,STEM계열,경력,638,본사
+E00325,오예은,2024-06-16,Operating Division,Production Office,IT,Data Scientist,48400000,세종대학교,상경계열,신입,104,본사 외
+E00326,한채원,2012-09-29,Sales Division,Domestic Sales Office,Planning,Business Planning,69100000,,,신입,831,본사
+E00327,김영일,2013-02-23,Operating Division,Engineering Office,Production & Engineering,Engineering,84400000,한국예술종합학교,사회과학계열,경력,1565,본사 외
+E00328,최성호,2024-07-31,Planning Division,Strategy Office,Management Support,HR,44100000,성신여자대학교,인문계열,경력,531,본사
+E00329,오주원,2019-10-26,Planning Division,Finance Office,IT,Data Scientist,49600000,,,경력,494,본사
+E00330,나지원,2024-10-23,Development Division,R&D Office,IT,Data Scientist,43500000,Massachusetts Institute of Technology (MIT),디자인계열,경력,447,본사
+E00331,송서연,2023-05-19,Development Division,R&D Office,IT,Data Scientist,53000000,삼육대학교,상경계열,신입,970,본사
+E00332,김상현,2015-09-10,Development Division,R&D Office,Planning,Business Planning,87900000,,,경력,3778,본사
+E00333,김준서,2012-08-02,Planning Division,Strategy Office,Planning,Business Planning,76200000,,,경력,2493,본사
+E00334,김지연,2019-07-05,Planning Division,Finance Office,Planning,Business Planning,74000000,군산대학교,인문계열,경력,79,본사
+E00335,이재호,2023-12-31,Operating Division,Production Office,Production & Engineering,Production Management,50600000,광주과학기술원,기타공학계열,경력,308,본사 외
+E00336,홍옥순,2016-10-06,Sales Division,Global Sales Office,Sales & Marketing,Sales,66000000,,,신입,1357,본사
+E00337,김시우,2025-03-30,Planning Division,Strategy Office,Planning,Business Planning,56100000,울산과학대학교,인문계열,경력,289,본사
+E00338,김수민,2018-03-13,Planning Division,Strategy Office,Planning,Business Planning,71900000,한국예술종합학교,기타,신입,1748,본사
+E00339,안상훈,2011-04-10,Operating Division,Production Office,Production & Engineering,Engineering,63000000,Yale University,인문계열,경력,1714,본사 외
+E00340,류승현,2011-06-01,Development Division,QA Office,Production & Engineering,Engineering,40800000,,,신입,232,본사
+E00341,심상현,2014-08-29,Development Division,R&D Office,Planning,Business Planning,79800000,,,신입,1880,본사
+E00342,안상현,2018-05-28,Development Division,R&D Office,IT,Data Scientist,52400000,,,신입,367,본사
+E00343,오예은,2016-01-22,Operating Division,Engineering Office,IT,Infrastructure,60500000,동국대학교,STEM계열,경력,3157,본사 외
+E00344,최지은,2016-02-14,Operating Division,Production Office,Sales & Marketing,Sales,45300000,,,신입,2113,본사 외
+E00345,이영식,2025-05-09,Sales Division,Marketing Office,Sales & Marketing,Marketing,50800000,목포해양대학교,STEM계열,경력,249,본사
+E00346,이영희,2015-11-30,Development Division,R&D Office,IT,SW Developer,56000000,,,신입,1855,본사
+E00347,강서현,2012-01-14,Operating Division,Production Office,Planning,Business Planning,85000000,안산대학교,기타공학계열,경력,2387,본사 외
+E00348,양지현,2017-12-19,Development Division,QA Office,Production & Engineering,Engineering,39200000,고려대학교,STEM계열,신입,209,본사
+E00349,이정숙,2014-02-09,Planning Division,Finance Office,Management Support,Finance,55100000,Massachusetts Institute of Technology (MIT),디자인계열,신입,2458,본사
+E00350,황도윤,2011-07-28,Operating Division,Production Office,IT,Data Scientist,52400000,,,신입,173,본사 외
+E00351,김수민,2022-11-09,Operating Division,Production Office,Production & Engineering,Engineering,49800000,안산대학교,인문계열,경력,743,본사 외
+E00352,최영미,2016-12-17,Development Division,QA Office,Planning,Business Planning,110600000,연성대학교,상경계열,경력,2753,본사
+E00353,문영식,2024-01-13,Planning Division,Strategy Office,IT,Data Scientist,46100000,인하공업전문대학,인문계열,경력,12,본사
+E00354,권민준,2017-07-12,Planning Division,Strategy Office,Production & Engineering,Engineering,39500000,숭실대학교,디자인계열,신입,714,본사
+E00355,김예은,2019-01-21,Development Division,R&D Office,IT,Data Scientist,100000000,제주대학교,기타,경력,54,본사
+E00356,이은정,2019-08-15,Sales Division,Domestic Sales Office,Planning,Business Planning,85100000,한양대학교,자연과학계열,경력,509,본사
+E00357,배광수,2024-03-18,Planning Division,Finance Office,Management Support,Finance,43100000,덕성여자대학교,어문계열,신입,114,본사
+E00358,배재호,2013-12-09,Operating Division,Engineering Office,Production & Engineering,Engineering,45900000,서울대학교,사회과학계열,경력,816,본사 외
+E00359,우지은,2012-04-08,Sales Division,Marketing Office,IT,Data Scientist,82700000,,,신입,4122,본사
+E00360,서순옥,2013-08-10,Development Division,R&D Office,IT,Data Scientist,50200000,,,경력,1401,본사
+E00361,이성현,2024-02-13,Planning Division,Strategy Office,Planning,Business Planning,52700000,한경대학교,어문계열,경력,12,본사
+E00362,김민서,2011-08-01,Sales Division,Marketing Office,Sales & Marketing,Marketing,101700000,한국해양대학교,인문계열,경력,3828,본사
+E00363,허영일,2015-08-08,Sales Division,Global Sales Office,Sales & Marketing,Sales,67400000,,,경력,2214,본사
+E00364,박영순,2025-06-07,Sales Division,Global Sales Office,IT,Data Scientist,45300000,동덕여자대학교,기타,경력,220,본사
+E00365,박재호,2018-01-21,Development Division,R&D Office,IT,Data Scientist,77100000,,,신입,2914,본사
+E00366,박순자,2011-09-11,Development Division,QA Office,Planning,Business Planning,58600000,금오공과대학교,디자인계열,경력,90,본사
+E00367,장준영,2017-05-16,Sales Division,Domestic Sales Office,IT,Data Scientist,79500000,,,신입,743,본사
+E00368,문미경,2014-10-18,Sales Division,Marketing Office,Planning,Business Planning,97100000,경기과학기술대학교,어문계열,경력,4105,본사
+E00369,서영진,2015-11-27,Planning Division,Finance Office,IT,Data Scientist,70500000,서강대학교,자연과학계열,경력,1285,본사
+E00370,김정호,2014-03-30,Sales Division,Domestic Sales Office,Sales & Marketing,Marketing,38800000,,,신입,108,본사
+E00371,황재호,2019-02-10,Sales Division,Global Sales Office,Planning,Business Planning,79100000,경복대학교,기타,경력,351,본사
+E00372,최미경,2025-11-21,Sales Division,Marketing Office,Planning,Business Planning,46800000,인하공업전문대학,기타공학계열,경력,51,본사
+E00373,김민석,2018-12-23,Development Division,QA Office,Sales & Marketing,Sales,40300000,,,신입,347,본사
+E00374,이예은,2021-12-15,Planning Division,Finance Office,Management Support,HR,45400000,,,신입,196,본사
+E00375,안영숙,2017-11-19,Development Division,R&D Office,IT,Data Scientist,71200000,두원공과대학교,STEM계열,신입,1425,본사
+E00376,지채원,2022-10-12,Sales Division,Global Sales Office,Sales & Marketing,Sales,74200000,University of Chicago,어문계열,경력,469,본사
+E00377,안서영,2022-05-23,Development Division,R&D Office,Production & Engineering,Engineering,50400000,동국대학교,자연과학계열,신입,196,본사
+E00378,오영호,2011-03-19,Development Division,QA Office,IT,SW Developer,89600000,,,경력,2761,본사
+E00379,박성훈,2020-05-18,Development Division,QA Office,Sales & Marketing,Sales,48800000,충북대학교,디자인계열,신입,743,본사
+E00380,오민준,2012-07-01,Planning Division,Strategy Office,Planning,Business Planning,43900000,,,신입,881,본사
+E00381,김예준,2018-05-20,Operating Division,Production Office,Production & Engineering,Production Management,48800000,,,경력,190,본사 외
+E00382,박은정,2022-08-26,Sales Division,Domestic Sales Office,Production & Engineering,Engineering,51000000,University of Michigan-Ann Arbor,자연과학계열,경력,652,본사
+E00383,이민준,2023-05-28,Planning Division,Finance Office,IT,Infrastructure,68900000,서강대학교,자연과학계열,경력,469,본사
+E00384,김정숙,2018-01-16,Planning Division,Strategy Office,Planning,Business Planning,74000000,연세대학교,기타,신입,1930,본사
+E00385,이영미,2019-07-30,Planning Division,Strategy Office,IT,Data Scientist,65500000,건국대학교,인문계열,신입,652,본사
+E00386,이정남,2025-11-20,Sales Division,Global Sales Office,Sales & Marketing,Sales,41600000,한양여자대학교,자연과학계열,신입,54,본사
+E00387,박은지,2015-06-01,Development Division,R&D Office,Production & Engineering,Production Management,51400000,서울예술대학교,기타,신입,283,본사
+E00388,손정희,2025-10-25,Development Division,QA Office,Production & Engineering,Engineering,35900000,Harvard University,기타공학계열,신입,80,본사
+E00389,김명숙,2017-03-24,Development Division,R&D Office,IT,Data Scientist,98900000,숭실대학교,기타공학계열,경력,3105,본사
+E00390,고성현,2012-12-10,Development Division,QA Office,IT,Data Scientist,98700000,광주과학기술원,사회과학계열,신입,3209,본사
+E00391,김민준,2015-12-24,Development Division,R&D Office,Planning,Business Planning,95600000,Kyoto University,인문계열,경력,1838,본사
+E00392,민민석,2022-03-15,Operating Division,Engineering Office,IT,Infrastructure,65300000,중앙대학교,어문계열,신입,20,본사 외
+E00393,손동현,2011-04-01,Operating Division,Engineering Office,Production & Engineering,Production Management,73600000,,,신입,1220,본사 외
+E00394,우영순,2022-09-12,Development Division,R&D Office,Planning,Business Planning,72300000,강원대학교,어문계열,경력,743,본사
+E00395,김채원,2022-12-21,Planning Division,Finance Office,Management Support,Finance,68400000,University of Michigan-Ann Arbor,사회과학계열,경력,1119,본사
+E00396,곽영자,2024-10-20,Sales Division,Global Sales Office,Sales & Marketing,Sales,38400000,삼육대학교,STEM계열,신입,450,본사
+E00397,이서연,2018-10-19,Sales Division,Global Sales Office,Sales & Marketing,Sales,61000000,,,경력,1200,본사
+E00398,이수민,2017-04-28,Development Division,R&D Office,IT,Data Scientist,57900000,University of Cambridge,STEM계열,신입,1975,본사
+E00399,박은서,2019-08-15,Development Division,R&D Office,Production & Engineering,Engineering,54300000,덕성여자대학교,STEM계열,경력,287,본사
+E00400,송은정,2022-09-22,Operating Division,Engineering Office,Production & Engineering,Engineering,47900000,Princeton University,기타,신입,196,본사 외
+E00401,박준서,2024-05-25,Planning Division,Strategy Office,Planning,Business Planning,38700000,아주대학교,디자인계열,신입,103,본사
+E00402,최지연,2020-03-08,Sales Division,Marketing Office,Production & Engineering,Engineering,51100000,부산과학기술대학교,상경계열,신입,75,본사
+E00403,한상현,2019-09-13,Planning Division,Strategy Office,Sales & Marketing,Sales,55000000,한국전통문화대학교,기타,신입,1838,본사
+E00404,최미숙,2018-06-13,Sales Division,Domestic Sales Office,Planning,Business Planning,71000000,고려대학교,디자인계열,신입,2022,본사
+E00405,오영호,2013-03-08,Sales Division,Global Sales Office,Sales & Marketing,Sales,50000000,,,경력,1289,본사
+E00406,진지현,2016-05-01,Operating Division,Engineering Office,Production & Engineering,Engineering,111500000,서울예술대학교,디자인계열,경력,3544,본사 외
+E00407,양도윤,2013-09-29,Operating Division,Engineering Office,Production & Engineering,Engineering,43300000,,,신입,224,본사 외
+E00408,양보람,2013-11-30,Planning Division,Finance Office,Management Support,Finance,69400000,,,신입,2025,본사
+E00409,류병철,2020-08-17,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,56900000,울산과학기술원,디자인계열,경력,561,본사
+E00410,이혜진,2013-11-03,Operating Division,Engineering Office,IT,Infrastructure,76400000,충남대학교,자연과학계열,경력,1592,본사 외
+E00411,김상현,2016-07-30,Operating Division,Production Office,Sales & Marketing,Sales,41800000,백석예술대학교,상경계열,신입,185,본사 외
+E00412,양정호,2013-05-27,Development Division,R&D Office,Planning,Business Planning,126300000,목포해양대학교,STEM계열,경력,3665,본사
+E00413,최예진,2019-12-10,Development Division,R&D Office,IT,Data Scientist,63100000,전북대학교,인문계열,경력,743,본사
+E00414,고상훈,2018-12-02,Planning Division,Finance Office,IT,Data Scientist,61200000,공주대학교,인문계열,신입,652,본사
+E00415,오정웅,2025-01-05,Operating Division,Production Office,Production & Engineering,Production Management,36900000,서울대학교,디자인계열,신입,373,본사 외
+E00416,이선영,2021-12-22,Development Division,R&D Office,IT,SW Developer,57700000,한국예술종합학교,디자인계열,신입,1018,본사
+E00417,박준호,2025-01-05,Development Division,QA Office,Production & Engineering,Engineering,57500000,연세대학교,기타,경력,373,본사
+E00418,이상호,2025-04-28,Development Division,QA Office,Production & Engineering,Engineering,53200000,California Institute of Technology (Caltech),디자인계열,경력,260,본사
+E00419,백승민,2013-07-29,Sales Division,Global Sales Office,Sales & Marketing,Marketing,40600000,,,신입,44,본사
+E00420,민춘자,2025-10-29,Development Division,QA Office,Production & Engineering,Engineering,40100000,서울대학교,어문계열,신입,76,본사
+E00421,이현준,2016-07-03,Sales Division,Global Sales Office,Planning,Business Planning,97800000,,,경력,3481,본사
+E00422,백지혜,2019-09-23,Development Division,QA Office,IT,Data Scientist,57200000,카이스트,상경계열,신입,1565,본사
+E00423,안상호,2011-02-16,Sales Division,Marketing Office,Sales & Marketing,Sales,40500000,,,경력,220,본사
+E00424,이현준,2011-12-21,Operating Division,Production Office,Production & Engineering,Production Management,43500000,,,경력,474,본사 외
+E00425,서영수,2024-01-23,Sales Division,Domestic Sales Office,IT,Data Scientist,68700000,인하공업전문대학,기타공학계열,경력,212,본사
+E00426,이민재,2012-01-12,Operating Division,Engineering Office,Production & Engineering,Engineering,61500000,,,경력,2093,본사 외
+E00427,임영자,2020-06-27,Sales Division,Global Sales Office,Sales & Marketing,Sales,65700000,대전보건대학교,어문계열,경력,2026,본사
+E00428,김영일,2015-11-30,Operating Division,Engineering Office,Production & Engineering,Production Management,83100000,제주한라대학교,자연과학계열,신입,1657,본사 외
+E00429,박선영,2022-05-07,Development Division,QA Office,IT,Data Scientist,64100000,서울예술대학교,사회과학계열,경력,927,본사
+E00430,김채원,2024-03-17,Planning Division,Strategy Office,Management Support,Finance,60900000,한국예술종합학교,인문계열,경력,38,본사
+E00431,김지연,2022-05-31,Operating Division,Production Office,Sales & Marketing,Sales,45600000,경민대학교,인문계열,경력,174,본사 외
+E00432,김숙자,2018-05-13,Operating Division,Production Office,Planning,Business Planning,71400000,서강대학교,자연과학계열,신입,652,본사 외
+E00433,김서연,2023-03-27,Development Division,R&D Office,Production & Engineering,Engineering,55000000,전북대학교,인문계열,경력,287,본사
+E00434,하성훈,2015-07-24,Operating Division,Production Office,Production & Engineering,Production Management,54200000,홍익대학교,기타공학계열,경력,1768,본사 외
+E00435,배수진,2011-05-15,Operating Division,Production Office,Sales & Marketing,Sales,52700000,한국해양대학교,기타,신입,1894,본사 외
+E00436,김명자,2022-11-06,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,45700000,광주보건대학교,상경계열,신입,1164,본사
+E00437,배정웅,2014-10-23,Development Division,R&D Office,Planning,Business Planning,109400000,,,경력,3144,본사
+E00438,전민지,2022-01-25,Development Division,R&D Office,IT,Data Scientist,54800000,계원예술대학교,자연과학계열,신입,1449,본사
+E00439,손서연,2015-06-12,Planning Division,Finance Office,Sales & Marketing,Sales,41900000,경희대학교,상경계열,신입,430,본사
+E00440,장경숙,2021-06-26,Planning Division,Strategy Office,Management Support,Finance,55200000,동서울대학교,상경계열,경력,310,본사
+E00441,정도현,2021-03-27,Planning Division,Strategy Office,Management Support,Finance,66100000,고려대학교,자연과학계열,경력,89,본사
+E00442,윤명숙,2016-10-23,Planning Division,Strategy Office,Management Support,HR,86400000,부산과학기술대학교,인문계열,신입,2022,본사
+E00443,백미숙,2015-03-12,Development Division,QA Office,Production & Engineering,Engineering,52800000,한국해양대학교,인문계열,경력,1877,본사
+E00444,김병철,2011-12-05,Planning Division,Finance Office,IT,Data Scientist,60200000,,,신입,2220,본사
+E00445,장영수,2020-05-21,Planning Division,Finance Office,Production & Engineering,Engineering,51100000,,,경력,104,본사
+E00446,하영일,2016-11-24,Development Division,QA Office,Production & Engineering,Engineering,89000000,청강문화산업대학교,상경계열,경력,469,본사
+E00447,박은정,2015-03-10,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,103100000,숙명여자대학교,인문계열,신입,3483,본사
+E00448,양은주,2020-01-28,Operating Division,Production Office,Production & Engineering,Production Management,62500000,Johns Hopkins University,상경계열,경력,377,본사 외
+E00449,박미영,2011-12-05,Sales Division,Global Sales Office,Sales & Marketing,Sales,74100000,,,경력,1542,본사
+E00450,최준혁,2014-09-15,Development Division,QA Office,IT,Data Scientist,57700000,,,경력,1509,본사
+E00451,박서현,2018-08-09,Planning Division,Strategy Office,Planning,Business Planning,84300000,,,경력,652,본사
+E00452,김성민,2021-11-02,Sales Division,Global Sales Office,Planning,Business Planning,73000000,,,경력,561,본사
+E00453,송지현,2015-03-10,Development Division,R&D Office,IT,Data Scientist,37500000,,,신입,99,본사
+E00454,이민준,2022-10-09,Operating Division,Production Office,Production & Engineering,Production Management,44700000,광주과학기술원,STEM계열,경력,1192,본사 외
+E00455,전은경,2024-04-17,Sales Division,Global Sales Office,Sales & Marketing,Sales,41300000,University of Oxford,인문계열,신입,428,본사
+E00456,이성수,2021-09-01,Sales Division,Marketing Office,Management Support,HR,41700000,University of Michigan-Ann Arbor,디자인계열,신입,231,본사
+E00457,손채원,2011-12-05,Sales Division,Global Sales Office,Planning,Business Planning,58700000,상명대학교,기타공학계열,경력,606,본사
+E00458,이순옥,2013-03-07,Operating Division,Production Office,Production & Engineering,Production Management,87300000,,,경력,4411,본사 외
+E00459,최승현,2012-03-23,Planning Division,Finance Office,Management Support,Finance,40800000,,,신입,78,본사
+E00460,이진우,2017-03-10,Planning Division,Strategy Office,Planning,Business Planning,57300000,광주보건대학교,상경계열,신입,991,본사
+E00461,박경수,2015-11-30,Sales Division,Global Sales Office,Sales & Marketing,Sales,69800000,서울여자대학교,사회과학계열,신입,2980,본사
+E00462,김보람,2011-01-14,Operating Division,Production Office,Production & Engineering,Production Management,92400000,,,신입,5057,본사 외
+E00463,김은주,2020-12-21,Sales Division,Marketing Office,IT,Data Scientist,65400000,김포대학교,기타,경력,743,본사
+E00464,김혜진,2013-05-14,Development Division,R&D Office,Planning,Business Planning,50200000,동덕여자대학교,사회과학계열,신입,548,본사
+E00465,윤승민,2024-02-04,Development Division,R&D Office,Production & Engineering,Engineering,48600000,군산대학교,자연과학계열,경력,196,본사
+E00466,이경숙,2019-01-26,Operating Division,Engineering Office,Sales & Marketing,Sales,70900000,광주과학기술원,자연과학계열,경력,171,본사 외
+E00467,이재호,2023-03-08,Sales Division,Global Sales Office,Sales & Marketing,Sales,42700000,한경대학교,사회과학계열,신입,652,본사
+E00468,이유진,2021-11-29,Development Division,QA Office,Planning,Business Planning,57700000,,,경력,743,본사
+E00469,김예원,2025-11-01,Operating Division,Production Office,Production & Engineering,Production Management,40100000,숙명여자대학교,사회과학계열,경력,73,본사 외
+E00470,이정훈,2014-01-01,Development Division,QA Office,Production & Engineering,Engineering,90200000,목포대학교,어문계열,신입,3665,본사
+E00471,홍현우,2023-04-19,Planning Division,Strategy Office,IT,Data Scientist,40000000,인덕대학교,자연과학계열,신입,76,본사
+E00472,이예진,2024-04-14,Operating Division,Production Office,Sales & Marketing,Sales,41000000,University of Cambridge,상경계열,신입,639,본사 외
+E00473,정지혜,2025-03-11,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,40100000,전북대학교,디자인계열,신입,67,본사
+E00474,김순옥,2022-11-21,Development Division,R&D Office,IT,Data Scientist,43800000,서정대학교,인문계열,신입,652,본사
+E00475,김현우,2023-03-08,Operating Division,Engineering Office,Production & Engineering,Engineering,43700000,동국대학교,사회과학계열,신입,1042,본사 외
+E00476,김진호,2020-12-04,Sales Division,Domestic Sales Office,Management Support,Finance,58200000,두원공과대학교,자연과학계열,신입,652,본사
+E00477,김종수,2017-09-26,Development Division,QA Office,Planning,Business Planning,55500000,건국대학교,어문계열,신입,122,본사
+E00478,오영진,2024-10-14,Operating Division,Engineering Office,Production & Engineering,Engineering,53800000,Stanford University,어문계열,경력,456,본사 외
+E00479,이정자,2016-01-03,Development Division,R&D Office,IT,Data Scientist,99400000,숭실대학교,상경계열,경력,3209,본사
+E00480,김영순,2016-02-13,Operating Division,Production Office,Production & Engineering,Production Management,49900000,성신여자대학교,어문계열,경력,1821,본사 외
+E00481,김지현,2025-08-30,Sales Division,Marketing Office,Planning,Business Planning,45500000,건국대학교,디자인계열,신입,136,본사
+E00482,김수진,2013-08-03,Development Division,QA Office,IT,Data Scientist,43600000,,,경력,383,본사
+E00483,김준서,2015-03-14,Sales Division,Marketing Office,Production & Engineering,Engineering,44300000,,,경력,12,본사
+E00484,김정자,2019-01-28,Operating Division,Engineering Office,Production & Engineering,Production Management,60600000,전남대학교,사회과학계열,경력,2542,본사 외
+E00485,박준영,2022-06-15,Sales Division,Marketing Office,Sales & Marketing,Sales,48400000,군산대학교,어문계열,신입,287,본사
+E00486,김진호,2019-03-05,Sales Division,Global Sales Office,Sales & Marketing,Marketing,63600000,,,경력,2113,본사
+E00487,박영수,2022-12-07,Operating Division,Production Office,Sales & Marketing,Sales,58600000,부산대학교,기타공학계열,경력,75,본사 외
+E00488,오재현,2024-11-17,Operating Division,Production Office,IT,Data Scientist,40700000,연성대학교,디자인계열,신입,422,본사 외
+E00489,이지연,2014-08-27,Operating Division,Engineering Office,Production & Engineering,Engineering,113700000,강원대학교,기타공학계열,신입,3299,본사 외
+E00490,하성호,2018-09-08,Operating Division,Engineering Office,IT,Infrastructure,70100000,University of Cambridge,기타공학계열,신입,1292,본사 외
+E00491,나성진,2019-10-17,Sales Division,Global Sales Office,IT,Data Scientist,52400000,대전보건대학교,사회과학계열,경력,384,본사
+E00492,박중수,2022-05-23,Sales Division,Marketing Office,Sales & Marketing,Sales,48300000,서울대학교,사회과학계열,신입,196,본사
+E00493,김미숙,2024-03-12,Planning Division,Strategy Office,Management Support,Finance,47500000,포항공과대학교,디자인계열,신입,12,본사
+E00494,윤은경,2012-02-17,Planning Division,Strategy Office,Planning,Business Planning,64300000,청강문화산업대학교,기타공학계열,경력,1744,본사
+E00495,이예진,2024-03-24,Sales Division,Global Sales Office,Sales & Marketing,Sales,50100000,서울여자대학교,STEM계열,경력,660,본사
+E00496,곽정훈,2015-05-14,Planning Division,Strategy Office,IT,Data Scientist,67000000,서울대학교,상경계열,경력,2385,본사
+E00497,문지훈,2021-08-03,Operating Division,Engineering Office,IT,Data Scientist,59200000,안동대학교,사회과학계열,신입,1018,본사 외
+E00498,최영미,2015-12-18,Operating Division,Engineering Office,Sales & Marketing,Sales,40100000,,,경력,622,본사 외
+E00499,이윤서,2014-04-27,Planning Division,Strategy Office,Planning,Business Planning,92400000,Massachusetts Institute of Technology (MIT),사회과학계열,신입,4279,본사
+E00500,최영희,2019-06-01,Development Division,R&D Office,Production & Engineering,Engineering,77000000,,,경력,561,본사
+E00501,김영환,2012-10-10,Sales Division,Domestic Sales Office,Planning,Business Planning,79600000,,,경력,3154,본사
+E00502,김지민,2017-08-21,Sales Division,Global Sales Office,Sales & Marketing,Sales,65100000,경희대학교,기타,경력,877,본사
+E00503,신예지,2017-10-21,Development Division,QA Office,Production & Engineering,Engineering,61800000,숭실대학교,상경계열,신입,1478,본사
+E00504,박서영,2016-08-22,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,73900000,대림대학교,상경계열,신입,2844,본사
+E00505,서민지,2012-08-25,Planning Division,Strategy Office,Planning,Business Planning,48700000,Sorbonne University,STEM계열,신입,282,본사
+E00506,류영철,2019-02-21,Operating Division,Production Office,Sales & Marketing,Sales,43500000,강원대학교,자연과학계열,신입,1971,본사 외
+E00507,박지원,2025-10-14,Operating Division,Production Office,IT,Data Scientist,56200000,숭실대학교,어문계열,경력,91,본사 외
+E00508,이영길,2020-11-29,Planning Division,Strategy Office,Planning,Business Planning,79100000,동덕여자대학교,디자인계열,경력,12,본사
+E00509,박현주,2016-09-16,Planning Division,Strategy Office,Planning,Business Planning,97600000,,,신입,2204,본사
+E00510,박준혁,2021-05-29,Sales Division,Global Sales Office,Sales & Marketing,Sales,51700000,,,신입,104,본사
+E00511,김지아,2023-06-03,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,42100000,금오공과대학교,상경계열,신입,955,본사
+E00512,허서연,2012-07-23,Sales Division,Global Sales Office,Management Support,Finance,41000000,,,신입,53,본사
+E00513,이영식,2018-10-24,Development Division,QA Office,Production & Engineering,Engineering,54000000,고려대학교,기타,신입,2638,본사
+E00514,서성호,2011-07-23,Planning Division,Finance Office,IT,Data Scientist,127300000,,,경력,4487,본사
+E00515,홍영진,2023-11-26,Development Division,R&D Office,Planning,Business Planning,58700000,Harvard University,사회과학계열,경력,576,본사
+E00516,안숙자,2016-08-03,Planning Division,Finance Office,IT,Data Scientist,37900000,,,신입,233,본사
+E00517,이영수,2017-05-06,Planning Division,Strategy Office,Management Support,Finance,48600000,백석예술대학교,인문계열,경력,167,본사
+E00518,김미정,2021-09-26,Operating Division,Engineering Office,IT,Data Scientist,53600000,University of Michigan-Ann Arbor,사회과학계열,신입,1018,본사 외
+E00519,신성호,2023-12-31,Operating Division,Engineering Office,Sales & Marketing,Sales,55000000,Heidelberg University,기타,경력,196,본사 외
+E00520,유순옥,2014-07-24,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,71200000,,,경력,1064,본사
+E00521,윤정호,2013-10-26,Planning Division,Finance Office,Planning,Business Planning,66400000,,,신입,2014,본사
+E00522,백정희,2011-08-06,Sales Division,Marketing Office,Sales & Marketing,Marketing,80500000,,,경력,3615,본사
+E00523,양정숙,2012-01-09,Planning Division,Strategy Office,Planning,Business Planning,151600000,,,경력,4030,본사
+E00524,노지아,2020-02-11,Operating Division,Production Office,Sales & Marketing,Sales,65400000,,,경력,377,본사 외
+E00525,임정식,2021-10-26,Planning Division,Finance Office,Planning,Business Planning,59400000,제주대학교,기타공학계열,신입,1018,본사
+E00526,양준서,2013-04-10,Sales Division,Global Sales Office,Sales & Marketing,Sales,66000000,전북대학교,어문계열,경력,489,본사
+E00527,김정숙,2016-10-23,Development Division,R&D Office,Planning,Business Planning,76200000,목포해양대학교,STEM계열,경력,1250,본사
+E00528,박윤서,2015-10-19,Planning Division,Strategy Office,Planning,Business Planning,55000000,,,경력,2274,본사
+E00529,최지연,2012-09-06,Operating Division,Engineering Office,IT,Data Scientist,86600000,서울여자대학교,기타,경력,1235,본사 외
+E00530,이정훈,2017-02-16,Sales Division,Marketing Office,IT,Data Scientist,93500000,부산대학교,인문계열,경력,2022,본사
+E00531,김승민,2025-12-12,Operating Division,Production Office,Sales & Marketing,Sales,52700000,California Institute of Technology (Caltech),상경계열,경력,32,본사 외
+E00532,류정자,2011-08-04,Operating Division,Production Office,Production & Engineering,Production Management,112700000,서일대학교,기타,경력,3483,본사 외
+E00533,김은영,2023-03-04,Sales Division,Marketing Office,Sales & Marketing,Sales,51100000,Princeton University,디자인계열,경력,377,본사
+E00534,김성진,2011-10-17,Development Division,QA Office,Production & Engineering,Engineering,36900000,,,경력,121,본사
+E00535,남진우,2023-03-13,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,48400000,전남대학교,어문계열,경력,469,본사
+E00536,최영희,2019-12-02,Planning Division,Finance Office,IT,Data Scientist,62100000,,,경력,835,본사
+E00537,권영환,2013-09-03,Sales Division,Global Sales Office,Sales & Marketing,Sales,120200000,서울여자대학교,STEM계열,경력,2296,본사
+E00538,오현숙,2012-11-24,Planning Division,Strategy Office,IT,Data Scientist,83200000,,,신입,3065,본사
+E00539,진정훈,2014-03-20,Planning Division,Finance Office,Planning,Business Planning,49000000,Imperial College London,STEM계열,신입,209,본사
+E00540,이현주,2012-12-03,Operating Division,Engineering Office,Sales & Marketing,Sales,46400000,,,경력,372,본사 외
+E00541,홍은정,2021-04-22,Operating Division,Engineering Office,IT,Data Scientist,56200000,서정대학교,상경계열,신입,1108,본사 외
+E00542,황혜진,2015-09-22,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,51500000,"University of California, Berkeley (UCB)",기타공학계열,경력,201,본사
+E00543,이현지,2011-04-01,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,41500000,,,경력,55,본사
+E00544,김준혁,2024-11-02,Planning Division,Strategy Office,Management Support,HR,39900000,한성대학교,STEM계열,경력,437,본사
+E00545,이춘자,2020-07-28,Operating Division,Engineering Office,Production & Engineering,Engineering,53700000,경기과학기술대학교,기타,경력,287,본사 외
+E00546,박영호,2024-10-01,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,45100000,안동대학교,기타공학계열,경력,469,본사
+E00547,권광수,2011-07-03,Operating Division,Engineering Office,Production & Engineering,Production Management,73500000,동국대학교,기타공학계열,신입,3353,본사 외
+E00548,박정훈,2023-12-23,Development Division,QA Office,IT,Data Scientist,54700000,,,경력,287,본사
+E00549,조주원,2015-04-23,Operating Division,Production Office,Production & Engineering,Production Management,65400000,,,경력,2038,본사 외
+E00550,이수민,2013-03-24,Operating Division,Engineering Office,Production & Engineering,Engineering,83300000,,,경력,2702,본사 외
+E00551,지성수,2023-06-10,Operating Division,Engineering Office,Production & Engineering,Production Management,38500000,대림대학교,사회과학계열,신입,948,본사 외
+E00552,김하은,2013-08-27,Planning Division,Strategy Office,Planning,Business Planning,107800000,,,신입,4522,본사
+E00553,장윤서,2018-08-24,Operating Division,Production Office,Management Support,HR,89300000,전남대학교,디자인계열,경력,377,본사 외
+E00554,안경희,2017-07-15,Sales Division,Marketing Office,IT,Data Scientist,64000000,연세대학교,자연과학계열,신입,418,본사
+E00555,김예원,2019-04-19,Development Division,QA Office,IT,Infrastructure,79400000,서울예술대학교,기타공학계열,경력,835,본사
+E00556,김경자,2019-08-24,Planning Division,Finance Office,Sales & Marketing,Sales,58600000,제주대학교,상경계열,신입,1686,본사
+E00557,우미영,2025-01-20,Planning Division,Strategy Office,IT,Data Scientist,36800000,충남대학교,STEM계열,신입,73,본사
+E00558,이하은,2025-01-10,Sales Division,Marketing Office,Sales & Marketing,Marketing,51600000,아주대학교,사회과학계열,경력,186,본사
+E00559,이채원,2013-01-24,Operating Division,Production Office,Sales & Marketing,Sales,40900000,,,신입,404,본사 외
+E00560,윤숙자,2021-03-08,Development Division,QA Office,Production & Engineering,Engineering,55100000,,,경력,377,본사
+E00561,송민수,2025-08-12,Operating Division,Production Office,Sales & Marketing,Sales,39400000,공주대학교,어문계열,신입,154,본사 외
+E00562,황정남,2011-08-13,Development Division,R&D Office,IT,Data Scientist,72300000,대구경북과학기술원,상경계열,신입,2158,본사
+E00563,김광수,2011-07-17,Development Division,QA Office,Production & Engineering,Engineering,46900000,University of Oxford,상경계열,신입,1764,본사
+E00564,노미숙,2025-12-04,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,35400000,서울시립대학교,디자인계열,신입,36,본사
+E00565,김정웅,2017-12-13,Sales Division,Global Sales Office,Sales & Marketing,Sales,61600000,,,신입,1287,본사
+E00566,장상현,2020-05-20,Planning Division,Strategy Office,Planning,Business Planning,58900000,광운대학교,자연과학계열,신입,104,본사
+E00567,김아름,2022-08-23,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,45500000,University of Pennsylvania,STEM계열,신입,1239,본사
+E00568,민채원,2012-12-21,Development Division,R&D Office,Planning,Business Planning,116000000,,,경력,4228,본사
+E00569,김성진,2011-03-29,Planning Division,Strategy Office,IT,Data Scientist,112300000,,,경력,4760,본사
+E00570,백순옥,2021-01-16,Operating Division,Production Office,Production & Engineering,Production Management,36300000,University of Chicago,인문계열,신입,321,본사 외
+E00571,박영길,2016-04-17,Operating Division,Production Office,IT,Data Scientist,50600000,울산과학대학교,STEM계열,경력,689,본사 외
+E00572,김시우,2024-09-18,Operating Division,Engineering Office,Production & Engineering,Production Management,43200000,중앙대학교,상경계열,신입,12,본사 외
+E00573,이현주,2011-12-01,Development Division,R&D Office,IT,Data Scientist,63400000,대구경북과학기술원,기타공학계열,경력,45,본사
+E00574,오정자,2014-09-01,Development Division,QA Office,Production & Engineering,Engineering,57500000,울산과학대학교,상경계열,신입,1838,본사
+E00575,김상철,2020-10-03,Planning Division,Strategy Office,Planning,Business Planning,61000000,건국대학교,디자인계열,신입,469,본사
+E00576,곽서윤,2018-07-05,Planning Division,Strategy Office,Planning,Business Planning,66600000,California Institute of Technology (Caltech),STEM계열,경력,743,본사
+E00577,이성민,2016-08-27,Operating Division,Production Office,Production & Engineering,Production Management,61900000,아주대학교,사회과학계열,경력,2556,본사 외
+E00578,서현정,2024-07-27,Development Division,R&D Office,Production & Engineering,Engineering,44900000,전남대학교,사회과학계열,신입,104,본사
+E00579,진현정,2011-06-14,Sales Division,Domestic Sales Office,IT,Data Scientist,59600000,,,경력,1352,본사
+E00580,이서현,2011-05-13,Planning Division,Strategy Office,Sales & Marketing,Sales,56100000,,,신입,111,본사
+E00581,노영환,2024-12-14,Sales Division,Domestic Sales Office,Planning,Business Planning,54700000,안동대학교,기타공학계열,경력,395,본사
+E00582,김지영,2024-09-13,Development Division,QA Office,Production & Engineering,Engineering,57100000,포항공과대학교,어문계열,경력,487,본사
+E00583,박재현,2013-11-04,Planning Division,Finance Office,Planning,Business Planning,48200000,,,경력,455,본사
+E00584,김준혁,2025-11-08,Development Division,R&D Office,Planning,Business Planning,66100000,세종대학교,디자인계열,경력,66,본사
+E00585,황민준,2021-06-19,Sales Division,Domestic Sales Office,Planning,Business Planning,64100000,,,경력,1108,본사
+E00586,황서윤,2022-06-09,Sales Division,Global Sales Office,Sales & Marketing,Sales,49300000,덕성여자대학교,사회과학계열,경력,401,본사
+E00587,이준혁,2015-11-15,Operating Division,Production Office,Sales & Marketing,Sales,61500000,University of Chicago,디자인계열,신입,1088,본사 외
+E00588,김영호,2024-06-18,Operating Division,Engineering Office,Production & Engineering,Engineering,50100000,제주대학교,사회과학계열,경력,85,본사 외
+E00589,안서준,2020-12-08,Planning Division,Finance Office,Planning,Business Planning,100400000,연성대학교,사회과학계열,경력,380,본사
+E00590,최주원,2021-10-15,Operating Division,Engineering Office,Planning,Business Planning,50200000,California Institute of Technology (Caltech),기타공학계열,경력,72,본사 외
+E00591,이민재,2020-09-08,Planning Division,Finance Office,Planning,Business Planning,46400000,동국대학교,기타,경력,313,본사
+E00592,윤정남,2020-06-06,Operating Division,Production Office,Sales & Marketing,Sales,60300000,가톨릭대학교,사회과학계열,신입,1473,본사 외
+E00593,김성현,2018-06-09,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,65100000,,,신입,1278,본사
+E00594,이성현,2015-10-28,Planning Division,Finance Office,Planning,Business Planning,79500000,,,경력,1212,본사
+E00595,장승현,2015-08-14,Operating Division,Production Office,Production & Engineering,Production Management,73100000,유한대학교,어문계열,경력,3118,본사 외
+E00596,이옥자,2014-10-01,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,45500000,한양대학교,인문계열,경력,56,본사
+E00597,배영진,2013-03-31,Development Division,QA Office,IT,Data Scientist,55100000,University of Cambridge,인문계열,경력,1954,본사
+E00598,박지혜,2015-06-26,Planning Division,Finance Office,Planning,Business Planning,79800000,목포해양대학교,기타,경력,2045,본사
+E00599,이진우,2011-07-10,Planning Division,Strategy Office,Planning,Business Planning,55400000,충북대학교,디자인계열,경력,581,본사
+E00600,김주원,2022-11-13,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,55400000,Tsinghua University,STEM계열,경력,543,본사
+E00601,김서윤,2014-10-01,Planning Division,Finance Office,Management Support,Finance,42300000,,,신입,432,본사
+E00602,송보람,2017-08-02,Sales Division,Marketing Office,Sales & Marketing,Marketing,57300000,공주대학교,인문계열,경력,838,본사
+E00603,김채원,2021-11-04,Planning Division,Strategy Office,Management Support,HR,44900000,삼육대학교,기타공학계열,신입,362,본사
+E00604,안미숙,2021-05-19,Development Division,QA Office,Production & Engineering,Engineering,52800000,고려대학교,기타,경력,1219,본사
+E00605,배미영,2021-03-01,Operating Division,Engineering Office,IT,Data Scientist,43800000,부산대학교,자연과학계열,경력,1027,본사 외
+E00606,홍영식,2018-06-12,Operating Division,Engineering Office,Production & Engineering,Engineering,48400000,,,경력,909,본사 외
+E00607,허영수,2015-04-19,Planning Division,Strategy Office,Planning,Business Planning,64300000,충북대학교,어문계열,신입,1492,본사
+E00608,김정남,2013-12-08,Development Division,QA Office,Production & Engineering,Engineering,46500000,안동대학교,기타,신입,1080,본사
+E00609,한민지,2018-06-26,Development Division,R&D Office,Planning,Business Planning,52400000,,,신입,2252,본사
+E00610,장경희,2017-07-12,Planning Division,Strategy Office,Management Support,HR,74500000,광주과학기술원,기타,신입,2388,본사
+E00611,김성수,2019-10-22,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,40500000,,,신입,372,본사
+E00612,신정자,2019-03-28,Operating Division,Engineering Office,Production & Engineering,Engineering,68900000,University of Pennsylvania,어문계열,경력,1748,본사 외
+E00613,박시우,2020-07-04,Planning Division,Finance Office,Management Support,Finance,54100000,대림대학교,인문계열,신입,2019,본사
+E00614,김우진,2016-10-14,Operating Division,Production Office,Sales & Marketing,Sales,44700000,부천대학교,인문계열,경력,439,본사 외
+E00615,박영희,2021-07-01,Development Division,QA Office,Production & Engineering,Production Management,46300000,,,신입,561,본사
+E00616,김순옥,2025-10-12,Sales Division,Global Sales Office,Sales & Marketing,Sales,45800000,Yale University,디자인계열,경력,93,본사
+E00617,이수민,2012-08-17,Operating Division,Production Office,Planning,Business Planning,62000000,광주과학기술원,기타,신입,312,본사 외
+E00618,이보람,2018-10-16,Operating Division,Production Office,Production & Engineering,Production Management,59500000,전남대학교,자연과학계열,경력,2034,본사 외
+E00619,최은정,2021-03-04,Operating Division,Engineering Office,IT,Data Scientist,54000000,명지대학교,기타공학계열,경력,1200,본사 외
+E00620,배수진,2014-06-24,Planning Division,Finance Office,Management Support,Finance,44600000,,,신입,601,본사
+E00621,노성훈,2024-12-07,Development Division,QA Office,Production & Engineering,Engineering,44100000,서정대학교,어문계열,신입,402,본사
+E00622,조순옥,2016-12-01,Operating Division,Production Office,Sales & Marketing,Sales,53300000,삼육대학교,자연과학계열,경력,245,본사 외
+E00623,서은정,2020-03-16,Sales Division,Global Sales Office,Planning,Business Planning,51400000,Princeton University,상경계열,신입,37,본사
+E00624,김시우,2011-07-31,Planning Division,Finance Office,Management Support,Finance,85600000,,,신입,3930,본사
+E00625,양도윤,2015-04-16,Development Division,QA Office,IT,Data Scientist,47000000,명지대학교,자연과학계열,신입,1875,본사
+E00626,송영일,2025-10-03,Planning Division,Strategy Office,Planning,Business Planning,42900000,포항공과대학교,사회과학계열,신입,102,본사
+E00627,이은영,2020-12-06,Development Division,R&D Office,Planning,Business Planning,85900000,신구대학교,상경계열,경력,469,본사
+E00628,오성현,2020-07-27,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,63300000,경복대학교,사회과학계열,신입,1996,본사
+E00629,이옥자,2019-08-20,Operating Division,Engineering Office,Planning,Business Planning,81900000,연세대학교,자연과학계열,경력,236,본사 외
+E00630,최승현,2012-11-07,Development Division,R&D Office,IT,Infrastructure,72100000,,,경력,1933,본사
+E00631,윤성수,2017-01-03,Development Division,R&D Office,Planning,Business Planning,85700000,한국예술종합학교,자연과학계열,신입,3297,본사
+E00632,안도윤,2018-04-21,Sales Division,Marketing Office,Sales & Marketing,Sales,79500000,광운대학교,자연과학계열,경력,1748,본사
+E00633,장지현,2016-09-01,Operating Division,Engineering Office,Sales & Marketing,Sales,47000000,부경대학교,상경계열,신입,1928,본사 외
+E00634,장영철,2019-11-12,Operating Division,Engineering Office,Production & Engineering,Engineering,63300000,한국해양대학교,기타공학계열,경력,2254,본사 외
+E00635,고은지,2023-08-27,Sales Division,Global Sales Office,Planning,Business Planning,49800000,Harvard University,인문계열,경력,628,본사
+E00636,홍지은,2022-05-21,Planning Division,Strategy Office,Planning,Business Planning,49200000,삼육대학교,인문계열,경력,927,본사
+E00637,양현지,2011-02-21,Development Division,QA Office,Planning,Business Planning,60200000,중앙대학교,기타,경력,143,본사
+E00638,윤명숙,2013-09-05,Planning Division,Strategy Office,Planning,Business Planning,67400000,,,신입,2351,본사
+E00639,김준영,2016-01-13,Planning Division,Finance Office,IT,Data Scientist,65200000,,,경력,3338,본사
+E00640,김예은,2012-08-29,Operating Division,Production Office,Management Support,HR,51400000,서울여자대학교,인문계열,신입,2223,본사 외
+E00641,엄미영,2020-09-12,Sales Division,Global Sales Office,Sales & Marketing,Sales,37600000,아주대학교,상경계열,신입,888,본사
+E00642,장경자,2017-02-18,Operating Division,Production Office,Sales & Marketing,Sales,43600000,,,신입,720,본사 외
+E00643,최민석,2021-02-04,Operating Division,Engineering Office,Production & Engineering,Engineering,35100000,건국대학교,STEM계열,신입,39,본사 외
+E00644,권시우,2016-11-23,Development Division,QA Office,Management Support,Finance,58800000,인하공업전문대학,STEM계열,경력,635,본사
+E00645,하영일,2024-02-21,Sales Division,Marketing Office,Planning,Business Planning,59500000,광주보건대학교,사회과학계열,경력,282,본사
+E00646,박은서,2014-01-15,Operating Division,Engineering Office,Production & Engineering,Engineering,73200000,,,신입,3849,본사 외
+E00647,엄성훈,2012-05-30,Development Division,QA Office,IT,Data Scientist,46500000,,,신입,1844,본사
+E00648,김승현,2023-02-13,Planning Division,Finance Office,Management Support,Finance,55300000,충북대학교,인문계열,신입,1065,본사
+E00649,손민수,2011-04-17,Development Division,QA Office,Production & Engineering,Engineering,101500000,한양대학교,상경계열,신입,4564,본사
+E00650,우순자,2014-08-25,Planning Division,Strategy Office,Management Support,HR,93500000,아주대학교,기타,경력,95,본사
+E00651,서지훈,2025-08-18,Sales Division,Global Sales Office,Sales & Marketing,Sales,50500000,계원예술대학교,인문계열,경력,65,본사
+E00652,이지현,2023-09-03,Development Division,R&D Office,Production & Engineering,Engineering,36700000,서정대학교,사회과학계열,신입,104,본사
+E00653,류정남,2015-08-16,Planning Division,Finance Office,Sales & Marketing,Sales,81900000,,,경력,2237,본사
+E00654,최민준,2011-01-26,Development Division,QA Office,IT,Data Scientist,88400000,,,경력,717,본사
+E00655,이경자,2012-10-19,Planning Division,Finance Office,Planning,Business Planning,44500000,한국예술종합학교,자연과학계열,신입,53,본사
+E00656,김은서,2022-05-26,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,57000000,Kyoto University,STEM계열,경력,124,본사
+E00657,홍은주,2018-12-01,Development Division,QA Office,Planning,Business Planning,73200000,충남대학교,디자인계열,경력,960,본사
+E00658,김정수,2023-11-30,Operating Division,Engineering Office,Sales & Marketing,Sales,48100000,서일대학교,인문계열,신입,287,본사 외
+E00659,김보람,2023-09-01,Operating Division,Engineering Office,Production & Engineering,Production Management,47200000,서강대학교,인문계열,신입,377,본사 외
+E00660,서준영,2019-01-23,Operating Division,Engineering Office,Production & Engineering,Engineering,65800000,,,신입,2547,본사 외
+E00661,이준서,2015-08-28,Sales Division,Marketing Office,IT,Data Scientist,75400000,한국해양대학교,인문계열,경력,1252,본사
+E00662,박지은,2016-08-01,Development Division,R&D Office,Production & Engineering,Production Management,68900000,Harvard University,상경계열,신입,2113,본사
+E00663,이지민,2018-12-18,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,63200000,연세대학교,상경계열,경력,1657,본사
+E00664,박지영,2025-09-02,Planning Division,Finance Office,Management Support,Finance,42100000,동덕여자대학교,어문계열,신입,133,본사
+E00665,김유진,2021-03-03,Sales Division,Marketing Office,Sales & Marketing,Marketing,51800000,아주대학교,어문계열,경력,942,본사
+E00666,조민서,2019-12-01,Operating Division,Engineering Office,Production & Engineering,Production Management,48200000,배화여자대학교,인문계열,경력,191,본사 외
+E00667,김상철,2012-10-31,Development Division,QA Office,Production & Engineering,Engineering,48900000,California Institute of Technology (Caltech),사회과학계열,신입,1924,본사
+E00668,김영미,2015-01-15,Sales Division,Global Sales Office,Planning,Business Planning,60900000,,,신입,212,본사
+E00669,김현숙,2023-11-28,Planning Division,Finance Office,IT,Data Scientist,49900000,부산과학기술대학교,상경계열,경력,594,본사
+E00670,김성현,2016-03-23,Development Division,QA Office,Production & Engineering,Engineering,33700000,목포대학교,기타,경력,475,본사
+E00671,박민지,2013-07-25,Sales Division,Global Sales Office,Sales & Marketing,Marketing,60600000,,,경력,123,본사
+E00672,배지영,2016-05-14,Operating Division,Engineering Office,Production & Engineering,Engineering,72200000,한경대학교,사회과학계열,신입,3026,본사 외
+E00673,오지후,2013-01-02,Planning Division,Strategy Office,Management Support,HR,40300000,,,신입,701,본사
+E00674,최시우,2016-07-30,Development Division,QA Office,IT,Data Scientist,52600000,서울시립대학교,STEM계열,경력,294,본사
+E00675,김예원,2021-06-29,Sales Division,Domestic Sales Office,Sales & Marketing,Marketing,63000000,서울대학교,어문계열,신입,619,본사
+E00676,김정순,2014-12-04,Operating Division,Engineering Office,Production & Engineering,Engineering,86100000,,,신입,1838,본사 외
+E00677,이현숙,2019-10-30,Sales Division,Marketing Office,Sales & Marketing,Sales,37500000,서울대학교,인문계열,신입,174,본사
+E00678,이옥자,2015-08-02,Development Division,R&D Office,Production & Engineering,Engineering,81500000,,,경력,2981,본사
+E00679,김병철,2024-10-15,Operating Division,Engineering Office,Production & Engineering,Production Management,39100000,University of Oxford,인문계열,경력,455,본사 외
+E00680,김정수,2012-02-24,Operating Division,Engineering Office,IT,Infrastructure,107200000,,,경력,4579,본사 외
+E00681,김지혜,2014-04-16,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,92200000,한국전통문화대학교,자연과학계열,신입,2844,본사
+E00682,손지우,2013-09-12,Development Division,QA Office,Production & Engineering,Engineering,80800000,,,신입,2689,본사
+E00683,고동현,2012-03-11,Planning Division,Strategy Office,Planning,Business Planning,52700000,,,경력,1070,본사
+E00684,김준혁,2020-05-15,Planning Division,Finance Office,Management Support,HR,64300000,대구경북과학기술원,어문계열,신입,927,본사
+E00685,김정남,2019-02-14,Planning Division,Finance Office,Planning,Business Planning,72700000,연세대학교,어문계열,신입,196,본사
+E00686,류지아,2017-03-06,Development Division,QA Office,Management Support,HR,38000000,,,신입,352,본사
+E00687,김영순,2020-09-07,Operating Division,Production Office,Sales & Marketing,Marketing,57900000,"University of California, Berkeley (UCB)",디자인계열,신입,104,본사 외
+E00688,박예지,2022-06-12,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,48400000,수원여자대학교,사회과학계열,경력,186,본사
+E00689,최현주,2022-07-23,Sales Division,Global Sales Office,Sales & Marketing,Marketing,51400000,Tsinghua University,STEM계열,신입,469,본사
+E00690,김정웅,2017-09-28,Operating Division,Engineering Office,Production & Engineering,Engineering,96000000,한국예술종합학교,디자인계열,경력,2459,본사 외
+E00691,서수빈,2016-02-29,Planning Division,Strategy Office,Planning,Business Planning,42100000,,,신입,338,본사
+E00692,김영수,2013-07-03,Sales Division,Global Sales Office,Sales & Marketing,Sales,37300000,서정대학교,어문계열,신입,182,본사
+E00693,이건우,2020-05-10,Development Division,QA Office,Production & Engineering,Engineering,61700000,상명대학교,STEM계열,경력,469,본사
+E00694,이옥순,2025-01-14,Sales Division,Marketing Office,Sales & Marketing,Marketing,42000000,연성대학교,기타공학계열,신입,364,본사
+E00695,남명숙,2022-04-12,Operating Division,Production Office,Production & Engineering,Production Management,61400000,건국대학교,어문계열,경력,531,본사 외
+E00696,박영일,2016-08-05,Development Division,R&D Office,Planning,Business Planning,71700000,,,경력,2617,본사
+E00697,이도현,2022-03-30,Operating Division,Production Office,Sales & Marketing,Sales,41100000,숙명여자대학교,어문계열,경력,93,본사 외
+E00698,문선영,2023-07-26,Sales Division,Marketing Office,Sales & Marketing,Marketing,61500000,건국대학교,인문계열,경력,902,본사
+E00699,김영일,2020-04-19,Development Division,R&D Office,IT,Data Scientist,47200000,University of Chicago,상경계열,신입,246,본사
+E00700,이현정,2020-03-20,Development Division,R&D Office,Production & Engineering,Engineering,54900000,광주과학기술원,디자인계열,신입,415,본사
+E00701,윤예지,2021-05-27,Planning Division,Strategy Office,Sales & Marketing,Marketing,54300000,Tsinghua University,STEM계열,신입,469,본사
+E00702,이현준,2015-10-30,Operating Division,Engineering Office,Production & Engineering,Production Management,57600000,한양대학교,기타공학계열,신입,2205,본사 외
+E00703,윤준호,2015-01-30,Planning Division,Strategy Office,Planning,Business Planning,56400000,Johns Hopkins University,기타,신입,1563,본사
+E00704,이숙자,2018-09-12,Sales Division,Domestic Sales Office,IT,Data Scientist,46000000,,,경력,243,본사
+E00705,배서준,2022-05-27,Operating Division,Engineering Office,IT,Data Scientist,42100000,부천대학교,디자인계열,신입,105,본사 외
+E00706,이미숙,2015-09-17,Sales Division,Global Sales Office,Planning,Business Planning,84800000,,,경력,2844,본사
+E00707,김성훈,2014-06-30,Planning Division,Finance Office,Planning,Business Planning,61600000,한경대학교,사회과학계열,경력,2108,본사
+E00708,김하윤,2020-05-04,Sales Division,Global Sales Office,IT,Data Scientist,57200000,한국예술종합학교,어문계열,경력,1018,본사
+E00709,김경자,2011-08-28,Development Division,QA Office,Planning,Business Planning,106500000,대림대학교,자연과학계열,경력,4482,본사
+E00710,이성진,2019-12-10,Operating Division,Engineering Office,Production & Engineering,Production Management,60300000,Kyoto University,기타,신입,104,본사 외
+E00711,박성민,2012-01-17,Operating Division,Production Office,Production & Engineering,Production Management,122700000,University of Oxford,자연과학계열,경력,2640,본사 외
+E00712,김성민,2021-10-24,Development Division,QA Office,IT,Data Scientist,72800000,부천대학교,디자인계열,경력,287,본사
+E00713,최서연,2023-01-20,Operating Division,Engineering Office,Production & Engineering,Production Management,39100000,대구경북과학기술원,기타,신입,104,본사 외
+E00714,고민재,2023-11-09,Operating Division,Engineering Office,IT,Infrastructure,49600000,충남대학교,어문계열,경력,796,본사 외
+E00715,김민수,2020-11-16,Development Division,R&D Office,IT,Infrastructure,77000000,Imperial College London,기타공학계열,경력,585,본사
+E00716,허시우,2018-05-21,Development Division,QA Office,Production & Engineering,Engineering,82300000,,,경력,2794,본사
+E00717,최광수,2021-02-09,Development Division,QA Office,Production & Engineering,Production Management,55900000,아주대학교,기타공학계열,경력,561,본사
+E00718,김정식,2018-04-12,Development Division,R&D Office,IT,Data Scientist,51600000,,,경력,1565,본사
+E00719,최미경,2012-12-31,Development Division,QA Office,Planning,Business Planning,49900000,,,신입,700,본사
+E00720,양지원,2025-07-15,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,42500000,가톨릭대학교,자연과학계열,신입,182,본사
+E00721,박하은,2018-01-03,Planning Division,Strategy Office,Planning,Business Planning,77600000,서울대학교,사회과학계열,신입,2932,본사
+E00722,이민석,2025-02-28,Operating Division,Production Office,IT,Data Scientist,54600000,University of Oxford,상경계열,경력,319,본사 외
+E00723,송지원,2011-02-08,Sales Division,Marketing Office,Planning,Business Planning,66000000,,,경력,2425,본사
+E00724,김경수,2014-05-13,Operating Division,Production Office,Production & Engineering,Production Management,60900000,,,신입,1278,본사 외
+E00725,이현준,2018-06-20,Sales Division,Global Sales Office,Planning,Business Planning,79700000,김포대학교,기타공학계열,신입,2764,본사
+E00726,강서준,2022-02-18,Operating Division,Engineering Office,Production & Engineering,Engineering,54300000,금오공과대학교,기타,신입,1425,본사 외
+E00727,박정훈,2021-09-20,Sales Division,Global Sales Office,Sales & Marketing,Sales,40900000,University of Cambridge,디자인계열,신입,487,본사
+E00728,나영진,2024-11-15,Sales Division,Marketing Office,Sales & Marketing,Sales,44500000,성신여자대학교,기타,신입,12,본사
+E00729,최현지,2021-07-11,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,58900000,울산과학기술원,디자인계열,경력,1611,본사
+E00730,홍지아,2017-03-01,Operating Division,Production Office,Planning,Business Planning,47700000,상명대학교,상경계열,신입,2445,본사 외
+E00731,김재현,2011-02-20,Planning Division,Strategy Office,Production & Engineering,Production Management,55600000,,,신입,729,본사
+E00732,김수민,2017-03-16,Development Division,R&D Office,IT,Data Scientist,58600000,한경대학교,상경계열,경력,1108,본사
+E00733,송지후,2015-02-13,Planning Division,Strategy Office,Planning,Business Planning,42000000,,,신입,578,본사
+E00734,구지우,2019-01-21,Development Division,QA Office,IT,Data Scientist,53000000,동덕여자대학교,자연과학계열,신입,469,본사
+E00735,김지연,2016-04-30,Operating Division,Engineering Office,Planning,Business Planning,60200000,금오공과대학교,STEM계열,경력,1506,본사 외
+E00736,류성진,2017-06-28,Planning Division,Finance Office,Management Support,Finance,79600000,,,신입,2113,본사
+E00737,이도현,2020-08-30,Development Division,QA Office,Planning,Business Planning,46700000,서일대학교,STEM계열,신입,477,본사
+E00738,이은주,2016-08-28,Sales Division,Global Sales Office,IT,SW Developer,118900000,성균관대학교,상경계열,경력,2113,본사
+E00739,홍민수,2023-12-05,Planning Division,Strategy Office,Sales & Marketing,Marketing,43900000,상명대학교,디자인계열,신입,196,본사
+E00740,고도윤,2019-10-03,Sales Division,Global Sales Office,Production & Engineering,Engineering,47200000,University of Chicago,기타공학계열,신입,387,본사
+E00741,우정호,2015-07-09,Operating Division,Production Office,Sales & Marketing,Sales,50900000,,,경력,400,본사 외
+E00742,김상훈,2012-06-12,Development Division,QA Office,Production & Engineering,Engineering,88400000,서울시립대학교,자연과학계열,경력,2622,본사
+E00743,이영환,2021-01-18,Sales Division,Domestic Sales Office,IT,Infrastructure,58500000,한국전통문화대학교,디자인계열,신입,287,본사
+E00744,김지원,2013-07-17,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,87300000,전북대학교,기타,신입,94,본사
+E00745,김성수,2023-12-31,Operating Division,Production Office,Sales & Marketing,Sales,48500000,서울여자대학교,기타공학계열,신입,744,본사 외
+E00746,성정호,2013-05-24,Development Division,R&D Office,IT,Data Scientist,126300000,,,경력,4617,본사
+E00747,최시우,2018-01-27,Development Division,R&D Office,Production & Engineering,Engineering,34000000,,,신입,1474,본사
+E00748,최명자,2021-06-12,Sales Division,Domestic Sales Office,Planning,Business Planning,63500000,Heidelberg University,사회과학계열,신입,196,본사
+E00749,한영순,2012-04-02,Planning Division,Strategy Office,IT,Data Scientist,126600000,,,신입,3299,본사
+E00750,김정웅,2012-05-08,Planning Division,Strategy Office,IT,Data Scientist,46500000,,,경력,116,본사
+E00751,류건우,2022-09-22,Operating Division,Engineering Office,Production & Engineering,Engineering,40000000,공주대학교,디자인계열,신입,519,본사 외
+E00752,김지은,2019-06-30,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,70400000,충남대학교,디자인계열,신입,2389,본사
+E00753,김성훈,2018-02-20,Planning Division,Finance Office,Sales & Marketing,Marketing,61200000,,,신입,469,본사
+E00754,김도윤,2013-04-12,Operating Division,Production Office,Production & Engineering,Production Management,46900000,,,경력,1388,본사 외
+E00755,서순옥,2011-11-29,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,78400000,전남대학교,사회과학계열,신입,3477,본사
+E00756,류혜진,2025-07-02,Development Division,QA Office,Planning,Business Planning,47200000,Sorbonne University,기타공학계열,신입,195,본사
+E00757,김혜진,2020-12-06,Development Division,QA Office,IT,Data Scientist,74500000,한성대학교,상경계열,경력,652,본사
+E00758,서하윤,2015-03-31,Operating Division,Engineering Office,Production & Engineering,Production Management,57800000,University of Michigan-Ann Arbor,기타,경력,54,본사 외
+E00759,이민서,2011-02-09,Operating Division,Engineering Office,IT,Data Scientist,115700000,서강대학교,STEM계열,신입,2753,본사 외
+E00760,박건우,2018-01-22,Planning Division,Strategy Office,Planning,Business Planning,64700000,,,신입,2296,본사
+E00761,최예원,2024-10-23,Development Division,R&D Office,Planning,Business Planning,41800000,전북대학교,상경계열,신입,258,본사
+E00762,박경자,2018-01-14,Sales Division,Marketing Office,Sales & Marketing,Marketing,48500000,성신여자대학교,STEM계열,경력,240,본사
+E00763,백재현,2023-03-08,Operating Division,Engineering Office,Production & Engineering,Engineering,34300000,상명대학교,어문계열,신입,213,본사 외
+E00764,김수진,2015-10-13,Sales Division,Marketing Office,IT,Data Scientist,80000000,중앙대학교,상경계열,신입,2753,본사
+E00765,김정희,2013-08-18,Operating Division,Engineering Office,IT,Infrastructure,65900000,부경대학교,상경계열,경력,636,본사 외
+E00766,이영길,2022-11-22,Development Division,QA Office,Sales & Marketing,Sales,48800000,Yale University,사회과학계열,신입,12,본사
+E00767,류예준,2024-11-14,Development Division,R&D Office,Planning,Business Planning,46300000,경복대학교,자연과학계열,신입,425,본사
+E00768,진건우,2011-10-05,Development Division,R&D Office,Production & Engineering,Engineering,110100000,University of Cambridge,기타,신입,3299,본사
+E00769,김정식,2023-02-23,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,56400000,홍익대학교,사회과학계열,신입,469,본사
+E00770,이영미,2016-02-08,Development Division,QA Office,Production & Engineering,Engineering,66500000,,,신입,2844,본사
+E00771,이명자,2013-12-29,Sales Division,Marketing Office,Sales & Marketing,Marketing,77000000,목포해양대학교,기타공학계열,신입,2891,본사
+E00772,이민재,2016-03-04,Planning Division,Strategy Office,Management Support,HR,89400000,덕성여자대학교,기타,신입,835,본사
+E00773,양순자,2024-01-13,Planning Division,Finance Office,Management Support,Finance,38000000,서울시립대학교,기타공학계열,신입,397,본사
+E00774,이지아,2011-02-13,Development Division,QA Office,Production & Engineering,Engineering,34300000,명지대학교,기타공학계열,경력,207,본사
+E00775,노정호,2015-05-26,Sales Division,Marketing Office,Sales & Marketing,Marketing,70600000,,,경력,3885,본사
+E00776,윤영길,2017-01-01,Sales Division,Marketing Office,Planning,Business Planning,41000000,대전보건대학교,인문계열,신입,380,본사
+E00777,하광수,2025-01-12,Operating Division,Engineering Office,Production & Engineering,Engineering,41800000,서울시립대학교,STEM계열,신입,366,본사 외
+E00778,최성호,2012-09-01,Development Division,R&D Office,Planning,Business Planning,84300000,경희대학교,기타공학계열,경력,2359,본사
+E00779,이지후,2020-05-07,Sales Division,Marketing Office,Planning,Business Planning,80900000,전북대학교,STEM계열,경력,1108,본사
+E00780,남광수,2012-04-21,Development Division,QA Office,Sales & Marketing,Sales,56800000,,,신입,1308,본사
+E00781,박영미,2017-01-01,Sales Division,Marketing Office,Sales & Marketing,Marketing,80500000,성신여자대학교,상경계열,신입,1288,본사
+E00782,문건우,2023-02-18,Operating Division,Production Office,Production & Engineering,Production Management,64000000,안동대학교,인문계열,경력,287,본사 외
+E00783,정준서,2015-05-25,Operating Division,Engineering Office,Production & Engineering,Production Management,36700000,가톨릭대학교,기타,신입,287,본사 외
+E00784,이서연,2020-06-11,Sales Division,Domestic Sales Office,IT,Data Scientist,52000000,Harvard University,인문계열,경력,571,본사
+E00785,이지혜,2012-12-06,Sales Division,Marketing Office,Sales & Marketing,Marketing,68800000,연세대학교,STEM계열,신입,2484,본사
+E00786,김민석,2019-05-25,Sales Division,Global Sales Office,Sales & Marketing,Sales,61100000,공주대학교,인문계열,신입,2425,본사
+E00787,오아름,2024-02-10,Development Division,R&D Office,Production & Engineering,Engineering,44400000,University of Pennsylvania,기타,신입,104,본사
+E00788,이성진,2019-10-28,Development Division,R&D Office,Production & Engineering,Engineering,37500000,금오공과대학교,자연과학계열,경력,11,본사
+E00789,백영미,2021-11-18,Operating Division,Production Office,Production & Engineering,Engineering,45700000,,,신입,469,본사 외
+E00790,이상현,2024-05-16,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,53300000,서울여자대학교,인문계열,경력,104,본사
+E00791,장지아,2021-12-22,Sales Division,Global Sales Office,Sales & Marketing,Sales,37600000,Harvard University,디자인계열,신입,117,본사
+E00792,정현주,2017-06-25,Planning Division,Strategy Office,Sales & Marketing,Sales,57400000,배화여자대학교,사회과학계열,신입,2213,본사
+E00793,오현주,2015-06-16,Sales Division,Global Sales Office,Sales & Marketing,Marketing,45400000,동서울대학교,인문계열,경력,403,본사
+E00794,김현정,2023-08-03,Operating Division,Production Office,Production & Engineering,Production Management,41200000,서울여자대학교,디자인계열,신입,894,본사 외
+E00795,박지현,2013-08-01,Operating Division,Production Office,Production & Engineering,Production Management,79600000,,,신입,2842,본사 외
+E00796,김영호,2018-01-14,Planning Division,Finance Office,Management Support,Finance,73000000,Harvard University,상경계열,신입,2921,본사
+E00797,박서영,2022-10-07,Operating Division,Engineering Office,Production & Engineering,Engineering,61300000,서울시립대학교,인문계열,경력,1194,본사 외
+E00798,김경자,2011-07-04,Planning Division,Strategy Office,Production & Engineering,Production Management,55700000,,,경력,1347,본사
+E00799,김준영,2014-08-21,Development Division,QA Office,Production & Engineering,Engineering,46100000,한양여자대학교,기타공학계열,경력,3209,본사
+E00800,한건우,2022-12-06,Planning Division,Strategy Office,IT,Data Scientist,67900000,한국전통문화대학교,어문계열,경력,377,본사
+E00801,김영길,2016-02-20,Development Division,R&D Office,Planning,Business Planning,95300000,한양대학교,디자인계열,경력,1383,본사
+E00802,유순자,2012-06-16,Development Division,R&D Office,Planning,Business Planning,64700000,수원여자대학교,STEM계열,신입,2583,본사
+E00803,김선영,2017-07-14,Sales Division,Global Sales Office,IT,Data Scientist,59000000,충남대학교,기타공학계열,경력,717,본사
+E00804,김종수,2023-11-06,Development Division,R&D Office,Planning,Business Planning,41500000,한양대학교,STEM계열,신입,287,본사
+E00805,박예은,2024-09-08,Planning Division,Strategy Office,IT,Data Scientist,42200000,부산대학교,기타,신입,492,본사
+E00806,김민재,2021-12-10,Sales Division,Domestic Sales Office,Production & Engineering,Production Management,49900000,한양여자대학교,인문계열,신입,377,본사
+E00807,박종수,2011-03-10,Sales Division,Domestic Sales Office,IT,Data Scientist,121000000,,,신입,4214,본사
+E00808,이순자,2019-01-14,Planning Division,Finance Office,IT,Data Scientist,58500000,동국대학교,디자인계열,신입,2556,본사
+E00809,김준호,2022-01-28,Planning Division,Strategy Office,Planning,Business Planning,61500000,성신여자대학교,인문계열,신입,927,본사
+E00810,최정남,2016-04-22,Operating Division,Production Office,Production & Engineering,Production Management,40500000,전남대학교,기타공학계열,신입,220,본사 외
+E00811,김영호,2016-06-06,Planning Division,Finance Office,IT,Data Scientist,85800000,한성대학교,기타공학계열,경력,3508,본사
+E00812,장예진,2013-12-13,Sales Division,Global Sales Office,Sales & Marketing,Sales,152300000,두원공과대학교,자연과학계열,경력,4154,본사
+E00813,서건우,2014-02-15,Development Division,R&D Office,IT,Data Scientist,43500000,Heidelberg University,인문계열,신입,356,본사
+E00814,최진호,2024-12-25,Development Division,QA Office,Production & Engineering,Engineering,43900000,부산과학기술대학교,STEM계열,경력,384,본사
+E00815,박서준,2024-05-17,Development Division,QA Office,IT,Data Scientist,51200000,대전보건대학교,기타,신입,104,본사
+E00816,박미숙,2023-03-28,Development Division,R&D Office,Planning,Business Planning,55700000,한국전통문화대학교,디자인계열,신입,377,본사
+E00817,손명숙,2024-10-09,Sales Division,Marketing Office,Sales & Marketing,Sales,66300000,두원공과대학교,상경계열,경력,12,본사
+E00818,이성민,2024-08-14,Planning Division,Strategy Office,Planning,Business Planning,48300000,University of Pennsylvania,어문계열,경력,517,본사
+E00819,이경희,2011-03-01,Development Division,R&D Office,Planning,Business Planning,126000000,Princeton University,기타공학계열,신입,2844,본사
+E00820,강채원,2018-03-02,Operating Division,Production Office,Sales & Marketing,Sales,38500000,한국예술종합학교,기타공학계열,신입,1357,본사 외
+E00821,김준혁,2020-09-17,Planning Division,Strategy Office,IT,Infrastructure,67700000,성균관대학교,기타,경력,12,본사
+E00822,이정식,2019-01-28,Sales Division,Marketing Office,Sales & Marketing,Marketing,44400000,목포대학교,어문계열,신입,452,본사
+E00823,임은정,2020-06-29,Planning Division,Finance Office,Planning,Business Planning,55700000,,,경력,830,본사
+E00824,이영호,2018-09-04,Development Division,R&D Office,Sales & Marketing,Sales,71300000,Yale University,STEM계열,경력,38,본사
+E00825,김상철,2025-02-15,Operating Division,Engineering Office,IT,Infrastructure,59900000,University of Oxford,기타,경력,332,본사 외
+E00826,이지후,2022-12-10,Planning Division,Strategy Office,Planning,Business Planning,60900000,한양대학교,사회과학계열,신입,469,본사
+E00827,이동현,2016-01-21,Development Division,R&D Office,Production & Engineering,Engineering,56200000,,,경력,2189,본사
+E00828,손정수,2018-04-05,Sales Division,Domestic Sales Office,Planning,Business Planning,62700000,,,경력,698,본사
+E00829,문혜진,2021-01-17,Planning Division,Strategy Office,Management Support,Finance,62400000,전남대학교,사회과학계열,신입,12,본사
+E00830,조미경,2017-03-23,Sales Division,Global Sales Office,Sales & Marketing,Sales,68100000,,,경력,1415,본사
+E00831,최지아,2023-12-16,Sales Division,Marketing Office,Sales & Marketing,Marketing,35800000,아주대학교,기타공학계열,신입,299,본사
+E00832,최춘자,2024-02-19,Planning Division,Finance Office,Production & Engineering,Engineering,37800000,Harvard University,인문계열,신입,104,본사
+E00833,성영수,2019-07-21,Development Division,R&D Office,Production & Engineering,Engineering,68300000,가톨릭대학교,STEM계열,경력,87,본사
+E00834,이서현,2022-01-03,Planning Division,Strategy Office,Management Support,HR,49900000,University of Chicago,디자인계열,신입,195,본사
+E00835,박현숙,2016-12-31,Development Division,R&D Office,Production & Engineering,Engineering,48500000,명지대학교,디자인계열,신입,11,본사
+E00836,한경숙,2014-04-05,Operating Division,Engineering Office,Sales & Marketing,Marketing,73300000,,,신입,1293,본사 외
+E00837,최동현,2018-03-17,Planning Division,Strategy Office,IT,Data Scientist,75900000,Yale University,기타공학계열,경력,1200,본사
+E00838,허명자,2018-04-30,Planning Division,Strategy Office,Management Support,HR,73800000,대림대학교,STEM계열,경력,2707,본사
+E00839,이우진,2012-12-05,Operating Division,Production Office,Sales & Marketing,Sales,51700000,Stanford University,사회과학계열,신입,1096,본사 외
+E00840,홍지현,2013-12-14,Operating Division,Production Office,Sales & Marketing,Sales,56900000,University of Michigan-Ann Arbor,자연과학계열,신입,3022,본사 외
+E00841,박정남,2022-02-07,Planning Division,Finance Office,Production & Engineering,Production Management,52500000,성신여자대학교,어문계열,신입,540,본사
+E00842,심하은,2019-01-09,Planning Division,Finance Office,Planning,Business Planning,73600000,,,신입,1930,본사
+E00843,곽경자,2021-07-12,Planning Division,Strategy Office,Production & Engineering,Engineering,40100000,숙명여자대학교,기타,신입,99,본사
+E00844,김준서,2011-09-09,Development Division,QA Office,Production & Engineering,Engineering,111100000,한경대학교,STEM계열,신입,4670,본사
+E00845,박영길,2012-06-06,Operating Division,Production Office,Sales & Marketing,Sales,44200000,,,신입,185,본사 외
+E00846,김서영,2020-12-16,Sales Division,Global Sales Office,Production & Engineering,Engineering,80700000,명지대학교,상경계열,경력,174,본사
+E00847,최현정,2014-03-29,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,84400000,University of Michigan-Ann Arbor,STEM계열,신입,3711,본사
+E00848,박영일,2022-05-16,Development Division,R&D Office,Production & Engineering,Engineering,41000000,삼육대학교,기타공학계열,신입,561,본사
+E00849,이지민,2016-01-10,Development Division,R&D Office,Production & Engineering,Engineering,43800000,부산대학교,인문계열,신입,248,본사
+E00850,강지훈,2020-04-06,Operating Division,Engineering Office,Production & Engineering,Engineering,78100000,숭실대학교,디자인계열,경력,2108,본사 외
+E00851,박승현,2013-03-10,Development Division,R&D Office,Production & Engineering,Engineering,59300000,서일대학교,기타,신입,442,본사
+E00852,이지우,2017-04-02,Operating Division,Engineering Office,Sales & Marketing,Marketing,72800000,군산대학교,기타,신입,2204,본사 외
+E00853,류영순,2016-06-20,Sales Division,Domestic Sales Office,Planning,Business Planning,46500000,성균관대학교,상경계열,경력,292,본사
+E00854,최미경,2012-04-04,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,97100000,건국대학교,사회과학계열,신입,4661,본사
+E00855,황성진,2022-09-02,Operating Division,Production Office,Sales & Marketing,Sales,43700000,한국예술종합학교,기타,신입,510,본사 외
+E00856,윤미숙,2017-12-14,Planning Division,Strategy Office,Planning,Business Planning,53000000,삼육대학교,STEM계열,신입,1128,본사
+E00857,황은영,2015-01-25,Operating Division,Engineering Office,Management Support,Finance,52700000,,,신입,495,본사 외
+E00858,홍예지,2017-08-28,Development Division,R&D Office,Production & Engineering,Engineering,35900000,성신여자대학교,STEM계열,신입,771,본사
+E00859,송준서,2023-05-03,Sales Division,Marketing Office,IT,Data Scientist,48100000,숭실대학교,기타,신입,12,본사
+E00860,윤은경,2021-02-17,Sales Division,Marketing Office,Sales & Marketing,Sales,47900000,성신여자대학교,STEM계열,경력,344,본사
+E00861,김지영,2017-01-28,Operating Division,Engineering Office,Production & Engineering,Production Management,61700000,Stanford University,디자인계열,신입,3272,본사 외
+E00862,장서윤,2024-04-03,Development Division,R&D Office,IT,Data Scientist,47400000,목포대학교,사회과학계열,신입,196,본사
+E00863,송미경,2021-04-10,Development Division,QA Office,Production & Engineering,Engineering,44600000,,,신입,1739,본사
+E00864,임민서,2014-11-30,Sales Division,Marketing Office,Sales & Marketing,Marketing,59700000,ETH Zurich (Swiss Federal Institute of Technology Zurich),사회과학계열,신입,2879,본사
+E00865,우지후,2017-07-12,Development Division,R&D Office,Sales & Marketing,Sales,54100000,충남대학교,기타,신입,827,본사
+E00866,한명자,2016-10-22,Sales Division,Marketing Office,Sales & Marketing,Marketing,76900000,오산대학교,어문계열,경력,1338,본사
+E00867,김지우,2012-01-24,Operating Division,Production Office,Production & Engineering,Production Management,47500000,,,경력,84,본사 외
+E00868,윤영숙,2014-06-29,Sales Division,Marketing Office,IT,Data Scientist,93000000,University of Toronto,자연과학계열,경력,3043,본사
+E00869,김정수,2019-08-29,Sales Division,Marketing Office,Sales & Marketing,Sales,87200000,가톨릭대학교,기타공학계열,경력,1657,본사
+E00870,박지후,2019-05-14,Planning Division,Finance Office,Management Support,Finance,57600000,성균관대학교,사회과학계열,신입,2436,본사
+E00871,곽준혁,2016-01-03,Development Division,R&D Office,IT,Data Scientist,76700000,,,경력,2367,본사
+E00872,김미영,2011-10-19,Sales Division,Domestic Sales Office,Management Support,Finance,45900000,중앙대학교,디자인계열,신입,363,본사
+E00873,이혜진,2012-01-16,Planning Division,Strategy Office,Planning,Business Planning,79000000,,,경력,1821,본사
+E00874,윤영호,2017-04-16,Operating Division,Engineering Office,IT,Data Scientist,40400000,California Institute of Technology (Caltech),디자인계열,경력,708,본사 외
+E00875,김지우,2013-11-17,Development Division,QA Office,Production & Engineering,Engineering,51900000,중앙대학교,인문계열,신입,135,본사
+E00876,손영호,2025-07-06,Sales Division,Global Sales Office,Sales & Marketing,Sales,38300000,경희대학교,STEM계열,신입,191,본사
+E00877,하민지,2024-10-02,Planning Division,Strategy Office,Planning,Business Planning,58400000,Massachusetts Institute of Technology (MIT),기타,경력,377,본사
+E00878,이승현,2013-03-24,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,40600000,포항공과대학교,자연과학계열,신입,661,본사
+E00879,윤정자,2023-12-24,Operating Division,Production Office,Production & Engineering,Engineering,37900000,서울예술대학교,디자인계열,신입,92,본사 외
+E00880,한건우,2016-06-23,Development Division,R&D Office,Planning,Business Planning,72900000,전북대학교,디자인계열,경력,831,본사
+E00881,홍민재,2024-08-07,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,47100000,울산과학기술원,어문계열,신입,524,본사
+E00882,박지은,2018-09-30,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,71600000,강원대학교,인문계열,경력,1383,본사
+E00883,김서연,2023-06-28,Operating Division,Engineering Office,Production & Engineering,Production Management,41800000,가톨릭대학교,어문계열,경력,317,본사 외
+E00884,성은정,2019-11-23,Planning Division,Finance Office,Management Support,Finance,61000000,Yale University,자연과학계열,경력,310,본사
+E00885,이영수,2024-09-25,Planning Division,Finance Office,Planning,Business Planning,75500000,Tsinghua University,자연과학계열,경력,475,본사
+E00886,이정수,2013-03-03,Development Division,QA Office,Planning,Business Planning,55300000,,,경력,501,본사
+E00887,김영일,2023-02-20,Operating Division,Production Office,Planning,Business Planning,57400000,서울대학교,기타공학계열,신입,469,본사 외
+E00888,안정순,2017-05-06,Sales Division,Domestic Sales Office,IT,Data Scientist,45500000,University of Cambridge,디자인계열,신입,282,본사
+E00889,김광수,2013-04-19,Operating Division,Production Office,Production & Engineering,Production Management,39400000,대구경북과학기술원,자연과학계열,신입,150,본사 외
+E00890,황명자,2016-01-02,Sales Division,Global Sales Office,Planning,Business Planning,43900000,광운대학교,상경계열,신입,53,본사
+E00891,김지혜,2015-09-22,Sales Division,Global Sales Office,Sales & Marketing,Sales,83400000,,,신입,3026,본사
+E00892,김지훈,2016-10-15,Operating Division,Engineering Office,Production & Engineering,Production Management,75300000,California Institute of Technology (Caltech),자연과학계열,신입,3118,본사 외
+E00893,이영자,2021-09-10,Planning Division,Strategy Office,Planning,Business Planning,76800000,가톨릭대학교,자연과학계열,경력,469,본사
+E00894,김승현,2016-03-16,Sales Division,Marketing Office,Sales & Marketing,Marketing,74500000,계원예술대학교,디자인계열,경력,13,본사
+E00895,이예지,2021-10-08,Operating Division,Production Office,Sales & Marketing,Sales,49000000,Sorbonne University,기타공학계열,경력,1558,본사 외
+E00896,김서영,2025-04-06,Planning Division,Strategy Office,Planning,Business Planning,61100000,삼육대학교,디자인계열,경력,282,본사
+E00897,최유진,2022-07-23,Development Division,R&D Office,IT,Data Scientist,62800000,김포대학교,STEM계열,경력,272,본사
+E00898,심현준,2018-10-26,Sales Division,Global Sales Office,Sales & Marketing,Sales,61900000,,,신입,2636,본사
+E00899,이영수,2017-06-20,Sales Division,Domestic Sales Office,Planning,Business Planning,51300000,서울여자대학교,상경계열,신입,535,본사
+E00900,최영미,2013-11-20,Operating Division,Engineering Office,Production & Engineering,Production Management,50400000,세종대학교,기타공학계열,경력,505,본사 외
+E00901,문하은,2024-12-01,Sales Division,Marketing Office,Sales & Marketing,Marketing,40800000,충북대학교,인문계열,경력,408,본사
+E00902,곽정숙,2012-09-08,Sales Division,Marketing Office,IT,Data Scientist,65400000,,,경력,1120,본사
+E00903,박영일,2012-08-04,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,84200000,,,경력,1582,본사
+E00904,지영길,2011-02-05,Operating Division,Engineering Office,Production & Engineering,Production Management,44500000,,,경력,262,본사 외
+E00905,하상호,2017-08-10,Planning Division,Strategy Office,IT,Data Scientist,58900000,University of Cambridge,STEM계열,경력,2002,본사
+E00906,김중수,2024-12-06,Planning Division,Strategy Office,Planning,Business Planning,49700000,Stanford University,기타공학계열,신입,403,본사
+E00907,김현우,2016-05-28,Planning Division,Strategy Office,Planning,Business Planning,81100000,University of Chicago,자연과학계열,신입,3391,본사
+E00908,성은영,2025-07-02,Operating Division,Production Office,Sales & Marketing,Sales,45700000,아주대학교,어문계열,경력,195,본사 외
+E00909,김정훈,2011-05-26,Planning Division,Strategy Office,Planning,Business Planning,78200000,연성대학교,사회과학계열,신입,3276,본사
+E00910,강순옥,2011-05-22,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,88300000,세종대학교,기타,신입,1265,본사
+E00911,이영순,2023-06-13,Planning Division,Finance Office,Planning,Business Planning,58600000,숙명여자대학교,인문계열,경력,287,본사
+E00912,박예진,2017-02-27,Sales Division,Marketing Office,Planning,Business Planning,43000000,,,신입,220,본사
+E00913,김재현,2025-08-13,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,38400000,인덕대학교,자연과학계열,신입,153,본사
+E00914,조은정,2012-09-19,Planning Division,Strategy Office,Sales & Marketing,Marketing,51400000,,,신입,243,본사
+E00915,박숙자,2012-06-29,Planning Division,Finance Office,Management Support,Finance,96900000,,,경력,2845,본사
+E00916,주영숙,2013-12-13,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,37000000,Imperial College London,STEM계열,신입,213,본사
+E00917,차예원,2022-12-01,Development Division,QA Office,Production & Engineering,Engineering,39800000,,,경력,1139,본사
+E00918,최옥순,2019-02-28,Planning Division,Strategy Office,Planning,Business Planning,79400000,유한대학교,인문계열,경력,32,본사
+E00919,박준영,2024-03-27,Planning Division,Strategy Office,Planning,Business Planning,60500000,한양여자대학교,사회과학계열,경력,657,본사
+E00920,김건우,2012-09-29,Development Division,QA Office,Production & Engineering,Engineering,55300000,,,신입,16,본사
+E00921,전예은,2015-04-28,Development Division,R&D Office,IT,SW Developer,118600000,동국대학교,상경계열,경력,3913,본사
+E00922,김건우,2013-01-07,Sales Division,Global Sales Office,Sales & Marketing,Sales,39200000,,,경력,383,본사
+E00923,서현주,2023-06-27,Development Division,R&D Office,Production & Engineering,Engineering,64300000,두원공과대학교,어문계열,경력,377,본사
+E00924,박지우,2015-11-24,Operating Division,Engineering Office,Production & Engineering,Engineering,97400000,한국전통문화대학교,STEM계열,경력,1383,본사 외
+E00925,박현지,2013-09-28,Sales Division,Domestic Sales Office,Planning,Business Planning,54900000,강원대학교,기타,경력,380,본사
+E00926,김정숙,2017-12-29,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,92700000,University of Michigan-Ann Arbor,기타,경력,163,본사
+E00927,박옥순,2020-03-19,Development Division,QA Office,IT,SW Developer,52100000,숭실대학교,사회과학계열,경력,220,본사
+E00928,김종수,2025-06-12,Sales Division,Domestic Sales Office,IT,Data Scientist,41200000,Yale University,자연과학계열,신입,215,본사
+E00929,장예지,2014-04-14,Operating Division,Production Office,Sales & Marketing,Sales,43300000,대구경북과학기술원,기타,신입,690,본사 외
+E00930,이은서,2021-05-23,Sales Division,Marketing Office,Sales & Marketing,Sales,42300000,충북대학교,어문계열,신입,823,본사
+E00931,김상호,2015-02-14,Sales Division,Marketing Office,Sales & Marketing,Marketing,71200000,백석예술대학교,STEM계열,경력,2129,본사
+E00932,이영희,2025-01-03,Sales Division,Marketing Office,Sales & Marketing,Marketing,43000000,동덕여자대학교,디자인계열,신입,375,본사
+E00933,장하은,2024-04-22,Sales Division,Domestic Sales Office,IT,Data Scientist,44200000,서울예술대학교,어문계열,신입,631,본사
+E00934,장영순,2011-07-12,Planning Division,Finance Office,Management Support,Finance,43500000,오산대학교,디자인계열,경력,351,본사
+E00935,윤지현,2012-11-29,Sales Division,Global Sales Office,IT,Data Scientist,76300000,,,경력,3590,본사
+E00936,박유진,2024-06-25,Sales Division,Marketing Office,IT,Data Scientist,56500000,성균관대학교,인문계열,경력,567,본사
+E00937,한상훈,2017-11-13,Sales Division,Marketing Office,Sales & Marketing,Marketing,57700000,목포대학교,어문계열,경력,631,본사
+E00938,박주원,2016-10-22,Sales Division,Marketing Office,Sales & Marketing,Marketing,65800000,,,신입,2844,본사
+E00939,양지연,2018-10-29,Operating Division,Engineering Office,Production & Engineering,Engineering,44100000,University of Michigan-Ann Arbor,어문계열,경력,259,본사 외
+E00940,박동현,2012-05-26,Planning Division,Finance Office,Planning,Business Planning,56200000,연세대학교,기타공학계열,경력,442,본사
+E00941,김정남,2020-09-15,Operating Division,Engineering Office,Sales & Marketing,Sales,44100000,동국대학교,사회과학계열,신입,85,본사 외
+E00942,이정웅,2018-12-29,Planning Division,Strategy Office,Management Support,Finance,87500000,청강문화산업대학교,기타공학계열,경력,1473,본사
+E00943,이우진,2014-02-25,Planning Division,Strategy Office,Planning,Business Planning,68300000,광운대학교,사회과학계열,경력,98,본사
+E00944,한도윤,2021-10-27,Operating Division,Production Office,Production & Engineering,Production Management,46900000,Princeton University,사회과학계열,신입,377,본사 외
+E00945,이순자,2025-07-13,Planning Division,Finance Office,Planning,Business Planning,48400000,세종대학교,인문계열,신입,184,본사
+E00946,민춘자,2019-10-31,Planning Division,Strategy Office,Management Support,HR,50100000,한국체육대학교,어문계열,신입,1445,본사
+E00947,최정순,2020-01-10,Development Division,QA Office,Planning,Business Planning,63600000,,,경력,1690,본사
+E00948,이미영,2023-12-16,Operating Division,Production Office,IT,Infrastructure,64900000,"University of California, Berkeley (UCB)",사회과학계열,경력,196,본사 외
+E00949,홍진호,2020-05-13,Planning Division,Finance Office,Management Support,Finance,76900000,Sorbonne University,기타,경력,2071,본사
+E00950,권광수,2021-03-09,Sales Division,Marketing Office,Management Support,HR,73800000,Heidelberg University,상경계열,경력,469,본사
+E00951,강영숙,2023-07-24,Planning Division,Finance Office,Planning,Business Planning,58900000,세종대학교,디자인계열,경력,377,본사
+E00952,이성민,2019-05-28,Development Division,QA Office,Planning,Business Planning,64900000,동국대학교,디자인계열,신입,906,본사
+E00953,이승현,2022-08-11,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,43600000,University of Cambridge,인문계열,신입,585,본사
+E00954,이순옥,2023-10-09,Sales Division,Marketing Office,Sales & Marketing,Sales,42500000,목포해양대학교,어문계열,신입,196,본사
+E00955,양영미,2015-12-17,Development Division,QA Office,Production & Engineering,Engineering,49400000,,,신입,1165,본사
+E00956,이경희,2023-12-21,Planning Division,Finance Office,Planning,Business Planning,42900000,포항공과대학교,인문계열,신입,196,본사
+E00957,장진호,2024-11-05,Planning Division,Finance Office,IT,Data Scientist,39900000,광운대학교,디자인계열,신입,434,본사
+E00958,윤정수,2023-02-07,Operating Division,Production Office,Planning,Business Planning,41500000,University of Pennsylvania,기타공학계열,신입,68,본사 외
+E00959,오미숙,2021-12-07,Planning Division,Finance Office,Management Support,Finance,36700000,카이스트,어문계열,신입,1385,본사
+E00960,진중수,2021-10-01,Operating Division,Production Office,Sales & Marketing,Sales,46200000,부산과학기술대학교,인문계열,경력,835,본사 외
+E00961,윤하윤,2019-12-30,Development Division,R&D Office,IT,Data Scientist,49000000,명지대학교,디자인계열,신입,915,본사
+E00962,강춘자,2021-02-20,Development Division,R&D Office,IT,Data Scientist,64400000,김포대학교,어문계열,경력,1788,본사
+E00963,이영호,2012-05-29,Operating Division,Production Office,Sales & Marketing,Sales,40600000,,,신입,732,본사 외
+E00964,김춘자,2021-08-03,Operating Division,Production Office,Planning,Business Planning,81500000,한양대학교,상경계열,경력,377,본사 외
+E00965,김현지,2011-05-16,Sales Division,Domestic Sales Office,Production & Engineering,Engineering,46800000,,,신입,22,본사
+E00966,김경자,2013-11-28,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,72500000,덕성여자대학교,사회과학계열,신입,3709,본사
+E00967,홍민서,2018-06-05,Sales Division,Global Sales Office,Sales & Marketing,Sales,67500000,,,신입,469,본사
+E00968,김상훈,2012-08-10,Operating Division,Production Office,Sales & Marketing,Sales,65500000,,,신입,2652,본사 외
+E00969,김지영,2023-11-10,Planning Division,Strategy Office,IT,Data Scientist,46100000,홍익대학교,STEM계열,신입,795,본사
+E00970,김예진,2021-02-04,Development Division,QA Office,Planning,Business Planning,62000000,동덕여자대학교,기타공학계열,신입,12,본사
+E00971,이은서,2023-07-13,Operating Division,Engineering Office,Planning,Business Planning,55000000,대구경북과학기술원,상경계열,경력,196,본사 외
+E00972,권현정,2024-02-08,Planning Division,Strategy Office,Planning,Business Planning,46100000,대구경북과학기술원,기타공학계열,신입,12,본사
+E00973,이순옥,2014-02-01,Sales Division,Marketing Office,IT,Data Scientist,80600000,,,신입,2545,본사
+E00974,서예준,2011-08-24,Development Division,QA Office,Planning,Business Planning,78300000,한국해양대학교,어문계열,경력,20,본사
+E00975,오지혜,2012-12-20,Operating Division,Engineering Office,IT,Data Scientist,47200000,홍익대학교,STEM계열,경력,1085,본사 외
+E00976,이상훈,2014-08-19,Operating Division,Production Office,Planning,Business Planning,88500000,한양대학교,기타,경력,1618,본사 외
+E00977,김도현,2017-06-15,Development Division,R&D Office,Production & Engineering,Engineering,65000000,성균관대학교,STEM계열,신입,1836,본사
+E00978,김경숙,2014-05-21,Development Division,QA Office,IT,Data Scientist,48900000,University of Michigan-Ann Arbor,어문계열,경력,427,본사
+E00979,장정순,2016-12-05,Planning Division,Finance Office,Planning,Business Planning,58900000,경희대학교,사회과학계열,경력,2162,본사
+E00980,이민수,2011-03-09,Operating Division,Production Office,Sales & Marketing,Sales,81500000,,,신입,4231,본사 외
+E00981,이영숙,2014-06-22,Planning Division,Finance Office,Planning,Business Planning,43700000,공주대학교,디자인계열,신입,322,본사
+E00982,김경희,2013-12-24,Planning Division,Strategy Office,IT,Data Scientist,99600000,,,신입,2564,본사
+E00983,주미정,2011-04-13,Development Division,R&D Office,Production & Engineering,Engineering,53100000,,,신입,564,본사
+E00984,이정식,2018-01-10,Planning Division,Finance Office,Management Support,Finance,36200000,성신여자대학교,기타,신입,716,본사
+E00985,최정남,2017-04-06,Operating Division,Production Office,Sales & Marketing,Sales,82000000,,,신입,3204,본사 외
+E00986,김순옥,2020-03-17,Sales Division,Marketing Office,Production & Engineering,Engineering,68300000,University of Oxford,인문계열,경력,743,본사
+E00987,고건우,2017-10-11,Planning Division,Finance Office,IT,Data Scientist,66900000,전남대학교,기타,경력,1383,본사
+E00988,이정희,2012-05-24,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,76200000,서강대학교,인문계열,신입,881,본사
+E00989,최경숙,2025-02-08,Planning Division,Strategy Office,Planning,Business Planning,63600000,대전보건대학교,디자인계열,경력,339,본사
+E00990,박은서,2011-11-23,Operating Division,Production Office,IT,Data Scientist,91500000,동양미래대학교,기타공학계열,경력,2934,본사 외
+E00991,이옥자,2023-12-24,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,53800000,전남대학교,기타,경력,104,본사
+E00992,양영자,2015-09-19,Development Division,QA Office,Planning,Business Planning,60800000,University of Chicago,인문계열,경력,687,본사
+E00993,김준호,2019-05-16,Development Division,QA Office,Production & Engineering,Engineering,33900000,경복대학교,기타,신입,311,본사
+E00994,남승현,2019-12-27,Operating Division,Engineering Office,Production & Engineering,Production Management,55200000,충북대학교,인문계열,신입,1018,본사 외
+E00995,김미정,2014-11-01,Development Division,R&D Office,IT,Data Scientist,48200000,,,경력,971,본사
+E00996,허혜진,2023-08-15,Operating Division,Engineering Office,Planning,Business Planning,56400000,안동대학교,디자인계열,경력,417,본사 외
+E00997,오민수,2022-05-31,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,51100000,"University of California, Berkeley (UCB)",기타,신입,835,본사
+E00998,홍지우,2023-01-13,Sales Division,Domestic Sales Office,Sales & Marketing,Sales,56500000,한양여자대학교,사회과학계열,경력,819,본사
+E00999,서지은,2013-02-22,Development Division,R&D Office,Planning,Business Planning,81000000,Harvard University,자연과학계열,경력,2934,본사
+E01000,이성훈,2025-06-12,Development Division,R&D Office,Planning,Business Planning,45900000,충남대학교,STEM계열,신입,215,본사

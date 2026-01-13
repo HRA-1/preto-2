@@ -6,7 +6,6 @@ HR Analytics XAI Dashboard
 import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
-import pandas as pd
 
 from services.config.xai_filters_config import (
     XAI_FILTER_PLACEHOLDERS,
@@ -79,8 +78,8 @@ def initialize_xai_components():
     - 모델 학습, SHAP explainer 생성, 전역 SHAP 값 계산
     - 앱 시작 시 1회만 실행됨
     """
-    master_df_encoded = pd.read_csv('/app/src/services/tables/master_df_encoded.csv')
-    employee_info_df = pd.read_csv('/app/src/services/tables/employee_info_df.csv')
+    from services.tables.create_ml_table import master_df_encoded
+    from services.tables.create_info_table import employee_info_df
 
     xai_service = get_xai_service(master_df_encoded)
     model = xai_service.train_model()
