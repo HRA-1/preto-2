@@ -219,13 +219,13 @@ def main():
 
     st.sidebar.markdown("#### 소개글 보기")
     st.sidebar.markdown(
-        '<a href="https://lrl.kr/cYShq" target="_blank" style="color: #1E90FF; text-decoration: none;">📄 소개글 보기</a>',
+        '<a href="https://lrl.kr/XrgX" target="_blank" style="color: #1E90FF; text-decoration: none;">📄 소개글 보기</a>',
         unsafe_allow_html=True,
     )
 
     st.sidebar.markdown("#### 설문 참여하기")
     st.sidebar.markdown(
-        '<a href="https://lrl.kr/ciUO7" target="_blank" style="color: #1E90FF; text-decoration: none;">📝 설문 참여하기</a>',
+        '<a href="https://lrl.kr/fG9te" target="_blank" style="color: #1E90FF; text-decoration: none;">📝 설문 참여하기</a>',
         unsafe_allow_html=True,
     )
 
