@@ -46,13 +46,13 @@ variable "ecr_lifecycle_count" {
 variable "ecs_cpu" {
   description = "ECS 태스크 CPU"
   type        = string
-  default     = "1024"
+  default     = "512"
 }
 
 variable "ecs_memory" {
   description = "ECS 태스크 메모리 (MB)"
   type        = string
-  default     = "2048"
+  default     = "1024"
 }
 
 variable "ecs_desired_count" {
