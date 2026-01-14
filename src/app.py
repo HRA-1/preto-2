@@ -109,43 +109,32 @@ def render_perspective_overview():
     """메인 XAI 대시보드 개요 페이지 렌더링"""
     st.title("HR Analytics - 퇴사 위험 분석 (XAI Dashboard)")
 
-    st.markdown("---")
+    st.markdown(
+        """
+    ## 환영합니다!
 
-    # XAI 소개
-    st.subheader("XAI (설명 가능한 인공지능) 란?")
+    본 대시보드는 **설명 가능한 인공지능(XAI)** 기술을 활용하여
+    직원들의 퇴사 위험을 분석하고 그 원인을 설명합니다.
 
-    st.markdown("""
-    **XAI(eXplainable AI)**는 인공지능 모델의 예측 결과를 사람이 이해할 수 있는
-    형태로 설명해주는 기술입니다.
+    ---
 
-    본 대시보드에서는 **SHAP(SHapley Additive exPlanations)** 방법론을 활용하여
-    각 직원의 퇴사 위험도가 **어떤 요인들에 의해 결정되었는지** 설명합니다.
-    """)
+    ### 주요 기능
 
-    st.markdown("---")
+    #### 1. 퇴사 위험 패턴 (Global Explainer)
+    조직 전체의 퇴사 위험 패턴을 분석합니다.
+    - **주요 영향 변수**: 전사적으로 퇴사에 가장 큰 영향을 미치는 요인 순위
+    - **변수별 영향 확인**: 각 변수가 퇴사 확률에 미치는 영향 상세 분석
 
-    # 분석 방법 설명
-    st.subheader("분석 방법")
+    #### 2. 개인별 위험 사유 (Local Explainer)
+    개별 직원의 퇴사 위험 요인을 분석합니다.
+    - **개요**: XAI 분석 방법론 소개
+    - **위험도 산출 근거**: 개별 직원의 퇴사 위험 요인 분석
 
-    col1, col2 = st.columns(2)
+    ---
 
-    with col1:
-        st.markdown("""
-        #### 1. 퇴사 위험도 산출
-        - 기존 퇴사자 데이터를 기반으로 **머신러닝 모델(XGBoost)** 학습
-        - 재직 중인 직원들의 퇴사 가능성을 **0~100%**로 예측
-        - 높은 확률일수록 퇴사 위험이 높음
-        """)
-
-    with col2:
-        st.markdown("""
-        #### 2. 위험 요인 분석
-        - **SHAP 알고리즘**으로 각 직원별 위험 요인 분해
-        - 어떤 요소가 퇴사 확률을 높이는지/낮추는지 파악
-        - 개인 맞춤형 인사이트 제공
-        """)
-
-    st.markdown("---")
+    👈 **시작하려면 왼쪽 사이드바에서 분석 관점을 선택하세요.**
+    """
+    )
 
 
 def render_detail_selection(selected_perspective: str):
