@@ -44,6 +44,28 @@ s3://preto-terraform-state/
 
 트래픽 변화에 따라 ECS 태스크 수를 자동 조절합니다.
 
+> **⚠️ GitHub Actions IAM 권한 필수**
+>
+> Auto Scaling 리소스 배포 시 `GitHubActionsRole`에 추가 권한이 필요합니다.
+> `AmazonECS_FullAccess` 정책만으로는 `application-autoscaling:TagResource` 권한이 부족합니다.
+>
+> **인라인 정책 추가 필요:**
+> ```json
+> {
+>   "Version": "2012-10-17",
+>   "Statement": [
+>     {
+>       "Effect": "Allow",
+>       "Action": [
+>         "application-autoscaling:TagResource",
+>         "application-autoscaling:UntagResource"
+>       ],
+>       "Resource": "*"
+>     }
+>   ]
+> }
+> ```
+
 **스케일링 기준:**
 | 메트릭 | 목표값 | 스케일 아웃 쿨다운 | 스케일 인 쿨다운 |
 |--------|--------|-------------------|-----------------|
