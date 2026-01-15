@@ -4,6 +4,7 @@ HR Analytics XAI Dashboard
 """
 
 import streamlit as st
+import streamlit_analytics2 as streamlit_analytics
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import pandas as pd
@@ -197,171 +198,172 @@ def render_detail_selection(selected_perspective: str):
 def main():
     """Main application entry point"""
 
-    # Initialize XAI components (cached)
-    with st.spinner("XAI 모델을 초기화하는 중... (최초 1회만 실행됩니다)"):
-        components = initialize_xai_components()
+    with streamlit_analytics.track():
+        # Initialize XAI components (cached)
+        with st.spinner("XAI 모델을 초기화하는 중... (최초 1회만 실행됩니다)"):
+            components = initialize_xai_components()
 
-    # ================================================================
-    # SIDEBAR - Level 1 & 2 Filters
-    # ================================================================
+        # ================================================================
+        # SIDEBAR - Level 1 & 2 Filters
+        # ================================================================
 
-    st.sidebar.title("HR Analytics")
-    st.sidebar.markdown("### Insight Explainer")
-    st.sidebar.markdown("---")
+        st.sidebar.title("HR Analytics")
+        st.sidebar.markdown("### Insight Explainer")
+        st.sidebar.markdown("---")
 
-    # L1: Analysis Perspective Selection (분석 관점 선택)
-    selected_perspective = st.sidebar.selectbox(
-        "분석 관점 선택",
-        options=list(ANALYSIS_PERSPECTIVES.keys()),
-        index=0,
-        format_func=lambda x: x if x == "개요" else f"📊 {x}",
-    )
-
-    # L2: Detail View Selection (상세 확인)
-    if selected_perspective == XAI_FILTER_PLACEHOLDERS["level1_default"]:
-        # L1이 "개요"인 경우: L2도 "개요"로 고정
-        selected_detail = st.sidebar.selectbox(
-            "상세 확인",
-            options=[XAI_FILTER_PLACEHOLDERS["level2_overview"]],
+        # L1: Analysis Perspective Selection (분석 관점 선택)
+        selected_perspective = st.sidebar.selectbox(
+            "분석 관점 선택",
+            options=list(ANALYSIS_PERSPECTIVES.keys()),
             index=0,
-        )
-    else:
-        # L1이 선택된 경우: 해당 관점의 상세 옵션 표시
-        detail_options = [XAI_FILTER_PLACEHOLDERS["level2_overview"]] + ANALYSIS_PERSPECTIVES.get(
-            selected_perspective, []
-        )
-        selected_detail = st.sidebar.selectbox(
-            "상세 확인",
-            options=detail_options,
-            format_func=lambda x: DETAIL_VIEW_TITLES.get(x, x),
-            index=0,
+            format_func=lambda x: x if x == "개요" else f"📊 {x}",
         )
 
-    # ================================================================
-    # SIDEBAR - Bottom Links
-    # ================================================================
-
-    st.sidebar.markdown("---")
-
-    st.sidebar.markdown("#### 소개글 보기")
-    st.sidebar.markdown(
-        '<a href="https://lrl.kr/XrgX" target="_blank" style="color: #1E90FF; text-decoration: none;">📄 소개글 보기</a>',
-        unsafe_allow_html=True,
-    )
-
-    st.sidebar.markdown("#### 설문 참여하기")
-    st.sidebar.markdown(
-        '<a href="https://lrl.kr/fG9te" target="_blank" style="color: #1E90FF; text-decoration: none;">📝 설문 참여하기</a>',
-        unsafe_allow_html=True,
-    )
-
-    # ================================================================
-    # MAIN AREA - Level 3 & 4 Filters (Conditional)
-    # ================================================================
-
-    view_state = get_xai_view_state(selected_perspective, selected_detail)
-
-    # Filter row
-    col_filter1, col_filter2 = st.columns([1, 1])
-
-    # L3: Variable Selector (변수 선택) - PDP 뷰에서만 활성화
-    selected_variable = XAI_FILTER_PLACEHOLDERS["variable_overview"]
-    with col_filter1:
-        if should_show_variable_selector(view_state):
-            variable_options = [XAI_FILTER_PLACEHOLDERS["variable_overview"]] + components[
-                "top_features"
-            ]
-            selected_variable = st.selectbox(
-                "변수 선택",
-                options=variable_options,
+        # L2: Detail View Selection (상세 확인)
+        if selected_perspective == XAI_FILTER_PLACEHOLDERS["level1_default"]:
+            # L1이 "개요"인 경우: L2도 "개요"로 고정
+            selected_detail = st.sidebar.selectbox(
+                "상세 확인",
+                options=[XAI_FILTER_PLACEHOLDERS["level2_overview"]],
                 index=0,
             )
         else:
-            st.selectbox(
-                "변수 선택",
-                options=[XAI_FILTER_PLACEHOLDERS["variable_overview"]],
-                index=0,
-                disabled=True,
+            # L1이 선택된 경우: 해당 관점의 상세 옵션 표시
+            detail_options = [XAI_FILTER_PLACEHOLDERS["level2_overview"]] + ANALYSIS_PERSPECTIVES.get(
+                selected_perspective, []
             )
-
-    # L4: Employee Selector (인원 선택) - Waterfall 뷰에서만 활성화
-    selected_employee = XAI_FILTER_PLACEHOLDERS["employee_overview"]
-    with col_filter2:
-        if should_show_employee_selector(view_state):
-            employee_risk_df = components["employee_risk_df"]
-
-            # Format employee options: "이름 (위험도%)" or "사번 (위험도%)"
-            employee_options = [XAI_FILTER_PLACEHOLDERS["employee_overview"]]
-
-            # employee_info_df와 조인하여 이름 가져오기
-            employee_info_df = components["employee_info_df"]
-
-            for _, row in employee_risk_df.iterrows():
-                emp_id = row["사번"]
-                risk_pct = row["PREDICTED_RISK"] * 100
-
-                # 이름 조회
-                emp_info = employee_info_df[employee_info_df["사번"] == emp_id]
-                if not emp_info.empty and "이름" in emp_info.columns:
-                    name = emp_info["이름"].iloc[0]
-                    label = f"{name} ({risk_pct:.1f}%)"
-                else:
-                    label = f"{emp_id} ({risk_pct:.1f}%)"
-
-                employee_options.append((emp_id, label))
-
-            selected_employee_tuple = st.selectbox(
-                "인원 선택",
-                options=employee_options,
-                format_func=lambda x: x[1] if isinstance(x, tuple) else x,
+            selected_detail = st.sidebar.selectbox(
+                "상세 확인",
+                options=detail_options,
+                format_func=lambda x: DETAIL_VIEW_TITLES.get(x, x),
                 index=0,
             )
 
-            selected_employee = (
-                selected_employee_tuple[0]
-                if isinstance(selected_employee_tuple, tuple)
-                else selected_employee_tuple
-            )
-        else:
-            st.selectbox(
-                "인원 선택",
-                options=[XAI_FILTER_PLACEHOLDERS["employee_overview"]],
-                index=0,
-                disabled=True,
-            )
+        # ================================================================
+        # SIDEBAR - Bottom Links
+        # ================================================================
 
-    st.markdown("---")
+        st.sidebar.markdown("---")
 
-    # ================================================================
-    # MAIN CONTENT - State-based Rendering
-    # ================================================================
-
-    if view_state == XAIViewState.PERSPECTIVE_OVERVIEW:
-        render_perspective_overview()
-
-    elif view_state == XAIViewState.DETAIL_SELECTION:
-        render_detail_selection(selected_perspective)
-
-    elif view_state == XAIViewState.GLOBAL_BAR_BEESWARM:
-        render_global_bar_beeswarm(components["shap_values_global"])
-
-    elif view_state == XAIViewState.GLOBAL_PDP:
-        render_global_pdp(
-            components["shap_values_global"],
-            components["top_features"],
-            selected_variable,
+        st.sidebar.markdown("#### 소개글 보기")
+        st.sidebar.markdown(
+            '<a href="https://lrl.kr/XrgX" target="_blank" style="color: #1E90FF; text-decoration: none;">📄 소개글 보기</a>',
+            unsafe_allow_html=True,
         )
 
-    elif view_state == XAIViewState.LOCAL_OVERVIEW:
-        render_local_overview()
-
-    elif view_state == XAIViewState.LOCAL_WATERFALL:
-        render_local_waterfall(
-            components["xai_service"],
-            components["employee_info_df"],
-            selected_employee,
-            components["employee_risk_df"],
+        st.sidebar.markdown("#### 설문 참여하기")
+        st.sidebar.markdown(
+            '<a href="https://lrl.kr/fG9te" target="_blank" style="color: #1E90FF; text-decoration: none;">📝 설문 참여하기</a>',
+            unsafe_allow_html=True,
         )
+
+        # ================================================================
+        # MAIN AREA - Level 3 & 4 Filters (Conditional)
+        # ================================================================
+
+        view_state = get_xai_view_state(selected_perspective, selected_detail)
+
+        # Filter row
+        col_filter1, col_filter2 = st.columns([1, 1])
+
+        # L3: Variable Selector (변수 선택) - PDP 뷰에서만 활성화
+        selected_variable = XAI_FILTER_PLACEHOLDERS["variable_overview"]
+        with col_filter1:
+            if should_show_variable_selector(view_state):
+                variable_options = [XAI_FILTER_PLACEHOLDERS["variable_overview"]] + components[
+                    "top_features"
+                ]
+                selected_variable = st.selectbox(
+                    "변수 선택",
+                    options=variable_options,
+                    index=0,
+                )
+            else:
+                st.selectbox(
+                    "변수 선택",
+                    options=[XAI_FILTER_PLACEHOLDERS["variable_overview"]],
+                    index=0,
+                    disabled=True,
+                )
+
+        # L4: Employee Selector (인원 선택) - Waterfall 뷰에서만 활성화
+        selected_employee = XAI_FILTER_PLACEHOLDERS["employee_overview"]
+        with col_filter2:
+            if should_show_employee_selector(view_state):
+                employee_risk_df = components["employee_risk_df"]
+
+                # Format employee options: "이름 (위험도%)" or "사번 (위험도%)"
+                employee_options = [XAI_FILTER_PLACEHOLDERS["employee_overview"]]
+
+                # employee_info_df와 조인하여 이름 가져오기
+                employee_info_df = components["employee_info_df"]
+
+                for _, row in employee_risk_df.iterrows():
+                    emp_id = row["사번"]
+                    risk_pct = row["PREDICTED_RISK"] * 100
+
+                    # 이름 조회
+                    emp_info = employee_info_df[employee_info_df["사번"] == emp_id]
+                    if not emp_info.empty and "이름" in emp_info.columns:
+                        name = emp_info["이름"].iloc[0]
+                        label = f"{name} ({risk_pct:.1f}%)"
+                    else:
+                        label = f"{emp_id} ({risk_pct:.1f}%)"
+
+                    employee_options.append((emp_id, label))
+
+                selected_employee_tuple = st.selectbox(
+                    "인원 선택",
+                    options=employee_options,
+                    format_func=lambda x: x[1] if isinstance(x, tuple) else x,
+                    index=0,
+                )
+
+                selected_employee = (
+                    selected_employee_tuple[0]
+                    if isinstance(selected_employee_tuple, tuple)
+                    else selected_employee_tuple
+                )
+            else:
+                st.selectbox(
+                    "인원 선택",
+                    options=[XAI_FILTER_PLACEHOLDERS["employee_overview"]],
+                    index=0,
+                    disabled=True,
+                )
+
+        st.markdown("---")
+
+        # ================================================================
+        # MAIN CONTENT - State-based Rendering
+        # ================================================================
+
+        if view_state == XAIViewState.PERSPECTIVE_OVERVIEW:
+            render_perspective_overview()
+
+        elif view_state == XAIViewState.DETAIL_SELECTION:
+            render_detail_selection(selected_perspective)
+
+        elif view_state == XAIViewState.GLOBAL_BAR_BEESWARM:
+            render_global_bar_beeswarm(components["shap_values_global"])
+
+        elif view_state == XAIViewState.GLOBAL_PDP:
+            render_global_pdp(
+                components["shap_values_global"],
+                components["top_features"],
+                selected_variable,
+            )
+
+        elif view_state == XAIViewState.LOCAL_OVERVIEW:
+            render_local_overview()
+
+        elif view_state == XAIViewState.LOCAL_WATERFALL:
+            render_local_waterfall(
+                components["xai_service"],
+                components["employee_info_df"],
+                selected_employee,
+                components["employee_risk_df"],
+            )
 
 
 if __name__ == "__main__":
