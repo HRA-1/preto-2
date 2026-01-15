@@ -61,3 +61,19 @@ output "task_role_arn" {
   description = "Task Role ARN"
   value       = module.iam.task_role_arn
 }
+
+# Auto Scaling
+output "autoscaling_enabled" {
+  description = "Auto Scaling 활성화 여부"
+  value       = var.autoscaling_enabled
+}
+
+output "autoscaling_min_capacity" {
+  description = "Auto Scaling 최소 태스크 수"
+  value       = var.autoscaling_enabled ? module.autoscaling[0].min_capacity : null
+}
+
+output "autoscaling_max_capacity" {
+  description = "Auto Scaling 최대 태스크 수"
+  value       = var.autoscaling_enabled ? module.autoscaling[0].max_capacity : null
+}
