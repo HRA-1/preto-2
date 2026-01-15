@@ -56,10 +56,7 @@ s3://preto-terraform-state/
 >   "Statement": [
 >     {
 >       "Effect": "Allow",
->       "Action": [
->         "application-autoscaling:TagResource",
->         "application-autoscaling:UntagResource"
->       ],
+>       "Action": "application-autoscaling:*Tag*",
 >       "Resource": "*"
 >     }
 >   ]
