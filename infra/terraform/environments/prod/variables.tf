@@ -97,3 +97,36 @@ variable "security_group_id" {
   type        = string
   default     = "sg-0193a7c1c72f2a43c"
 }
+
+# ========================================
+# Auto Scaling 설정
+# ========================================
+variable "autoscaling_enabled" {
+  description = "Auto Scaling 활성화 여부"
+  type        = bool
+  default     = true
+}
+
+variable "autoscaling_min_capacity" {
+  description = "최소 태스크 수"
+  type        = number
+  default     = 1
+}
+
+variable "autoscaling_max_capacity" {
+  description = "최대 태스크 수"
+  type        = number
+  default     = 4
+}
+
+variable "autoscaling_cpu_target" {
+  description = "CPU 사용률 목표값 (%)"
+  type        = number
+  default     = 70
+}
+
+variable "autoscaling_memory_target" {
+  description = "메모리 사용률 목표값 (%)"
+  type        = number
+  default     = 70
+}

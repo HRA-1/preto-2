@@ -127,3 +127,23 @@ module "ecs" {
 
   tags = local.common_tags
 }
+
+# ========================================
+# Auto Scaling 모듈
+# ========================================
+module "autoscaling" {
+  source = "../../modules/autoscaling"
+  count  = var.autoscaling_enabled ? 1 : 0
+
+  # ECS 서비스 참조
+  cluster_name = module.ecs.cluster_name
+  service_name = module.ecs.service_name
+
+  # 스케일링 범위
+  min_capacity = var.autoscaling_min_capacity
+  max_capacity = var.autoscaling_max_capacity
+
+  # 타겟 값
+  cpu_target_value    = var.autoscaling_cpu_target
+  memory_target_value = var.autoscaling_memory_target
+}

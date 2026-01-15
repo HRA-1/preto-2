@@ -108,6 +108,11 @@ resource "aws_ecs_service" "this" {
 
   health_check_grace_period_seconds = var.health_check_grace_period
 
+  # Auto Scaling이 조정한 desired_count를 Terraform이 덮어쓰지 않도록 방지
+  lifecycle {
+    ignore_changes = [desired_count]
+  }
+
   tags = merge(
     var.tags,
     {
